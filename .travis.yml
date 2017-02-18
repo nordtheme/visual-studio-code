@@ -1,0 +1,20 @@
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# title      Travis CI Build Configuration                               +
+# project    nord-visual-studio-code                                     +
+# repository https://github.com/arcticicestudio/nord-visual-studio-code  +
+# author     Arctic Ice Studio                                           +
+# email      development@arcticicestudio.com                             +
+# copyright  Copyright (C) 2017                                          +
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#
+# [References]
+# Travis CI Documentation
+#   (https://docs.travis-ci.com)
+language: node_js
+cache:
+ directories:
+    - $HOME/node_modules
+before_script:
+  - npm install -g gulp
+  - npm install
+script: gulp lint

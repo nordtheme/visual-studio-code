@@ -1,0 +1,70 @@
+{
+  "name": "nord-visual-studio-code",
+  "displayName": "Nord",
+  "description": "A arctic, north-bluish clean and elegant Visual Studio Code theme.",
+  "version": "0.0.0",
+  "publisher": "arcticicestudio",
+  "author": {
+    "name": "Arctic Ice Studio",
+    "email": "development@arcticicestudio.com"
+  },
+  "homepage": "https://github.com/arcticicestudio/nord-visual-studio-code",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arcticicestudio/nord-visual-studio-code"
+  },
+  "bugs": {
+    "url": "https://github.com/arcticicestudio/nord-visual-studio-code/issues"
+  },
+  "license": "(Apache-2.0 AND CC-BY-SA-4.0)",
+  "engines": {
+    "vscode": "^1.9.0"
+  },
+  "galleryBanner": {
+    "color": "#2E3440",
+    "theme": "dark"
+  },
+  "icon": "assets/nord-visual-studio-code-icon-marketplace.svg",
+  "markdown": "github",
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "arctic",
+    "north",
+    "bluish",
+    "clean",
+    "elegant"
+  ],
+  "badges": [
+    {
+      "url": "http://vsmarketplacebadge.apphb.com/version/akamud.vscode-theme-onedark.svg",
+      "href": "https://marketplace.visualstudio.com/items/akamud.vscode-theme-onedark",
+      "description": "Extension version"
+    },
+    {
+      "url": "http://vsmarketplacebadge.apphb.com/installs/akamud.vscode-theme-onedark.svg",
+      "href": "https://marketplace.visualstudio.com/items/akamud.vscode-theme-onedark",
+      "description": "Extension installs"
+    },
+    {
+      "url": "http://vsmarketplacebadge.apphb.com/rating/akamud.vscode-theme-onedark.svg",
+      "href": "https://marketplace.visualstudio.com/items/akamud.vscode-theme-onedark",
+      "description": "Extension Rating"
+    }
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Nord",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Nord.tmTheme"
+      }
+    ]
+  },
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-help": "1.6.1",
+    "gulp-xml-validator": "0.1.2"
+  }
+}

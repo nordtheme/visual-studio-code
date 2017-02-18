@@ -1,0 +1,22 @@
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# title      Circle CI Build Configuration                               +
+# project    nord-visual-studio-code                                     +
+# repository https://github.com/arcticicestudio/nord-visual-studio-code  +
+# author     Arctic Ice Studio                                           +
+# email      development@arcticicestudio.com                             +
+# copyright  Copyright (C) 2017                                          +
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#
+# [References]
+# Circle CI
+#   (https://circleci.com/docs)
+machine:
+  node:
+    version: 6.1.0
+dependencies:
+  override:
+    - npm install -g gulp
+    - npm install
+test:
+  override:
+    - gulp lint
