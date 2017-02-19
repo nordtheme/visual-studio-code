@@ -9,7 +9,7 @@
 **Initial VS Code Marketplace extension release version!**
 
 ## Features
-A complete list of all implemented features can be found in the [README](https://github.com/arcticicestudio/nord-atom-syntax/blob/develop/README.md#features) section.
+A complete list of all implemented features can be found in the [README](https://github.com/arcticicestudio/nord-visual-studio-code/blob/develop/README.md#features) section.
 
 ❯ Implemented the main color theme file [`Nord.tmTheme`](https://github.com/arcticicestudio/nord-visual-studio-code/blob/develop/themes/Nord.tmTheme). (@arcticicestudio, #1, 63b16747)
 
