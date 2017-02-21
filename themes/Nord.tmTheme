@@ -542,6 +542,28 @@ TextMate
           + - - - - - +-->
       <dict>
         <key>name</key>
+        <string>[PowerShell] Punctuation End Definition Comment Block</string>
+        <key>scope</key>
+        <string>punctuation.end.definition.comment.block.powershell</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#4c566aff</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>[PowerShell] Punctuation Start Definition Comment Block</string>
+        <key>scope</key>
+        <string>punctuation.start.definition.comment.block.powershell</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#4c566aff</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>[C/CPP] Punctuation Separator Pointer-Access</string>
         <key>scope</key>
         <string>punctuation.separator.pointer-access.c</string>
