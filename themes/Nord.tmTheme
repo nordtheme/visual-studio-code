@@ -351,7 +351,11 @@ TextMate
         <key>name</key>
         <string>Punctuation Definition Comment</string>
         <key>scope</key>
-        <string>punctuation.definition.comment</string>
+        <string>
+          punctuation.definition.comment,
+          punctuation.end.definition.comment,
+          punctuation.start.definition.comment
+        </string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
