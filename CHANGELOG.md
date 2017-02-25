@@ -4,6 +4,13 @@
 
 ---
 
+# 0.1.1
+*2017-02-25*
+## Bug Fixes
+❯ Fixed uncolored start- and end elements/tags of block comments for various languages. (@Platzer, #2 #3, 6db13ea2)
+
+<p align="center"><strong>Before</strong><img src="https://cloud.githubusercontent.com/assets/7836623/23333765/c540e0a8-fb91-11e6-9c21-37e6bcda0e54.png"/><br><strong>After</strong><img src="https://cloud.githubusercontent.com/assets/7836623/23333769/d1d5c2f2-fb91-11e6-9f06-9c50d006388c.png"/></p>
+
 # 0.1.0
 *2017-02-18*
 **Initial VS Code Marketplace extension release version!**
