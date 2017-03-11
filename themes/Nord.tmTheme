@@ -54,32 +54,10 @@ TextMate
           <!-- +- Visual Studio Code Scopes -+ -->
           <key>activeLinkForeground</key>
           <string>#8FBCBB</string>
-          <key>currentFindMatchHighlight</key>
-          <string>#88C0D066</string>
-          <key>findMatchHighlight</key>
-          <string>#88C0D033</string>
-          <key>findRangeHighlight</key>
-          <string>#3B4252</string>
-          <key>guide</key>
-          <string>#4C566A</string>
-          <key>hoverHighlight</key>
-          <string>#3B4252</string>
-          <key>inactiveSelection</key>
-          <string>#434C5ECC</string>
-          <key>rangeHighlight</key>
-          <string>#434C5ECC</string>
-          <key>referenceHighlight</key>
-          <string>#88C0D066</string>
-          <key>selectionHighlight</key>
-          <string>#434C5ECC</string>
-          <key>wordHighlight</key>
-          <string>#88C0D04D</string>
-          <key>wordHighlightStrong</key>
-          <string>#88C0D033</string>
           <key>ansiBlack</key>
-          <string>#2E3440</string>
-          <key>ansiBrightBlack</key>
           <string>#3B4252</string>
+          <key>ansiBrightBlack</key>
+          <string>#4C566A</string>
           <key>ansiRed</key>
           <string>#BF616A</string>
           <key>ansiBrightRed</key>
@@ -103,11 +81,33 @@ TextMate
           <key>ansiCyan</key>
           <string>#88C0D0</string>
           <key>ansiBrightCyan</key>
-          <string>#88C0D0</string>
+          <string>#8FBCBB</string>
           <key>ansiWhite</key>
-          <string>#D8DEE9</string>
+          <string>#E5E9F0</string>
           <key>ansiBrightWhite</key>
           <string>#ECEFF4</string>
+          <key>currentFindMatchHighlight</key>
+          <string>#88C0D066</string>
+          <key>findMatchHighlight</key>
+          <string>#88C0D033</string>
+          <key>findRangeHighlight</key>
+          <string>#3B4252</string>
+          <key>guide</key>
+          <string>#4C566A</string>
+          <key>hoverHighlight</key>
+          <string>#3B4252</string>
+          <key>inactiveSelection</key>
+          <string>#434C5ECC</string>
+          <key>rangeHighlight</key>
+          <string>#434C5ECC</string>
+          <key>referenceHighlight</key>
+          <string>#88C0D066</string>
+          <key>selectionHighlight</key>
+          <string>#434C5ECC</string>
+          <key>wordHighlight</key>
+          <string>#88C0D04D</string>
+          <key>wordHighlightStrong</key>
+          <string>#88C0D033</string>
         </dict>
       </dict>
       <!--+ - - - - - - +
