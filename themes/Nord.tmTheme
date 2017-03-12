@@ -54,6 +54,38 @@ TextMate
           <!-- +- Visual Studio Code Scopes -+ -->
           <key>activeLinkForeground</key>
           <string>#8FBCBB</string>
+          <key>ansiBlack</key>
+          <string>#3B4252</string>
+          <key>ansiBrightBlack</key>
+          <string>#4C566A</string>
+          <key>ansiRed</key>
+          <string>#BF616A</string>
+          <key>ansiBrightRed</key>
+          <string>#BF616A</string>
+          <key>ansiGreen</key>
+          <string>#A3BE8C</string>
+          <key>ansiBrightGreen</key>
+          <string>#A3BE8C</string>
+          <key>ansiYellow</key>
+          <string>#EBCB8B</string>
+          <key>ansiBrightYellow</key>
+          <string>#EBCB8B</string>
+          <key>ansiBlue</key>
+          <string>#81A1C1</string>
+          <key>ansiBrightBlue</key>
+          <string>#81A1C1</string>
+          <key>ansiMagenta</key>
+          <string>#B48EAD</string>
+          <key>ansiBrightMagenta</key>
+          <string>#B48EAD</string>
+          <key>ansiCyan</key>
+          <string>#88C0D0</string>
+          <key>ansiBrightCyan</key>
+          <string>#8FBCBB</string>
+          <key>ansiWhite</key>
+          <string>#E5E9F0</string>
+          <key>ansiBrightWhite</key>
+          <string>#ECEFF4</string>
           <key>currentFindMatchHighlight</key>
           <string>#88C0D066</string>
           <key>findMatchHighlight</key>
