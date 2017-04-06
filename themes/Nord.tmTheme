@@ -709,6 +709,17 @@ TextMate
       </dict>
       <dict>
         <key>name</key>
+        <string>[Go] String Format Placeholder</string>
+        <key>scope</key>
+        <string>source.go constant.other.placeholder</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#EBCB8B</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>[Java](JavaDoc) Comment Block Documentation HTML Entities</string>
         <key>scope</key>
         <string>source.java comment.block.documentation.javadoc punctuation.definition.entity.html</string>
