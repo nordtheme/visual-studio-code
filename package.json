@@ -58,7 +58,7 @@
       {
         "label": "Nord",
         "uiTheme": "vs-dark",
-        "path": "./themes/Nord.tmTheme"
+        "path": "./themes/nord.json"
       }
     ]
   },
