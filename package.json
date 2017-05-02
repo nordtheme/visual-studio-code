@@ -63,8 +63,10 @@
     ]
   },
   "devDependencies": {
+    "eslint": "3.19.0",
+    "eslint-plugin-json": "1.2.0",
     "gulp": "3.9.1",
-    "gulp-help": "1.6.1",
-    "gulp-xml-validator": "0.1.2"
+    "gulp-eslint": "3.0.1",
+    "gulp-help": "1.6.1"
   }
 }
