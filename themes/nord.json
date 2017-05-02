@@ -4,8 +4,6 @@
   "colors": {
     "focusBorder": "#3b4252",
     "foreground": "#d8dee9",
-    "contrastActiveBorder": "#434c5e00",
-    "contrastBorder": "#434c5e00",
     "activityBar.background": "#2e3440",
     "activityBar.dropBackground": "#3b4252",
     "activityBar.foreground": "#d8dee9",
@@ -90,7 +88,6 @@
     "peekViewTitle.background": "#3b4252",
     "peekViewTitleDescription.foreground": "#d8dee9",
     "peekViewTitleLabel.foreground": "#88c0d0",
-    "pickerGroup.border": "#3b425200",
     "pickerGroup.foreground": "#d8dee9",
     "scrollbar.shadow": "#00000066",
     "scrollbarSlider.activeBackground": "#434c5e",
