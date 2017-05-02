@@ -68,7 +68,7 @@
     "list.focusBackground": "#434c5e",
     "list.hoverBackground": "#434c5e99",
     "list.dropBackground": "#3b4252",
-    "list.highlightForeground": "#88c0d033",
+    "list.highlightForeground": "#88c0d0",
     "notification.background": "#3b4252",
     "notification.foreground": "#d8dee9",
     "panel.background": "#2e3440",
