@@ -54,6 +54,7 @@
     "editorSuggestWidget.foreground": "#d8dee9",
     "editorSuggestWidget.highlightForeground": "#88c0d0",
     "editorSuggestWidget.selectedBackground": "#434c5e",
+    "debugToolBar.background": "#3b4252",
     "input.background": "#3b4252",
     "input.foreground": "#d8dee9",
     "input.border": "#3b4252",
