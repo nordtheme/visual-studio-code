@@ -66,7 +66,7 @@
     "list.activeSelectionForeground": "#2e3440",
     "list.inactiveSelectionBackground": "#434c5e",
     "list.focusBackground": "#434c5e",
-    "list.hoverBackground": "#434c5e99",
+    "list.hoverBackground": "#3b4252",
     "list.dropBackground": "#3b4252",
     "list.highlightForeground": "#88c0d0",
     "notification.background": "#3b4252",
