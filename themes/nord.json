@@ -36,6 +36,8 @@
     "editor.selectionBackground": "#434c5ecc",
     "editor.selectionHighlightBackground": "#434c5ecc",
     "editor.rangeHighlightBackground": "#434c5e52",
+    "editor.wordHighlightBackground": "#81a1c166",
+    "editor.wordHighlightStrongBackground": "#81a1c199",
     "editorGroup.background": "#2e3440",
     "editorGroup.border": "#3b425200",
     "editorGroup.dropBackground": "#2e3440",
