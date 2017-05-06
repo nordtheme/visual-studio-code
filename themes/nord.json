@@ -64,7 +64,7 @@
     "inputValidation.warningBorder": "#d08770",
     "list.activeSelectionBackground": "#88c0d0",
     "list.activeSelectionForeground": "#2e3440",
-    "list.inactiveSelectionBackground": "#3b4252",
+    "list.inactiveSelectionBackground": "#434c5e",
     "list.focusBackground": "#434c5e",
     "list.hoverBackground": "#434c5e99",
     "list.dropBackground": "#3b4252",
