@@ -18,7 +18,7 @@
   },
   "license": "(Apache-2.0 AND CC-BY-SA-4.0)",
   "engines": {
-    "vscode": "^1.9.0"
+    "vscode": "^1.12.0"
   },
   "galleryBanner": {
     "color": "#2E3440",
@@ -58,13 +58,15 @@
       {
         "label": "Nord",
         "uiTheme": "vs-dark",
-        "path": "./themes/Nord.tmTheme"
+        "path": "./themes/nord.json"
       }
     ]
   },
   "devDependencies": {
+    "eslint": "3.19.0",
+    "eslint-plugin-json": "1.2.0",
     "gulp": "3.9.1",
-    "gulp-help": "1.6.1",
-    "gulp-xml-validator": "0.1.2"
+    "gulp-eslint": "3.0.1",
+    "gulp-help": "1.6.1"
   }
 }
