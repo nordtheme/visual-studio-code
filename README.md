@@ -25,9 +25,9 @@ ext install nord-visual-studio-code
 ```
 
 #### <img src="https://marketplace.visualstudio.com/favicon.ico" width=16 height=16/> [Packaged VSIX Extension](https://code.visualstudio.com/docs/extensions/install-extension#_install-from-a-vsix)
-[Download](https://github.com/arcticicestudio/nord-visual-studio-code/releases/latest) the latest [`nord-visual-studio-code-0.1.1.vsix`](https://github.com/arcticicestudio/nord-visual-studio-code/releases/download/0.1.1/nord-visual-studio-code-0.1.1.vsix) file from the GitHub repository and install it from the command line
+[Download](https://github.com/arcticicestudio/nord-visual-studio-code/releases/latest) the latest [`nord-visual-studio-code-0.2.0.vsix`](https://github.com/arcticicestudio/nord-visual-studio-code/releases/download/0.2.0/nord-visual-studio-code-0.2.0.vsix) file from the GitHub repository and install it from the command line
 ```shell
-code --install-extension nord-visual-studio-code-0.1.1.vsix
+code --install-extension nord-visual-studio-code-0.2.0.vsix
 ```
 or from within VS Code by launching *Quick Open* and running the *Install from VSIX...* command.
 
@@ -114,7 +114,7 @@ Detailed descriptions for supported languages can be found in the [project wiki]
 ![][scrot-lang-yaml]
 
 ## Development
-[![](https://img.shields.io/badge/Changelog-0.1.1-81A1C1.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/blob/v0.1.1/CHANGELOG.md) [![](https://img.shields.io/badge/Workflow-gitflow--branching--model-81A1C1.svg?style=flat-square)](http://nvie.com/posts/a-successful-git-branching-model) [![](https://img.shields.io/badge/Versioning-ArcVer_0.8.0-81A1C1.svg?style=flat-square)](https://github.com/arcticicestudio/arcver)
+[![](https://img.shields.io/badge/Changelog-0.2.0-81A1C1.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/blob/v0.2.0/CHANGELOG.md) [![](https://img.shields.io/badge/Workflow-gitflow--branching--model-81A1C1.svg?style=flat-square)](http://nvie.com/posts/a-successful-git-branching-model) [![](https://img.shields.io/badge/Versioning-ArcVer_0.8.0-81A1C1.svg?style=flat-square)](https://github.com/arcticicestudio/arcver)
 
 ### Contribution
 Please report issues/bugs, feature requests and suggestions for improvements to the [issue tracker](https://github.com/arcticicestudio/nord-visual-studio-code/issues).
