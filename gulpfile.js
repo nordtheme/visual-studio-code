@@ -1,3 +1,4 @@
+"use strict";
 /*
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 title      Project Gulp File                                           +
@@ -10,22 +11,20 @@ copyright  Copyright (C) 2017                                          +
 
 [References]
 Gulp
-  (http://gulpjs.com)
+  http://gulpjs.com
 npmjs
-  (https://www.npmjs.com)
+  https://www.npmjs.com
 */
-
-"use strict";
 /*+---------+
   + Imports +
   +---------+*/
 const gulp = require("gulp-help")(require("gulp"));
-const xmlValidator = require("gulp-xml-validator");
+const eslint = require("gulp-eslint");
 
 /*+---------------+
   + Configuration +
   +---------------+*/
-const tmThemeFiles = ["themes/*.tmTheme"];
+const jsonThemeFiles = ["themes/**/*.json"];
 
 /*+-------+
   + Tasks +
@@ -38,11 +37,20 @@ const tmThemeFiles = ["themes/*.tmTheme"];
 gulp.task("default", ["help"]);
 
 /**
- * Lints all color theme files.
+ * Runs all lint tasks.
  *
- * @since 0.1.0
+ * @since 0.2.0
  */
-gulp.task('lint', "Lints all color theme files", () => {
-  return gulp.src(tmThemeFiles)
-    .pipe(xmlValidator());
+gulp.task("lint", "Runs all lint tasks", ["lint-json"]);
+
+/**
+ * Lints all JSON color theme sources.
+ *
+ * @since 0.2.0
+ */
+gulp.task("lint-json", "Lints all JSON color theme sources", () => {
+  return gulp.src(jsonThemeFiles)
+    .pipe(eslint())
+    .pipe(eslint.format())
+    .pipe(eslint.failAfterError());
 });

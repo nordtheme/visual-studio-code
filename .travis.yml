@@ -11,12 +11,17 @@
 # Travis CI Documentation
 #   (https://docs.travis-ci.com)
 language: node_js
+dist: trusty
+sudo: false
 node_js:
+  - "4"
   - "6"
-cache:
- directories:
-    - $HOME/node_modules
+  - "7"
+before_install:
+  - rm -rf ./node_modules
 before_script:
-  - npm install -g gulp
+  - npm install -g gulp-cli
+  - npm install gulp
   - npm install
-script: gulp lint
+script:
+  - gulp --harmony lint
