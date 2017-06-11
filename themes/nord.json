@@ -95,9 +95,9 @@
     "peekViewTitleLabel.foreground": "#88c0d0",
     "pickerGroup.foreground": "#d8dee9",
     "scrollbar.shadow": "#00000066",
-    "scrollbarSlider.activeBackground": "#434c5e",
-    "scrollbarSlider.background": "#3b4252",
-    "scrollbarSlider.hoverBackground": "#434c5e",
+    "scrollbarSlider.activeBackground": "#434c5e99",
+    "scrollbarSlider.background": "#3b4252aa",
+    "scrollbarSlider.hoverBackground": "#434c5e99",
     "sideBar.background": "#2e3440",
     "sideBarSectionHeader.background": "#3b4252",
     "sideBarTitle.foreground": "#d8dee9",
@@ -552,6 +552,13 @@
       "scope": "source.diff punctuation.definition.separator",
       "settings": {
         "foreground": "#81A1C1"
+      }
+    },
+    {
+      "name": "[Go] String Format Placeholder",
+      "scope": "source.go constant.other.placeholder.go",
+      "settings": {
+        "foreground": "#EBCB8B"
       }
     },
     {
