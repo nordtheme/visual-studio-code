@@ -943,6 +943,17 @@
       }
     },
     {
+      "name": "[TypeScript] Decorators",
+      "scope": [
+        "source.ts punctuation.decorator",
+        "source.ts meta.decorator variable.other.readwrite",
+        "source.ts meta.decorator entity.name.function"
+      ],
+      "settings": {
+        "foreground": "#D08770"
+      }
+    },
+    {
       "name": "[TypeScript] Object-literal keys",
       "scope": "source.ts meta.object-literal.key",
       "settings": {
