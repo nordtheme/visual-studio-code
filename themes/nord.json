@@ -956,6 +956,15 @@
       }
     },
     {
+      "name": "[TypeScript] Variables",
+      "scope": [
+        "source.ts support.variable"
+      ],
+      "settings": {
+        "foreground": "#D8DEE9"
+      }
+    },
+    {
       "name": "[XML] Entity Name Tag Namespace",
       "scope": "text.xml entity.name.tag.namespace",
       "settings": {
