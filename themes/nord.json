@@ -191,6 +191,13 @@
       }
     },
     {
+      "name": "Constant Regexp",
+      "scope": "constant.regexp",
+      "settings": {
+        "foreground": "#EBCB8B"
+      }
+    },
+    {
       "name": "Entity Name Class/Type",
       "scope": [
         "entity.name.class",
