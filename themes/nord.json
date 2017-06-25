@@ -933,6 +933,20 @@
       }
     },
     {
+      "name": "[TypeScript] Object-literal keys",
+      "scope": "source.ts meta.object-literal.key",
+      "settings": {
+        "foreground": "#D8DEE9"
+      }
+    },
+    {
+      "name": "[TypeScript] Object-literal functions",
+      "scope": "source.ts meta.object-literal.key entity.name.function",
+      "settings": {
+        "foreground": "#88C0D0"
+      }
+    },
+    {
       "name": "[TypeScript] Type/Class",
       "scope": [
         "source.ts support.class",
