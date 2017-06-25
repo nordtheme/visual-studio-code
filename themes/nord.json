@@ -144,6 +144,18 @@
       }
     },
     {
+      "scope": "emphasis",
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "strong",
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
       "name": "Comment",
       "scope": "comment",
       "settings": {
