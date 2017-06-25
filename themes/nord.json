@@ -933,6 +933,18 @@
       }
     },
     {
+      "name": "[TypeScript] Type/Class",
+      "scope": [
+        "source.ts support.class",
+        "source.ts support.type",
+        "source.ts entity.name.type",
+        "source.ts entity.name.class"
+      ],
+      "settings": {
+        "foreground": "#8FBCBB"
+      }
+    },
+    {
       "name": "[XML] Entity Name Tag Namespace",
       "scope": "text.xml entity.name.tag.namespace",
       "settings": {
