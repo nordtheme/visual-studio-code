@@ -532,6 +532,16 @@
       }
     },
     {
+      "name": "[CSS] Media Queries",
+      "scope": [
+        "source.css keyword.control.at-rule.media",
+        "source.css keyword.control.at-rule.media punctuation.definition.keyword"
+      ],
+      "settings": {
+        "foreground": "#D08770"
+      }
+    },
+    {
       "name": "[CSS] Punctuation Definition Keyword",
       "scope": "source.css punctuation.definition.keyword",
       "settings": {
