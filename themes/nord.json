@@ -539,6 +539,13 @@
       }
     },
     {
+      "name": "[CSS] Support Type Property Name",
+      "scope": "source.css support.type.property-name",
+      "settings": {
+        "foreground": "#81A1C1"
+      }
+    },
+    {
       "name": "[diff] Meta Range Context",
       "scope": "source.diff meta.diff.range.context",
       "settings": {
