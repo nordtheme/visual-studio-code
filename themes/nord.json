@@ -144,6 +144,18 @@
       }
     },
     {
+      "scope": "emphasis",
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "strong",
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
       "name": "Comment",
       "scope": "comment",
       "settings": {
@@ -176,6 +188,13 @@
       "scope": "constant.numeric",
       "settings": {
         "foreground": "#B48EAD"
+      }
+    },
+    {
+      "name": "Constant Regexp",
+      "scope": "constant.regexp",
+      "settings": {
+        "foreground": "#EBCB8B"
       }
     },
     {
@@ -513,8 +532,25 @@
       }
     },
     {
+      "name": "[CSS] Media Queries",
+      "scope": [
+        "source.css keyword.control.at-rule.media",
+        "source.css keyword.control.at-rule.media punctuation.definition.keyword"
+      ],
+      "settings": {
+        "foreground": "#D08770"
+      }
+    },
+    {
       "name": "[CSS] Punctuation Definition Keyword",
       "scope": "source.css punctuation.definition.keyword",
+      "settings": {
+        "foreground": "#81A1C1"
+      }
+    },
+    {
+      "name": "[CSS] Support Type Property Name",
+      "scope": "source.css support.type.property-name",
       "settings": {
         "foreground": "#81A1C1"
       }
@@ -904,6 +940,63 @@
       "settings": {
         "foreground": "#D8DEE9",
         "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "[TypeScript] Decorators",
+      "scope": [
+        "source.ts punctuation.decorator",
+        "source.ts meta.decorator variable.other.readwrite",
+        "source.ts meta.decorator entity.name.function"
+      ],
+      "settings": {
+        "foreground": "#D08770"
+      }
+    },
+    {
+      "name": "[TypeScript] Object-literal keys",
+      "scope": "source.ts meta.object-literal.key",
+      "settings": {
+        "foreground": "#D8DEE9"
+      }
+    },
+    {
+      "name": "[TypeScript] Object-literal functions",
+      "scope": "source.ts meta.object-literal.key entity.name.function",
+      "settings": {
+        "foreground": "#88C0D0"
+      }
+    },
+    {
+      "name": "[TypeScript] Type/Class",
+      "scope": [
+        "source.ts support.class",
+        "source.ts support.type",
+        "source.ts entity.name.type",
+        "source.ts entity.name.class"
+      ],
+      "settings": {
+        "foreground": "#8FBCBB"
+      }
+    },
+    {
+      "name": "[TypeScript] Static Class Support",
+      "scope": [
+        "source.ts support.constant.math",
+        "source.ts support.constant.dom",
+        "source.ts support.constant.json"
+      ],
+      "settings": {
+        "foreground": "#8FBCBB"
+      }
+    },
+    {
+      "name": "[TypeScript] Variables",
+      "scope": [
+        "source.ts support.variable"
+      ],
+      "settings": {
+        "foreground": "#D8DEE9"
       }
     },
     {
