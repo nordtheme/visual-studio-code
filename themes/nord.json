@@ -882,6 +882,16 @@
       }
     },
     {
+      "name": "[Python] Function Call",
+      "scope": [
+        "source.python meta.function-call",
+        "source.python meta.function-call.generic"
+      ],
+      "settings": {
+        "foreground": "#88C0D0"
+      }
+    },
+    {
       "name": "[Python] Support Type",
       "scope": "source.python support.type",
       "settings": {
