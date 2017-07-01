@@ -42,7 +42,7 @@
     "editor.wordHighlightBackground": "#81a1c166",
     "editor.wordHighlightStrongBackground": "#81a1c199",
     "editorError.foreground": "#bf616a",
-    "editorError.border": "#bf616a",
+    "editorError.border": "#bf616a00",
     "editorWarning.foreground": "#ebcb8b",
     "editorWarning.border": "#ebcb8b",
     "editorBracketMatch.background": "#2e344000",
