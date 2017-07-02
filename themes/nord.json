@@ -44,7 +44,7 @@
     "editorError.foreground": "#bf616a",
     "editorError.border": "#bf616a00",
     "editorWarning.foreground": "#ebcb8b",
-    "editorWarning.border": "#ebcb8b",
+    "editorWarning.border": "#ebcb8b00",
     "editorBracketMatch.background": "#2e344000",
     "editorBracketMatch.border": "#88c0d0",
     "editorCodeLens.foreground": "#d8dee9",
