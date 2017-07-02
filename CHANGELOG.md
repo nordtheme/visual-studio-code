@@ -4,9 +4,35 @@
 
 ---
 
-# 0.4.1
+# 0.4.2
+<details>
+  <summary>Version Details</summary>
+  <p>
+    Release Date: *2017-07-02*
+    <a href="https://github.com/arcticicestudio/nord-visual-studio-code/milestone/8">Milestone</a>
+    <a href="https://github.com/arcticicestudio/nord-visual-studio-code/projects/10">Project Board</a>
+  </p>
+</details>
+
 ## Bug Fixes
-❯ Fixed the underlined error- and warning squiggles. (@ajitid, #31, ce23e9cd)
+❯ Fixed underlined warning squiggles. (@ajitid, #31, 8158f164)
+
+<p align="center">Before<br><img src="https://user-images.githubusercontent.com/7836623/27767496-818b5138-5ef9-11e7-80aa-4d4f03ec5856.png"/><br>After<br><img src="https://user-images.githubusercontent.com/7836623/27767497-8667f382-5ef9-11e7-9060-7f48106bd012.png"/></p>
+
+❯ Fixed the background color of the status bar when no folder is active which has been unintentionally removed during a merge conflict. (@ajitid, #32 (#31), 1c01b0d4)
+
+# 0.4.1
+<details>
+  <summary>Version Details</summary>
+  <p>
+    Release Date: *2017-07-01*
+    <a href="https://github.com/arcticicestudio/nord-visual-studio-code/milestone/7">Milestone</a>
+    <a href="https://github.com/arcticicestudio/nord-visual-studio-code/projects/9">Project Board</a>
+  </p>
+</details>
+
+## Bug Fixes
+❯ Fixed underlined error squiggles. (@ajitid, #31, ce23e9cd)
 
 <p align="center">Before<br><img src="https://user-images.githubusercontent.com/7836623/27764412-17801de2-5e99-11e7-9aa8-eabf39f30a75.png"/><br>After<br><img src="https://user-images.githubusercontent.com/7836623/27764413-1c29a516-5e99-11e7-917b-cabd827967ba.png"/></p>
 
