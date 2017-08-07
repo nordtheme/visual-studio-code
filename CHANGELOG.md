@@ -4,6 +4,32 @@
 
 ---
 
+# 0.5.0
+<details>
+  <summary>Version Details</summary>
+  <p>
+    Release Date: <em>2017-08-07</em>
+    <a href="https://github.com/arcticicestudio/nord-visual-studio-code/milestone/6">Milestone</a>
+    <a href="https://github.com/arcticicestudio/nord-visual-studio-code/projects/8">Project Board</a>
+  </p>
+</details>
+
+## Features
+### UI
+❯ Added support for new workbench theme features for notification styles introduced in VS Code 1.14. Buttons of notifications now using specific setting keys instead of the generic `button.*` and the notification level badges are now also customized using the associated setting keys. (#34 in PR #36, @ajitid)
+
+![scrot-feature-ui-notification](https://user-images.githubusercontent.com/7836623/28993120-5430d896-79ae-11e7-8025-c8526db2641e.png)
+
+![scrot-feature-ui-notification-error](https://user-images.githubusercontent.com/7836623/28993116-4c978dbe-79ae-11e7-82f7-cd4d09d43be1.png)
+
+![scrot-feature-ui-notification-info](https://user-images.githubusercontent.com/7836623/28993117-4cafc97e-79ae-11e7-8221-b8b4ff7c9c68.png)
+
+![scrot-feature-ui-notification-warning](https://user-images.githubusercontent.com/7836623/28993118-4cb2bb8e-79ae-11e7-8219-7630d9e2d5a8.png)
+
+## Improvements
+### UI
+❯ The foreground color for *CodeLenses* (hints to show references in the code for a specific variable/constant/entity) have been adjusted to match comments, to make it less disturbing and to distinguish it from the actual code. (#33 in PR #37, @yurlovm)
+
 # 0.4.2
 <details>
   <summary>Version Details</summary>
