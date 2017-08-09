@@ -50,7 +50,7 @@
     "editorCodeLens.foreground": "#4c566a",
     "editorGroup.background": "#2e3440",
     "editorGroup.border": "#3b425200",
-    "editorGroup.dropBackground": "#2e3440",
+    "editorGroup.dropBackground": "#4c566a",
     "editorGroupHeader.noTabsBackground": "#2e3440",
     "editorGroupHeader.tabsBackground": "#2e3440",
     "editorGroupHeader.tabsBorder": "#3b425200",
@@ -103,8 +103,8 @@
     "list.highlightForeground": "#88c0d0",
     "merge.currentHeaderBackground": "#81a1c166",
     "merge.currentContentBackground": "#81a1c14d",
-    "merge.incomingHeaderBackground": "#8fbcbb66",
-    "merge.incomingContentBackground": "#8fbcbb4d",
+    "merge.incomingHeaderBackground": "#ABB8BA66",
+    "merge.incomingContentBackground": "#ABB8BA4d",
     "merge.border": "#3b425200",
     "notification.background": "#3b4252",
     "notification.foreground": "#d8dee9",
@@ -183,7 +183,7 @@
     "terminal.ansiBrightYellow": "#ebcb8b",
     "terminal.ansiBrightBlue": "#81a1c1",
     "terminal.ansiBrightMagenta": "#b48ead",
-    "terminal.ansiBrightCyan": "#8fbcbb",
+    "terminal.ansiBrightCyan": "#ABB8BA",
     "terminal.ansiBrightWhite": "#eceff4",
     "titleBar.activeBackground": "#2e3440",
     "titleBar.activeForeground": "#d8dee9",
@@ -217,7 +217,7 @@
       "name": "Comment",
       "scope": "comment",
       "settings": {
-        "foreground": "#4C566A"
+        "foreground": "#646f7e"
       }
     },
     {
@@ -262,7 +262,7 @@
         "entity.name.type.class"
         ],
       "settings": {
-        "foreground": "#8FBCBB"
+        "foreground": "#ABB8BA"
       }
     },
     {
@@ -283,7 +283,7 @@
       "name": "Entity Other Attribute Name",
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "#8FBCBB"
+        "foreground": "#ABB8BA"
       }
     },
     {
@@ -291,7 +291,7 @@
       "scope": "entity.other.inherited-class",
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#8FBCBB"
+        "foreground": "#ABB8BA"
       }
     },
     {
@@ -458,7 +458,7 @@
       "name": "Support Class",
       "scope": "support.class",
       "settings": {
-        "foreground": "#8FBCBB"
+        "foreground": "#ABB8BA"
       }
     },
     {
@@ -486,14 +486,14 @@
       "name": "Support Type",
       "scope": "support.type",
       "settings": {
-        "foreground": "#8FBCBB"
+        "foreground": "#ABB8BA"
       }
     },
     {
       "name": "Support Type Exception",
       "scope": "support.type.exception",
       "settings": {
-        "foreground": "#8FBCBB"
+        "foreground": "#ABB8BA"
       }
     },
     {
@@ -559,7 +559,7 @@
         "source.c string.quoted.other.lt-gt.include"
       ],
       "settings": {
-        "foreground": "#8FBCBB"
+        "foreground": "#ABB8BA"
       }
     },
     {
@@ -617,28 +617,28 @@
       "name": "[diff] Meta Range Context",
       "scope": "source.diff meta.diff.range.context",
       "settings": {
-        "foreground": "#8FBCBB"
+        "foreground": "#ABB8BA"
       }
     },
     {
       "name": "[diff] Meta Header From-File",
       "scope": "source.diff meta.diff.header.from-file",
       "settings": {
-        "foreground": "#8FBCBB"
+        "foreground": "#ABB8BA"
       }
     },
     {
       "name": "[diff] Punctuation Definition From-File",
       "scope": "source.diff punctuation.definition.from-file",
       "settings": {
-        "foreground": "#8FBCBB"
+        "foreground": "#ABB8BA"
       }
     },
     {
       "name": "[diff] Punctuation Definition Range",
       "scope": "source.diff punctuation.definition.range",
       "settings": {
-        "foreground": "#8FBCBB"
+        "foreground": "#ABB8BA"
       }
     },
     {
@@ -673,14 +673,14 @@
       "name": "[Java](JavaDoc) Keyword Other Documentation",
       "scope": "source.java keyword.other.documentation",
       "settings": {
-        "foreground": "#8FBCBB"
+        "foreground": "#ABB8BA"
       }
     },
     {
       "name": "[Java](JavaDoc) Keyword Other Documentation Author",
       "scope": "source.java keyword.other.documentation.author.javadoc",
       "settings": {
-        "foreground": "#8FBCBB"
+        "foreground": "#ABB8BA"
       }
     },
     {
@@ -690,14 +690,14 @@
         "source.java keyword.other.documentation.custom"
       ],
       "settings": {
-        "foreground": "#8FBCBB"
+        "foreground": "#ABB8BA"
       }
     },
     {
       "name": "[Java](JavaDoc) Keyword Other Documentation See",
       "scope": "source.java keyword.other.documentation.see.javadoc",
       "settings": {
-        "foreground": "#8FBCBB"
+        "foreground": "#ABB8BA"
       }
     },
     {
@@ -714,7 +714,7 @@
         "source.java string.other.link.title.javadoc"
       ],
       "settings": {
-        "foreground": "#8FBCBB"
+        "foreground": "#ABB8BA"
       }
     },
     {
@@ -728,7 +728,7 @@
       "name": "[Java](JavaDoc) Punctuation Definition Keyword",
       "scope": "source.java punctuation.definition.keyword.javadoc",
       "settings": {
-        "foreground": "#8FBCBB"
+        "foreground": "#ABB8BA"
       }
     },
     {
@@ -745,21 +745,21 @@
       "name": "[Java] Storage Modifier Import",
       "scope": "source.java storage.modifier.import",
       "settings": {
-        "foreground": "#8FBCBB"
+        "foreground": "#ABB8BA"
       }
     },
     {
       "name": "[Java] Storage Modifier Package",
       "scope": "source.java storage.modifier.package",
       "settings": {
-        "foreground": "#8FBCBB"
+        "foreground": "#ABB8BA"
       }
     },
     {
       "name": "[Java] Storage Type",
       "scope": "source.java storage.type",
       "settings": {
-        "foreground": "#8FBCBB"
+        "foreground": "#ABB8BA"
       }
     },
     {
@@ -773,7 +773,7 @@
       "name": "[Java] Storage Type Generic",
       "scope": "source.java storage.type.generic",
       "settings": {
-        "foreground": "#8FBCBB"
+        "foreground": "#ABB8BA"
       }
     },
     {
@@ -805,7 +805,7 @@
       "name": "[JavaScript](JSDoc) Storage Type Class",
       "scope": "source.js storage.type.class.jsdoc",
       "settings": {
-        "foreground": "#8FBCBB"
+        "foreground": "#ABB8BA"
       }
     },
     {
@@ -819,14 +819,14 @@
       "name": "[JavaScript] Variable Other Object",
       "scope": "source.js meta.var.expr variable.other.object",
       "settings": {
-        "foreground": "#8FBCBB"
+        "foreground": "#ABB8BA"
       }
     },
     {
       "name": "[JavaScript] Variable Other Read-Write Alias",
       "scope": "source.js variable.other.readwrite.alias",
       "settings": {
-        "foreground": "#8FBCBB"
+        "foreground": "#ABB8BA"
       }
     },
     {
@@ -879,7 +879,7 @@
         "text.html.markdown markup.fenced_code.block punctuation.definition"
       ],
       "settings": {
-        "foreground": "#8FBCBB"
+        "foreground": "#ABB8BA"
       }
     },
     {
@@ -896,7 +896,7 @@
         "text.html.markdown markup.inline.raw punctuation.definition.raw"
       ],
       "settings": {
-        "foreground": "#8FBCBB"
+        "foreground": "#ABB8BA"
       }
     },
     {
@@ -917,7 +917,7 @@
       "name": "[Markdown] Markup Quote Punctuation Definition",
       "scope": "text.html.markdown beginning.punctuation.definition.quote",
       "settings": {
-        "foreground": "#8FBCBB"
+        "foreground": "#ABB8BA"
       }
     },
     {
@@ -1062,7 +1062,7 @@
         "source.ts entity.name.class"
       ],
       "settings": {
-        "foreground": "#8FBCBB"
+        "foreground": "#ABB8BA"
       }
     },
     {
@@ -1073,7 +1073,7 @@
         "source.ts support.constant.json"
       ],
       "settings": {
-        "foreground": "#8FBCBB"
+        "foreground": "#ABB8BA"
       }
     },
     {
@@ -1089,7 +1089,7 @@
       "name": "[XML] Entity Name Tag Namespace",
       "scope": "text.xml entity.name.tag.namespace",
       "settings": {
-        "foreground": "#8FBCBB"
+        "foreground": "#ABB8BA"
       }
     },
     {
@@ -1121,7 +1121,7 @@
       "name": "[YAML] Entity Name Tag",
       "scope": "source.yaml entity.name.tag",
       "settings": {
-        "foreground": "#8FBCBB"
+        "foreground": "#ABB8BA"
       }
     }
   ]
