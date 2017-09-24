@@ -163,6 +163,8 @@
     "tab.activeBackground": "#3b4252",
     "tab.activeForeground": "#d8dee9",
     "tab.border": "#3b425200",
+    "tab.activeBorder": "#88c0d000",
+    "tab.unfocusedActiveBorder": "#88c0d000",
     "tab.inactiveBackground": "#2e3440",
     "tab.inactiveForeground": "#d8dee966",
     "tab.unfocusedActiveForeground": "#d8dee999",
