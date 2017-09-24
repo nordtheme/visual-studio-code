@@ -189,6 +189,7 @@
     "terminal.ansiBrightWhite": "#eceff4",
     "titleBar.activeBackground": "#2e3440",
     "titleBar.activeForeground": "#d8dee9",
+    "titleBar.border": "#2e344000",
     "titleBar.inactiveBackground": "#2e3440",
     "titleBar.inactiveForeground": "#d8dee966",
     "walkThrough.embeddedEditorBackground": "#2e3440",
