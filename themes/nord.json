@@ -823,6 +823,23 @@
       }
     },
     {
+      "name": "[JavaScript] String Template Literals Punctuation",
+      "scope": "source.js string.template punctuation.definition.template-expression",
+      "settings": {
+        "foreground": "#5E81AC"
+      }
+    },
+    {
+      "name": "[JavaScript] String Template Literal Variable",
+      "scope": [
+        "source.js string.template meta.template.expression support.variable.property",
+        "source.js string.template meta.template.expression variable.other.object"
+      ],
+      "settings": {
+        "foreground": "#D8DEE9"
+      }
+    },
+    {
       "name": "[JavaScript] Support Type Primitive",
       "scope": "source.js support.type.primitive",
       "settings": {
