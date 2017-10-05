@@ -624,7 +624,7 @@
       "name": "[CSS] Support Type Property Name",
       "scope": "source.css support.type.property-name",
       "settings": {
-        "foreground": "#81A1C1"
+        "foreground": "#D8DEE9"
       }
     },
     {
