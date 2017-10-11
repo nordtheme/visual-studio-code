@@ -1,0 +1,14 @@
+!assets/nord-visual-studio-code-icon-marketplace.png
+!assets/nord-visual-studio-code-icon-marketplace-2x.png
+assets/**
+.github/**
+.vscode/**
+node_modules
+.editorconfig
+.eslintrc.js
+.gitignore
+.npmrc
+.travis.yml
+circle.yml
+gulpfile.js
+yarn.lock

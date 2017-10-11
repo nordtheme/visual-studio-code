@@ -1,18 +1,72 @@
-<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord-visual-studio-code/develop/assets/nord-visual-studio-code-banner.svg"/></p>
+<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord-visual-studio-code/develop/assets/nord-visual-studio-code-banner.png" srcset="https://cdn.rawgit.com/arcticicestudio/nord-visual-studio-code/develop/assets/nord-visual-studio-code-banner-2x.png 2x"/></p>
 
-<p align="center"><img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/nord-visual-studio-code/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord-visual-studio-code.svg?style=flat-square"/></a> <a href="https://github.com/arcticicestudio/nord/releases/tag/v0.2.0"><img src="https://img.shields.io/badge/Nord-v0.2.0-88C0D0.svg?style=flat-square"/></a> <img src="https://marketplace.visualstudio.com/favicon.ico" width=24 height=24/> <a href="https://code.visualstudio.com/updates/v1_12"><img src="https://img.shields.io/badge/VS_Code-v1.12+-373277.svg?style=flat-square"/></a> <a href="https://marketplace.visualstudio.com/items/arcticicestudio.nord-visual-studio-code"><img src="http://vsmarketplacebadge.apphb.com/version/arcticicestudio.nord-visual-studio-code.svg?style=flat-square"/></a> <a href="https://marketplace.visualstudio.com/items/arcticicestudio.nord-visual-studio-code"><img src="http://vsmarketplacebadge.apphb.com/installs/arcticicestudio.nord-visual-studio-code.svg?style=flat-square"/></a> <a href="https://marketplace.visualstudio.com/items/arcticicestudio.nord-visual-studio-code"><img src="http://vsmarketplacebadge.apphb.com/rating-short/arcticicestudio.nord-visual-studio-code.svg?style=flat-square"/></a></p>
+<p align="center"><img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/nord-visual-studio-code/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord-visual-studio-code.svg?style=flat-square"/></a> <a href="https://github.com/arcticicestudio/nord/releases/tag/v0.2.0"><img src="https://img.shields.io/badge/Nord-v0.2.0-88C0D0.svg?style=flat-square"/></a> <img src="https://marketplace.visualstudio.com/favicon.ico" width=24 height=24/> <a href="https://code.visualstudio.com/updates/v1_12"><img src="https://img.shields.io/badge/VS_Code-v1.12+-373277.svg?style=flat-square"/></a> <a href="https://marketplace.visualstudio.com/items/arcticicestudio.nord-visual-studio-code"><img src="https://vsmarketplacebadge.apphb.com/version/arcticicestudio.nord-visual-studio-code.svg?style=flat-square"/></a> <a href="https://marketplace.visualstudio.com/items/arcticicestudio.nord-visual-studio-code"><img src="https://vsmarketplacebadge.apphb.com/installs/arcticicestudio.nord-visual-studio-code.svg?style=flat-square"/></a> <a href="https://marketplace.visualstudio.com/items/arcticicestudio.nord-visual-studio-code"><img src="https://vsmarketplacebadge.apphb.com/rating-short/arcticicestudio.nord-visual-studio-code.svg?style=flat-square"/></a></p>
 
 ---
 
+# 0.6.0
+![Release Date: 2017-10-11](https://img.shields.io/badge/Release_Date-2017--10--11-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.6.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/11) [![Milestone](https://img.shields.io/badge/Milestone-0.6.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/9)
+
+## Feature
+
+### UI
+
+❯ Added new [new theming color keys][vscode-relnote-1.16-theme-improv] for highlighting the [overview ruler][vscode-color-ref-editor-colors] introduced in Visual Studio Code version 1.16. (#45 in PR #48, @arcticicestudio, 0459527b)
+
+<p align="center"><strong>Status Highlighting</strong><br><img src="https://user-images.githubusercontent.com/7836623/30780022-9c9b7ea4-a101-11e7-92ca-f786106469f3.png"/><br><strong>Word Highlighting</strong><br><img src="https://user-images.githubusercontent.com/7836623/30780023-9edf84c6-a101-11e7-8be7-8415b111327f.png"/></p>
+
+❯ Added new [new theming color key for title bar border][vscode-relnote-1.15-title-bar-border] for macOS introduced in Visual Studio Code version 1.15. (#46 in PR #49, @arcticicestudio, ad564a4d)
+
+❯ Added new [new theming color keys][vscode-relnote-1.16-theme-improv] to determine the activity of tabs via a bottom-border introduced in Visual Studio Code version 1.16. (#47 in PR #50, @arcticicestudio, aaf7447f)
+
+## Improvements
+
+### Syntax
+
+❯ The punctuation characters of JavaScript template literals are now colorized with `nord10` for better recognizability within the string. Variable properties are now using `nord4` instead of string colors (`nord14`). (#39 PR #51, @peterdanis, 42ca03c2)
+
+<p align="center"><strong>Before</strong><br><img src="https://user-images.githubusercontent.com/7836623/30780203-fda672b8-a105-11e7-89e5-4ee024bbc1ae.png"/><br><strong>After</strong><br><img src="https://user-images.githubusercontent.com/7836623/30780208-092bcf52-a106-11e7-8189-41e30a7dd3b6.png"/></p>
+
+❯ CSS properties are now colorized with `nord4` to make it easier to distinguish between HTML tags. (#52 in PR #53, @peterdanis, 9e91ece4)
+
+![](https://user-images.githubusercontent.com/7836623/31055755-de2428fa-a6c7-11e7-9aeb-b1534d8e634d.png)
+
+### UI
+
+❯ The scrollbar was too dark/transparent making it hard to see the current position. This has been changed by using `nord2` instead of `nord1` as color with a transparency of 60% and 66% when hovered and active. (#41 in PR #43, @peterdanis, b394a7a5)
+
+<p align="center"><strong>Before</strong><br><img src="https://user-images.githubusercontent.com/7836623/29301919-0588f992-8180-11e7-9ee6-17c7004ac947.png"/><br><img src="https://user-images.githubusercontent.com/7836623/29301920-07ed8a5e-8180-11e7-97cc-694fbda73c5e.gif"/><br><strong>After</strong><br><img src="https://user-images.githubusercontent.com/7836623/29301933-1b0ad68c-8180-11e7-8af7-358c51587a92.png"/><br><img src="https://user-images.githubusercontent.com/7836623/29301935-1c9bffee-8180-11e7-99ad-7730bb3fe3e3.gif"/></p>
+
+## Bug Fixes
+
+### UI
+
+❯ The background color of the snap-in split window, which appears when a tab of a tab group is dragged, had the same color as base background (`nord0`). This has been changed to `nord1` with a transparency of 60%. (#40 in PR #44, @peterdanis, b3e2cb2f)
+
+<p align="center"><strong>Before</strong><br><img src="https://user-images.githubusercontent.com/7836623/29306057-fc77aa4e-819b-11e7-9b42-fd915ec9a8db.png"/><br<strong>After</strong><br><img src="https://user-images.githubusercontent.com/7836623/29306076-0b008d92-819c-11e7-8254-0bc2cf39a330.png"/></p>
+
+## Tasks
+
+❯ Due to security concerns, [VS Code version 1.14 introduced a change so SVG images are no more rendered within VS Code][vscode-relnote-1.14-extension-authoring]. (#55 in PR #56, @kushalpandya, 9e91ece4)
+
+Nord Visual Studio Code adapted to the following contraints:
+
+* The icon provided in *package.json* may not be an SVG.
+* The badges provided in the *package.json* may not be SVGs unless they are from [approved badge providers][vscode-docs-approved-badges].
+* Image URLs in `README.md` and `CHANGELOG.md` need to resolve to https URLs.
+* Images in `README.md` and `CHANGELOG.md` may not be SVGs unless they are from [approved badge providers][vscode-docs-approved-badges].
+* Images in `README.md` and `CHANGELOG.md` may not use data URIs.
+
+Additionally, the [footer mountain banner](https://github.com/arcticicestudio/nord/blob/develop/src/assets/banner-footer-mountains.svg) has been changed to PNG format (arcticicestudio/nord#49) and removed the non-HTTPS Arctic Ice Studio logo favicon from the copyright footer line.
+
+![](https://user-images.githubusercontent.com/7836623/31324602-9f40d5be-acb4-11e7-88b3-f86cf6cdacf1.png)
+
+❯ A [`.vscodeignore`][vscode-docs-vscodeignore] file has been added to reduce the size of the distributed `vsix` extension package. (#57 in PR #58, @arcticicestudio @kevinah95, 4660525b)
+
+This results in a reduced `vsix` extension package size of **almost 99%** from **~4.7 MB to ~41 kB**!
+
 # 0.5.0
-<details>
-  <summary>Version Details</summary>
-  <p>
-    Release Date: <em>2017-08-07</em>
-    <a href="https://github.com/arcticicestudio/nord-visual-studio-code/milestone/6">Milestone</a>
-    <a href="https://github.com/arcticicestudio/nord-visual-studio-code/projects/8">Project Board</a>
-  </p>
-</details>
+![Release Date: 2017-08-07](https://img.shields.io/badge/Release_Date-2017--08--07-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.5.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/8) [![Milestone](https://img.shields.io/badge/Milestone-0.5.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/6)
 
 ## Features
 ### UI
@@ -48,14 +102,7 @@
 ❯ Fixed the background color of the status bar when no folder is active which has been unintentionally removed during a merge conflict. (@ajitid, #32 (#31), 1c01b0d4)
 
 # 0.4.1
-<details>
-  <summary>Version Details</summary>
-  <p>
-    Release Date: *2017-07-01*
-    <a href="https://github.com/arcticicestudio/nord-visual-studio-code/milestone/7">Milestone</a>
-    <a href="https://github.com/arcticicestudio/nord-visual-studio-code/projects/9">Project Board</a>
-  </p>
-</details>
+![Release Date: 2017-07-01](https://img.shields.io/badge/Release_Date-2017--07--01-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.4.1-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/9) [![Milestone](https://img.shields.io/badge/Milestone-0.4.1-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/7)
 
 ## Bug Fixes
 ❯ Fixed underlined error squiggles. (@ajitid, #31, ce23e9cd)
@@ -63,7 +110,8 @@
 <p align="center">Before<br><img src="https://user-images.githubusercontent.com/7836623/27764412-17801de2-5e99-11e7-9aa8-eabf39f30a75.png"/><br>After<br><img src="https://user-images.githubusercontent.com/7836623/27764413-1c29a516-5e99-11e7-917b-cabd827967ba.png"/></p>
 
 # 0.4.0
-*2017-07-01*
+![Release Date: 2017-07-01](https://img.shields.io/badge/Release_Date-2017--07--01-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.4.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/7) [![Milestone](https://img.shields.io/badge/Milestone-0.4.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/1)
+
 [VS Code 1.13](https://code.visualstudio.com/updates/v1_13) has been released including a bunch of [new workbench theme features](https://code.visualstudio.com/updates/v1_13#_new-theming-colors) documented in the official [Theme Color Reference](https://code.visualstudio.com/docs/getstarted/theme-color-reference#_editor-colors). (@arcticicestudio, #25, PR #27, 6aff96bb)
 (@ajitid, #24, PR #28, 6840124e)
 
@@ -157,7 +205,7 @@ Next to the changes above the following new workbench theme settings have been a
 <p align="center"><strong><code>self</code> as parameter</strong><br>Before<br><img src="https://user-images.githubusercontent.com/7836623/27759823-eb336dfc-5e39-11e7-9c5b-bd29a05fa975.png"/><br>After<br><img src="https://user-images.githubusercontent.com/7836623/27759826-f6a56f3c-5e39-11e7-9ab1-4af950bb3fc1.png"/></p>
 
 # 0.3.0
-*2017-06-11*
+![Release Date: 2017-06-11](https://img.shields.io/badge/Release_Date-2017--06--11-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.3.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/6) [![Milestone](https://img.shields.io/badge/Milestone-0.3.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/5)
 
 ## Improvements
 ### Syntax
@@ -171,7 +219,7 @@ Next to the changes above the following new workbench theme settings have been a
 <p align="center"><strong>Preview</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/26023389/a75879d8-37ba-11e7-8c1b-c5ee6020db1c.png"/><br><strong>Hovered</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/26023391/b64e6074-37ba-11e7-8b8b-210e6056d029.png"/><br><img src="https://cloud.githubusercontent.com/assets/7836623/26023400/dc858a92-37ba-11e7-8e76-85a8cbff12b0.gif"/></p>
 
 # 0.2.0
-*2017-05-07*
+![Release Date: 2017-05-07](https://img.shields.io/badge/Release_Date-2017--05--07-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.2.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/5) [![Milestone](https://img.shields.io/badge/Milestone-0.2.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/6)
 
 **Please note that the minimal version for this theme is now >=1.12.0 due to the new VS Code theme- and workbench API!**
 
@@ -230,14 +278,16 @@ Thanks to @octref and @Tyriar for testing and providing improvement suggestions!
 ❯ Fixed a typo in the project description. (@arcticicestudio, #6, 8744b392)
 
 # 0.1.1
-*2017-02-25*
+![Release Date: 2017-02-25](https://img.shields.io/badge/Release_Date-2017--02--25-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.1.1-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/4) [![Milestone](https://img.shields.io/badge/Milestone-0.1.1-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/3)
+
 ## Bug Fixes
 ❯ Fixed uncolored start- and end elements/tags of block comments for various languages. (@Platzer, #2 #3, 6db13ea2)
 
 <p align="center"><strong>Before</strong><img src="https://cloud.githubusercontent.com/assets/7836623/23333765/c540e0a8-fb91-11e6-9c21-37e6bcda0e54.png"/><br><strong>After</strong><img src="https://cloud.githubusercontent.com/assets/7836623/23333769/d1d5c2f2-fb91-11e6-9f06-9c50d006388c.png"/></p>
 
 # 0.1.0
-*2017-02-18*
+![Release Date: 2017-02-18](https://img.shields.io/badge/Release_Date-2017--02--18-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.1.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/3) [![Milestone](https://img.shields.io/badge/Milestone-0.1.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/2)
+
 **Initial VS Code Marketplace extension release version!**
 
 ## Features
@@ -252,3 +302,10 @@ Detailed information about features, supported languages and install instruction
 # 0.0.0
 *2017-02-18*
 **Project Initialization**
+
+[vscode-color-ref-editor-colors]: https://code.visualstudio.com/docs/getstarted/theme-color-reference#_editor-colors
+[vscode-docs-approved-badges]: https://code.visualstudio.com/docs/extensionAPI/extension-manifest#_approved-badges
+[vscode-docs-vscodeignore]: https://code.visualstudio.com/docs/extensions/publish-extension#_vscodeignore
+[vscode-relnote-1.14-extension-authoring]: https://code.visualstudio.com/updates/v1_14#_extension-authoring
+[vscode-relnote-1.15-title-bar-border]: https://code.visualstudio.com/updates/v1_15#_new-theme-color-for-title-bar-border
+[vscode-relnote-1.16-theme-improv]: https://code.visualstudio.com/updates/v1_16#_theming-improvements

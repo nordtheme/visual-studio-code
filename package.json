@@ -2,7 +2,7 @@
   "name": "nord-visual-studio-code",
   "displayName": "Nord",
   "description": "An arctic, north-bluish clean and elegant Visual Studio Code theme.",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "publisher": "arcticicestudio",
   "author": {
     "name": "Arctic Ice Studio",
@@ -24,7 +24,7 @@
     "color": "#2E3440",
     "theme": "dark"
   },
-  "icon": "assets/nord-visual-studio-code-icon-marketplace.svg",
+  "icon": "assets/nord-visual-studio-code-icon-marketplace.png",
   "markdown": "github",
   "categories": [
     "Themes"
@@ -38,17 +38,17 @@
   ],
   "badges": [
     {
-      "url": "http://vsmarketplacebadge.apphb.com/version/arcticicestudio.nord-visual-studio-code.svg",
+      "url": "https://vsmarketplacebadge.apphb.com/version/arcticicestudio.nord-visual-studio-code.svg",
       "href": "https://marketplace.visualstudio.com/items/arcticicestudio.nord-visual-studio-code",
       "description": "Extension version"
     },
     {
-      "url": "http://vsmarketplacebadge.apphb.com/installs/arcticicestudio.nord-visual-studio-code.svg",
+      "url": "https://vsmarketplacebadge.apphb.com/installs/arcticicestudio.nord-visual-studio-code.svg",
       "href": "https://marketplace.visualstudio.com/items/arcticicestudio.nord-visual-studio-code",
       "description": "Extension installs"
     },
     {
-      "url": "http://vsmarketplacebadge.apphb.com/rating/arcticicestudio.nord-visual-studio-code.svg",
+      "url": "https://vsmarketplacebadge.apphb.com/rating/arcticicestudio.nord-visual-studio-code.svg",
       "href": "https://marketplace.visualstudio.com/items/arcticicestudio.nord-visual-studio-code",
       "description": "Extension Rating"
     }
