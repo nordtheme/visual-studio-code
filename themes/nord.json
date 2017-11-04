@@ -1064,7 +1064,10 @@
       "scope": [
         "source.ts punctuation.decorator",
         "source.ts meta.decorator variable.other.readwrite",
-        "source.ts meta.decorator entity.name.function"
+        "source.ts meta.decorator entity.name.function",
+        "source.tsx punctuation.decorator",
+        "source.tsx meta.decorator variable.other.readwrite",
+        "source.tsx meta.decorator entity.name.function"
       ],
       "settings": {
         "foreground": "#D08770"
@@ -1072,14 +1075,20 @@
     },
     {
       "name": "[TypeScript] Object-literal keys",
-      "scope": "source.ts meta.object-literal.key",
+      "scope": [
+        "source.ts meta.object-literal.key",
+        "source.tsx meta.object-literal.key"
+      ],
       "settings": {
         "foreground": "#D8DEE9"
       }
     },
     {
       "name": "[TypeScript] Object-literal functions",
-      "scope": "source.ts meta.object-literal.key entity.name.function",
+      "scope": [
+        "source.ts meta.object-literal.key entity.name.function",
+        "source.tsx meta.object-literal.key entity.name.function"
+      ],
       "settings": {
         "foreground": "#88C0D0"
       }
@@ -1090,7 +1099,11 @@
         "source.ts support.class",
         "source.ts support.type",
         "source.ts entity.name.type",
-        "source.ts entity.name.class"
+        "source.ts entity.name.class",
+        "source.tsx support.class",
+        "source.tsx support.type",
+        "source.tsx entity.name.type",
+        "source.tsx entity.name.class"
       ],
       "settings": {
         "foreground": "#8FBCBB"
@@ -1101,7 +1114,10 @@
       "scope": [
         "source.ts support.constant.math",
         "source.ts support.constant.dom",
-        "source.ts support.constant.json"
+        "source.ts support.constant.json",
+        "source.tsx support.constant.math",
+        "source.tsx support.constant.dom",
+        "source.tsx support.constant.json"
       ],
       "settings": {
         "foreground": "#8FBCBB"
@@ -1110,7 +1126,8 @@
     {
       "name": "[TypeScript] Variables",
       "scope": [
-        "source.ts support.variable"
+        "source.ts support.variable",
+        "source.tsx support.variable"
       ],
       "settings": {
         "foreground": "#D8DEE9"
