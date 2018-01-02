@@ -1,20 +1,14 @@
-"use strict";
 /*
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-title      Project Gulp File                                           +
-project    nord-visual-studio-code                                     +
-repository https://github.com/arcticicestudio/nord-visual-studio-code  +
-author     Arctic Ice Studio                                           +
-email      development@arcticicestudio.com                             +
-copyright  Copyright (C) 2017                                          +
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ * Copyright (c) 2017-present Arctic Ice Studio <development@arcticicestudio.com>
+ * Copyright (c) 2017-present Sven Greb <code@svengreb.de>
+ *
+ * Project:    Nord Visual Studio Code
+ * Repository: https://github.com/arcticicestudio/nord-visual-studio-code
+ * License:    MIT
+ * References:
+ *   http://gulpjs.com
+ */
 
-[References]
-Gulp
-  http://gulpjs.com
-npmjs
-  https://www.npmjs.com
-*/
 /*+---------+
   + Imports +
   +---------+*/

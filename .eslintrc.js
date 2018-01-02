@@ -1,21 +1,18 @@
 /*
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-title      ESLint Configuration                                       +
-project    nord-visual-studio-code                                    +
-repository https://github.com/arcticicestudio/nord-visual-studio-code +
-author     Arctic Ice Studio                                          +
-email      development@arcticicestudio.com                            +
-copyright  Copyright (C) 2017                                         +
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ * Copyright (c) 2017-present Arctic Ice Studio <development@arcticicestudio.com>
+ * Copyright (c) 2017-present Sven Greb <code@svengreb.de>
+ *
+ * Project:    Nord Visual Studio Code
+ * Repository: https://github.com/arcticicestudio/nord-visual-studio-code
+ * License:    MIT
+ * References:
+ *   http://eslint.org/docs/rules
+ *   http://eslint.org/docs/user-guide/configuring
+ *   http://eslint.org/docs/user-guide/configuring#using-configuration-files
+ *   http://eslint.org/docs/user-guide/configuring#specifying-environments
+ *   http://eslint.org/docs/user-guide/configuring.html#specifying-globals
+ */
 
-[References]
-ESLint
-  http://eslint.org/docs/rules
-  http://eslint.org/docs/user-guide/configuring
-  http://eslint.org/docs/user-guide/configuring#using-configuration-files
-  http://eslint.org/docs/user-guide/configuring#specifying-environments
-  http://eslint.org/docs/user-guide/configuring.html#specifying-globals
-*/
 module.exports = {
   "env": {
     "node": true,
