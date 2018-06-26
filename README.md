@@ -23,7 +23,7 @@ Launch *Quick Open*
 
 Paste the following command and press `Enter`:
 ```shell
-ext install nord-visual-studio-code
+ext install arcticicestudio.nord-visual-studio-code
 ```
 
 #### <img src="https://marketplace.visualstudio.com/favicon.ico" width=16 height=16/> [Packaged VSIX Extension](https://code.visualstudio.com/docs/extensions/install-extension#_install-from-a-vsix)
