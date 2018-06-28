@@ -1,19 +1,18 @@
 # Copyright (c) 2017-present Arctic Ice Studio <development@arcticicestudio.com>
-# Copyright (c) 2017-present Sven Greb <code@svengreb.de>
+# Copyright (c) 2017-present Sven Greb <development@svengreb.de>
 # 
 # Project:    Nord Visual Studio Code
 # Repository: https://github.com/arcticicestudio/nord-visual-studio-code
 # License:    MIT
 # References:
-#   https://docs.travis-ci.com
+#   https://docs.travis-ci.com/user/languages/javascript-with-nodejs
 
 language: node_js
 dist: trusty
 sudo: false
 node_js:
-  - "4"
-  - "6"
-  - "7"
+  - "8"
+  - "node"
 before_install:
   - rm -rf ./node_modules
 before_script:
