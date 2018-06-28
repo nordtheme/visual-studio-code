@@ -17,8 +17,6 @@ node_js:
 before_install:
   - rm -rf ./node_modules
 before_script:
-  - npm install -g gulp-cli
-  - npm install gulp
   - npm install
 script:
-  - gulp --harmony lint
+  - npm run lint

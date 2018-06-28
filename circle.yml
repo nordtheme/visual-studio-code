@@ -17,9 +17,7 @@ dependencies:
   pre:
     - rm -rf ./node_modules
   override:
-    - npm install -g gulp-cli
-    - npm install gulp
     - npm install
 test:
   override:
-    - gulp --harmony lint
+    - npm run lint
