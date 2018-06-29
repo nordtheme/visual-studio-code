@@ -63,11 +63,13 @@
     ]
   },
   "scripts": {
-    "format:fix": "eslint --fix 'themes/**/*.json'",
-    "lint": "eslint 'themes/**/*.json'"
+    "format": "prettier --write '*.{js,json}' 'themes/**/*.{js,json}'",
+    "format:fix": "eslint --fix '*.{js,json}' 'themes/**/*.{js,json}'",
+    "lint": "eslint '*.{js,json}' 'themes/**/*.{js,json}'"
   },
   "devDependencies": {
     "eslint": "3.19.0",
-    "eslint-plugin-json": "1.2.0"
+    "eslint-plugin-json": "1.2.0",
+    "prettier": "1.13.7"
   }
 }
