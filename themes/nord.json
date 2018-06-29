@@ -23,6 +23,7 @@
     "dropdown.foreground": "#d8dee9",
     "editorCursor.foreground": "#d8dee9",
     "editorIndentGuide.background": "#434c5eb3",
+    "editorIndentGuide.activeBackground": "#4c566a",
     "editorLineNumber.foreground": "#d8dee966",
     "editorWhitespace.foreground": "#4c566ab3",
     "editorWidget.background": "#2e3440",
