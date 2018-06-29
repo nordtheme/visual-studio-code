@@ -26,16 +26,8 @@
   },
   "icon": "assets/nord-visual-studio-code-icon-marketplace.png",
   "markdown": "github",
-  "categories": [
-    "Themes"
-  ],
-  "keywords": [
-    "arctic",
-    "north",
-    "bluish",
-    "clean",
-    "elegant"
-  ],
+  "categories": ["Themes"],
+  "keywords": ["arctic", "north", "bluish", "clean", "elegant"],
   "badges": [
     {
       "url": "https://vsmarketplacebadge.apphb.com/version/arcticicestudio.nord-visual-studio-code.svg",

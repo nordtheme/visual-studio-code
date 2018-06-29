@@ -271,10 +271,7 @@
     },
     {
       "name": "Entity Name Class/Type",
-      "scope": [
-        "entity.name.class",
-        "entity.name.type.class"
-        ],
+      "scope": ["entity.name.class", "entity.name.type.class"],
       "settings": {
         "foreground": "#8FBCBB"
       }
@@ -425,10 +422,7 @@
     },
     {
       "name": "Punctuation Section Embedded",
-      "scope": [
-        "punctuation.section.embedded.begin",
-        "punctuation.section.embedded.end"
-      ],
+      "scope": ["punctuation.section.embedded.begin", "punctuation.section.embedded.end"],
       "settings": {
         "foreground": "#81A1C1"
       }
@@ -568,10 +562,7 @@
     },
     {
       "name": "[C/CPP] Meta Preprocessor Include",
-      "scope": [
-        "source.c meta.preprocessor.include",
-        "source.c string.quoted.other.lt-gt.include"
-      ],
+      "scope": ["source.c meta.preprocessor.include", "source.c string.quoted.other.lt-gt.include"],
       "settings": {
         "foreground": "#8FBCBB"
       }
@@ -699,10 +690,7 @@
     },
     {
       "name": "[Java](JavaDoc) Keyword Other Documentation Directive/Custom",
-      "scope": [
-        "source.java keyword.other.documentation.directive",
-        "source.java keyword.other.documentation.custom"
-      ],
+      "scope": ["source.java keyword.other.documentation.directive", "source.java keyword.other.documentation.custom"],
       "settings": {
         "foreground": "#8FBCBB"
       }
@@ -723,10 +711,7 @@
     },
     {
       "name": "[Java](JavaDoc) Meta Tag Template Link",
-      "scope": [
-        "source.java meta.tag.template.link.javadoc",
-        "source.java string.other.link.title.javadoc"
-      ],
+      "scope": ["source.java meta.tag.template.link.javadoc", "source.java string.other.link.title.javadoc"],
       "settings": {
         "foreground": "#8FBCBB"
       }
@@ -995,30 +980,21 @@
     },
     {
       "name": "[PHP] Meta Function-Call Object",
-      "scope": [
-        "source.php meta.function-call",
-        "source.php meta.function-call.object"
-      ],
+      "scope": ["source.php meta.function-call", "source.php meta.function-call.object"],
       "settings": {
         "foreground": "#88C0D0"
       }
     },
     {
       "name": "[Python] Decorator",
-      "scope": [
-        "source.python entity.name.function.decorator",
-        "source.python meta.function.decorator support.type"
-      ],
+      "scope": ["source.python entity.name.function.decorator", "source.python meta.function.decorator support.type"],
       "settings": {
         "foreground": "#D08770"
       }
     },
     {
       "name": "[Python] Function Call",
-      "scope": [
-        "source.python meta.function-call",
-        "source.python meta.function-call.generic"
-      ],
+      "scope": ["source.python meta.function-call", "source.python meta.function-call.generic"],
       "settings": {
         "foreground": "#88C0D0"
       }
@@ -1032,18 +1008,14 @@
     },
     {
       "name": "[Python] Function Parameter",
-      "scope": [
-        "source.python variable.parameter.function.language"
-      ],
+      "scope": ["source.python variable.parameter.function.language"],
       "settings": {
         "foreground": "#D8DEE9"
       }
     },
     {
       "name": "[Python] Function Parameter Special",
-      "scope": [
-        "source.python meta.function.parameters variable.parameter.function.language.special.self"
-      ],
+      "scope": ["source.python meta.function.parameters variable.parameter.function.language.special.self"],
       "settings": {
         "foreground": "#81A1C1"
       }
@@ -1082,10 +1054,7 @@
     },
     {
       "name": "[TypeScript] Object-literal keys",
-      "scope": [
-        "source.ts meta.object-literal.key",
-        "source.tsx meta.object-literal.key"
-      ],
+      "scope": ["source.ts meta.object-literal.key", "source.tsx meta.object-literal.key"],
       "settings": {
         "foreground": "#D8DEE9"
       }
@@ -1132,10 +1101,7 @@
     },
     {
       "name": "[TypeScript] Variables",
-      "scope": [
-        "source.ts support.variable",
-        "source.tsx support.variable"
-      ],
+      "scope": ["source.ts support.variable", "source.tsx support.variable"],
       "settings": {
         "foreground": "#D8DEE9"
       }
@@ -1163,10 +1129,7 @@
     },
     {
       "name": "[XML] Entity Name Tag Namespace",
-      "scope": [
-        "text.xml string.unquoted.cdata",
-        "text.xml string.unquoted.cdata punctuation.definition.string"
-      ],
+      "scope": ["text.xml string.unquoted.cdata", "text.xml string.unquoted.cdata punctuation.definition.string"],
       "settings": {
         "foreground": "#D08770",
         "fontStyle": "italic"
