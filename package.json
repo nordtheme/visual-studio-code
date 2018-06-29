@@ -26,16 +26,8 @@
   },
   "icon": "assets/nord-visual-studio-code-icon-marketplace.png",
   "markdown": "github",
-  "categories": [
-    "Themes"
-  ],
-  "keywords": [
-    "arctic",
-    "north",
-    "bluish",
-    "clean",
-    "elegant"
-  ],
+  "categories": ["Themes"],
+  "keywords": ["arctic", "north", "bluish", "clean", "elegant"],
   "badges": [
     {
       "url": "https://vsmarketplacebadge.apphb.com/version/arcticicestudio.nord-visual-studio-code.svg",
@@ -68,8 +60,12 @@
     "lint": "eslint '*.{js,json}' 'themes/**/*.{js,json}'"
   },
   "devDependencies": {
-    "eslint": "3.19.0",
+    "babel-eslint": "8.2.5",
+    "eslint": "4.19.1",
+    "eslint-config-arcticicestudio-base": "0.3.0",
+    "eslint-plugin-import": "2.13.0",
     "eslint-plugin-json": "1.2.0",
+    "eslint-plugin-prettier": "2.6.1",
     "prettier": "1.13.7"
   }
 }
