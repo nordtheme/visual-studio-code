@@ -57,7 +57,10 @@
   "scripts": {
     "format": "prettier --write '*.{js,json}' 'themes/**/*.{js,json}'",
     "format:fix": "eslint --fix '*.{js,json}' 'themes/**/*.{js,json}'",
-    "lint": "eslint '*.{js,json}' 'themes/**/*.{js,json}'"
+    "lint": "npm run lint:js && npm run lint:json && npm run lint:md",
+    "lint:js": "eslint '*.js' 'themes/**/*.js'",
+    "lint:json": "eslint '*.json' 'themes/**/*.json'",
+    "lint:md": "remark '*.md'"
   },
   "devDependencies": {
     "babel-eslint": "8.2.5",
@@ -66,6 +69,8 @@
     "eslint-plugin-import": "2.13.0",
     "eslint-plugin-json": "1.2.0",
     "eslint-plugin-prettier": "2.6.1",
-    "prettier": "1.13.7"
+    "prettier": "1.13.7",
+    "remark-cli": "5.0.0",
+    "remark-preset-lint-arcticicestudio": "0.1.0"
   }
 }
