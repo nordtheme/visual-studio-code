@@ -132,6 +132,8 @@ Fully supported [Workbench](https://code.visualstudio.com/docs/getstarted/theme-
 
 <p align="center"><strong>Coloring of active line number</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-active-line-number.png"/></p>
 
+<p align="center"><strong>Editor Hints</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-editor-hints.png"/></p>
+
 ## Languages
 
 This theme contains optimized styles to achieve a consistent and uniform coloring across languages.  
