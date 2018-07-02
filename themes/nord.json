@@ -113,6 +113,8 @@
     "list.hoverBackground": "#3b4252",
     "list.dropBackground": "#88c0d099",
     "list.highlightForeground": "#88c0d0",
+    "list.errorForeground": "#bf616a",
+    "list.warningForeground": "#ebcb8b",
     "merge.currentHeaderBackground": "#81a1c166",
     "merge.currentContentBackground": "#81a1c14d",
     "merge.incomingHeaderBackground": "#8fbcbb66",
