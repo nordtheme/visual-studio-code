@@ -128,6 +128,8 @@ Fully supported [Workbench](https://code.visualstudio.com/docs/getstarted/theme-
 
 <p align="center"><strong>Active Indent Guide</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrcast-feature-active-indent-guide.gif"/></p>
 
+<p align="center"><strong>Git status in File Explorer</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-git-status-file-explorer.png"/></p>
+
 ## Languages
 
 This theme contains optimized styles to achieve a consistent and uniform coloring across languages.  
