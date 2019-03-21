@@ -112,6 +112,8 @@ Fully supported [Workbench](https://code.visualstudio.com/docs/getstarted/theme-
 
 <p align="center"><strong>Notifications</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-ui-notification.png"/></p>
 
+<p align="center"><strong>Notification Center (supported as of VS Code version 1.21 or higher)</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrcast-feature-notification-center.gif"/></p>
+
 <p align="center"><strong>Badges</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-ui-badges.png"/></p>
 
 <p align="center"><strong>Side Bar Views (Debug)</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-ui-side-bar-debug.png"/></p>
