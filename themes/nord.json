@@ -171,7 +171,7 @@
     "peekViewTitleDescription.foreground": "#d8dee9",
     "peekViewTitleLabel.foreground": "#88c0d0",
     "pickerGroup.border": "#3b4252",
-    "pickerGroup.foreground": "#d8dee9",
+    "pickerGroup.foreground": "#88c0d0",
     "progressBar.background": "#88c0d0",
     "scrollbar.shadow": "#00000066",
     "scrollbarSlider.activeBackground": "#434c5eaa",
