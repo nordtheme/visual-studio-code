@@ -118,8 +118,6 @@ All currently implemented Gulp tasks have therefore been migrated to npm scripts
 **Arctic Ice Studio remark-lint rule preset** — #74 ⇄ #88 (⊶ 02721f01)
 ↠ The default rule set coming with [remark-lint][gh-remark-lint] has been replaced with [Arctic Ice Studio's custom rule preset][npm-remark-preset-lint-arcticicestudio] that adheres to the [Arctic Ice Studio Markdown code style][gh-arcticicestudio/styleguide-markdown].
 
-<p align="center"><img src="https://raw.githubusercontent.com/remarkjs/remark-lint/02295bc/logo.svg?sanitize=true" /></p>
-
 ## Bug Fixes
 
 ### Documentation
