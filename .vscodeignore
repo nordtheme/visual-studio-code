@@ -1,14 +1,25 @@
+# Copyright (c) 2017-present Arctic Ice Studio <development@arcticicestudio.com>
+# Copyright (c) 2017-present Sven Greb <development@svengreb.de>
+#
+# Project:    Nord Visual Studio Code
+# Repository: https://github.com/arcticicestudio/nord-visual-studio-code
+# License:    MIT
+
 !assets/nord-visual-studio-code-icon-marketplace.png
 !assets/nord-visual-studio-code-icon-marketplace-2x.png
-assets/**
+.circleci/**
 .github/**
 .vscode/**
+assets/**
 node_modules
 .editorconfig
+.eslintignore
 .eslintrc.js
 .gitignore
 .npmrc
+.prettierignore
+.remarkrc.js
 .travis.yml
-circle.yml
-gulpfile.js
-yarn.lock
+package-lock.json
+prettier.config.js
+*.vsix

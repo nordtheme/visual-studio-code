@@ -5,21 +5,9 @@
 # Repository: https://github.com/arcticicestudio/nord-visual-studio-code
 # License:    MIT
 
-# +------+
-# + Logs +
-# +------+
-logs/
-*.log
-npm-debug.log*
-
-# +---------+
-# + Node.js +
-# +---------+
-node_modules/
-.npm/
-
-# +--------------------+
-# + Visual Studio Code +
-# +--------------------+
-.vscode/
+.circleci/*
+.vscode/*
+assets/*
+node_modules/*
+themes/*
 *.vsix

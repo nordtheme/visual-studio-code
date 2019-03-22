@@ -8,20 +8,11 @@
  */
 
 /**
- * @file The ESLint configuration.
+ * @file The remark-lint configuration.
  * @author Arctic Ice Studio <development@arcticicestudio.com>
  * @author Sven Greb <development@svengreb.de>
  */
 
 module.exports = {
-  extends: "arcticicestudio-base",
-  plugins: ["json", "prettier"],
-  parser: "babel-eslint",
-  env: {
-    node: true,
-    browser: true
-  },
-  rules: {
-    "prettier/prettier": "error"
-  }
+  plugins: ["remark-preset-lint-arcticicestudio"]
 };

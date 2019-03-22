@@ -5,23 +5,26 @@
  * Project:    Nord Visual Studio Code
  * Repository: https://github.com/arcticicestudio/nord-visual-studio-code
  * License:    MIT
+ * References:
+ *   https://prettier.io/docs/en/configuration.html
+ *   https://prettier.io/docs/en/options.html
  */
 
 /**
- * @file The ESLint configuration.
+ * @file The Prettier configuration.
  * @author Arctic Ice Studio <development@arcticicestudio.com>
  * @author Sven Greb <development@svengreb.de>
+ * @see https://prettier.io/docs/en/configuration.html
  */
 
 module.exports = {
-  extends: "arcticicestudio-base",
-  plugins: ["json", "prettier"],
-  parser: "babel-eslint",
-  env: {
-    node: true,
-    browser: true
-  },
-  rules: {
-    "prettier/prettier": "error"
-  }
+  printWidth: 120,
+  overrides: [
+    {
+      files: ["*.json", "themes/**/*.json"],
+      options: {
+        parser: "json"
+      }
+    }
+  ]
 };
