@@ -1,16 +1,147 @@
-<!--lint disable no-duplicate-headings-->
-
 <p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord-visual-studio-code/develop/assets/nord-visual-studio-code-banner.png" srcset="https://cdn.rawgit.com/arcticicestudio/nord-visual-studio-code/develop/assets/nord-visual-studio-code-banner-2x.png 2x"/></p>
 
 <p align="center"><img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/nord-visual-studio-code/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord-visual-studio-code.svg?style=flat-square"/></a> <a href="https://github.com/arcticicestudio/nord/releases/tag/v0.2.0"><img src="https://img.shields.io/badge/Nord-v0.2.0-88C0D0.svg?style=flat-square"/></a> <img src="https://marketplace.visualstudio.com/favicon.ico" width=24 height=24/> <a href="https://code.visualstudio.com/updates/v1_12"><img src="https://img.shields.io/badge/VS_Code-v1.12+-373277.svg?style=flat-square"/></a> <a href="https://marketplace.visualstudio.com/items/arcticicestudio.nord-visual-studio-code"><img src="https://vsmarketplacebadge.apphb.com/version/arcticicestudio.nord-visual-studio-code.svg?style=flat-square"/></a> <a href="https://marketplace.visualstudio.com/items/arcticicestudio.nord-visual-studio-code"><img src="https://vsmarketplacebadge.apphb.com/installs/arcticicestudio.nord-visual-studio-code.svg?style=flat-square"/></a> <a href="https://marketplace.visualstudio.com/items/arcticicestudio.nord-visual-studio-code"><img src="https://vsmarketplacebadge.apphb.com/rating-short/arcticicestudio.nord-visual-studio-code.svg?style=flat-square"/></a></p>
 
----
+<!--lint disable no-duplicate-headings-->
+
+# 0.7.0
+
+![Release Date: 2019-03-22](https://img.shields.io/badge/Release_Date-2019--03--22-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.7.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/12) [![Milestone](https://img.shields.io/badge/Milestone-0.7.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/10)
+
+## Features
+
+### Syntax Highlighting
+
+**Support syntax highlighting for TypeScript and TSX** — ⇄ #60 (⊶ 613b515c) by [@kingdaro][gh-user-kingdaro]
+↠ Added basic syntax highlighting support for [TypeScript][] and TSX (React JSX) by adding `source.ts` and `source.tsx` classes to existing `source.js` and `source.jsx` scopes.
+
+### UI
+
+**Tab mouse hovering and border styles** — #66 ⇄ #89 (⊶ 338e06f1) by [@OfficerHalf][gh-user-officerhalf]
+↠ Added support for the new theme keys that have been introduced in VS Code version 1.20 to customize the [background and border styles when a tab is hovered][vsc-rln-1.20-tabc].
+
+<p align="center"><strong>Before</strong><br><img src="https://user-images.githubusercontent.com/7836623/42076752-b4a91420-7b76-11e8-8917-13e81bc377f0.gif" /></p>
+
+<p align="center"><strong>After</strong><br><img src="https://user-images.githubusercontent.com/7836623/42076751-b492eb0a-7b76-11e8-9a7c-64cf23ecf23b.gif" /></p>
+
+**Highlight active indent guide** — #69 ⇄ #90 (⊶ 6b99557e) by [@gulshan][gh-user-gulshan] and [@OfficerHalf][gh-user-officerhalf]
+↠ Added support for the new theme key introduced in VS Code version 1.23 that allows to customize the [highlighting of the active indent guide][vsc-rln-1.23-idg].
+
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/42078193-def3f844-7b7b-11e8-8016-c13a843c2b7e.gif" /></p>
+
+**Colorized error and warning file status in explorer** — #82 ⇄ #95 (⊶ d5ce00f9)
+↠ Added support for the new theme keys introduced in [VS Code 1.24][vsc-rln-1.24] (May 2018) that allows to customize [the color of items in the Explorer with errors and warnings][vsc-rln-1.24-thc].
+
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/42122232-e64bb596-7c3e-11e8-9220-8ab174855fe9.png" /></p>
+
+**Highlight active indent guide** — #77 ⇄ #91 (⊶ c0bc5de2)
+↠ Added support for the new theme keys introduced in [VS Code 1.18][vsc-rln-1.18] (October 2017) for the [very popular feature request][vscode#178] to allow to customize the [Git status in the File Explorer][vsc-rln-1.18-gitexp] documented in the official [Theme Color Reference][vscode-docs-theme-git-colors].
+
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/42107091-6cbaa024-7bd6-11e8-8384-3619bf0606c3.png" /></p>
+
+**Coloring of active line number** — #79 ⇄ #92 (⊶ e73d2b36)
+↠ Added support for the new theme keys introduced in [VS Code 1.21][vsc-rln-1.21] (February 2018) introduced new theme keys for [coloring of active line number][vsc-rln-1.21-actl].
+
+<p align="center"><strong>Before</strong><br><img src="https://user-images.githubusercontent.com/7836623/42121621-c032b60e-7c32-11e8-80bf-a9601e5618b5.png"/></p>
+
+<p align="center"><strong>After</strong><br><img src="https://user-images.githubusercontent.com/7836623/42121620-be468f00-7c32-11e8-888d-7c68304f9a6f.png"/></p>
+
+**Editor hints** — #80 ⇄ #93 (⊶ d0d6bfd0)
+↠ Added support for the new theme keys introduced in [VS Code 1.22][vsc-rln-1.22] (March 2018) allowing to customize [editor "hint" diagnostics][vsc-rln-1.22-thc] that are [shown in the editor][vsc-rln-1.22-hint].
+
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/42121852-1af585b8-7c37-11e8-86c8-833e36e8008a.png"/></p>
+
+**Tap top borders** — #81 ⇄ #94 (⊶ d5a6f7ef)
+↠ Added support for new theme keys introduced in [VS Code 1.24][vsc-rln-1.24] (May 2018) that allow to [show a colored border at the top of a tab][vsc-rln-1.24-thc]. Nord defines this keys, but uses a opacity of 0% to hide these lines since they are distracting and doesn't fit Nord's design.
+
+**Notification Center UI** — #78 ⇄ #96 (⊶ 8602df8d)
+↠ Added support for new theme keys introduced in [VS Code 1.21][vsc-rln-1.21] (February 2018) that allow to customize the [new notifications UI][vsc-rln-1.21-noti].
+
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/42122749-00d24170-7c47-11e8-86ce-db83e393ac54.gif"/></p>
+
+## Improvements
+
+### Syntax Highlighting
+
+**Underline links in Markdown** — ⇄ #71 (⊶ 2895e638) by [@octref][gh-user-octref]
+↠ Links in Markdown documents are now underlined to make them more visually appealing and prevent rendering inconsistencies that might occur because VS Code's tokenizer is much faster than the linkifying in Markdown causing delays while typing.
+
+<p align="center"><strong>Before</strong><br /><img src="https://user-images.githubusercontent.com/4033249/40806523-ad98a2d8-64d6-11e8-8efe-7d70b8140e2a.gif" /></p>
+
+<p align="center"><strong>After</strong><br /><img src="https://user-images.githubusercontent.com/4033249/40806603-e176d7dc-64d6-11e8-9965-666f59314abd.gif" /></p>
+
+### UI
+
+**Quick picker group borders** — #100 ⇄ #103 (⊶ 5ba2ac57) by [@octref][gh-user-octref]
+↠ Nord now highlights borders of groups within the `view` quick panel again for a better visual distinction and to make it easier to immediately determine what group a specific item is in.
+The separators have been disabled in the first place because it made the whole drop-down look divided and broken into multiple pieces and a bit cluttered instead of smooth transitions into the next section. It was still distinguishable through the names of the labels on the right.
+However, it was hard to see which item on the left is on the same level as the label to immediately determine what the next item's group.
+
+<p align="center"><strong>Before</strong><br /><img src="https://user-images.githubusercontent.com/7836623/54824350-f92ae500-4caa-11e9-9e52-a384581d202a.png" /></p>
+
+<p align="center"><strong>After</strong><br /><img src="https://user-images.githubusercontent.com/7836623/54824477-5888f500-4cab-11e9-9cce-563e139cd61d.png" /></p>
+
+**Font color for labels of `view` quick panel** — #109 ⇄ #110 (⊶ 04a9ddf5)
+↠ Labels of the `view` quick panel are now colorized with `nord8` instead of `nord4` to make them stand out more. This improvement was born out of a conversation with [@octref][gh-user-octref] in [#100][gh-100-c-fontc].
+
+<p align="center"><strong>Before</strong><br /><img src="https://user-images.githubusercontent.com/7836623/54782707-cf78ac00-4c1f-11e9-8562-0e6fe7eb1693.png" /></p>
+
+<p align="center"><strong>After</strong><br /><img src="https://user-images.githubusercontent.com/7836623/54782702-cab3f800-4c1f-11e9-9f96-3e5ae58bf8e7.png" /></p>
+
+### Workflow
+
+**Replaced Gulp with npm scripts** — #73 ⇄ #84 (⊶ 68c33d0c)
+↠ Completely replaced [Gulp][] with npm scripts. Even though Gulp is a great tool to create simple or complex build workflows with streams, there are also many drawbacks:
+
+- Gulp plugins often get out of date and don't support new features from the underlying library.
+- The project depends on the Gulp plugin author and not the library that is being wrapped.
+- Documentation for Gulp plugins are typically not very robust or comprehensive.
+- Debugging a Gulp plugin can be frustrating (“Is the problem in the plugin or in the underlying library?“).
+- If a plugin doesn't exist already for Gulp you need to write it yourself.
+- Errors that occur inside a Gulp wrapper aren't always handled very well.
+
+All currently implemented Gulp tasks have therefore been migrated to npm scripts by directly using the CLI API of the wrapped library.
+
+**Updated CI build configurations** — #83 ⇄ #85 (⊶ 9eac763f)
+↠ Updated the [Circle CI][ci-circle] build configuration to the new [API version 2.0][ci-circle-docs-api-2.0]. Also both Circle CI and [Travis CI][ci-travis] are now configured to test against the latest NodeJS version.
+
+**Prettier** — #76 ⇄ #86 (⊶ 6f2ace5b)
+↠ Integrated [Prettier][], an awesomes opinionated code formatter that enforces a consistent style across a large amount of languages by parsing the code and re-printing it.
+
+<p align="center"><img src="https://camo.githubusercontent.com/0839818322a1f81721f7f35e55e5a84fc8f27437/68747470733a2f2f70726574746965722e696f2f69636f6e2e706e67" width="200" /></p>
+
+**Arctic Ice Studio ESLint rule set** — #75 ⇄ #87 (⊶ c9e0c93d)
+↠ The default rule set coming with [ESLint][] has been replaced with [Arctic Ice Studio's custom rule set][eslint-config-arcticicestudio-base] that adheres to the [Arctic Ice Studio JavaScript code style][gh-arcticicestudio/styleguide-javascript].
+
+<p align="center"><img src="https://cdn-images-1.medium.com/max/1920/1*_jMm9Z6Adgj6BIso7kCEhA.png" width="888" /></p>
+
+**Arctic Ice Studio remark-lint rule preset** — #74 ⇄ #88 (⊶ 02721f01)
+↠ The default rule set coming with [remark-lint][gh-remark-lint] has been replaced with [Arctic Ice Studio's custom rule preset][npm-remark-preset-lint-arcticicestudio] that adheres to the [Arctic Ice Studio Markdown code style][gh-arcticicestudio/styleguide-markdown].
+
+<p align="center"><img src="https://raw.githubusercontent.com/remarkjs/remark-lint/02295bc/logo.svg?sanitize=true" /></p>
+
+## Bug Fixes
+
+### Documentation
+
+**Fixed typo in word `cursor`** — ⇄ #62 (⊶ 967e1bab) by [@Oxyrus][gh-user-oxyrus]
+↠ Fixed a typo in the README: `cusror` 🠖 `cursor`
+
+**Fixed invalid install instructions** — ⇄ #70 (⊶ 967e1bab) by [@lilyball][gh-user-lilyball]
+↠ Added the missing `arcticicestudio.` author namespace of the VS Code marketplace extension ID separated with a dot in front of the extension name itself to fix the install instructions.
+
+## Tasks
+
+### Documentation
+
+**Migration to MIT license** — #63 ⇄ #64 (⊶ b26446a5)
+↠ Adapted to the MIT license migration of [Nord][]. Details can be found in the main task ticket [arcticicestudio/nord#55][nord#55].
 
 # 0.6.0
 
 ![Release Date: 2017-10-11](https://img.shields.io/badge/Release_Date-2017--10--11-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.6.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/11) [![Milestone](https://img.shields.io/badge/Milestone-0.6.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/9)
 
-## Feature
+## Features
 
 ### UI
 
@@ -54,11 +185,11 @@
 
 Nord Visual Studio Code adapted to the following contraints:
 
-* The icon provided in _package.json_ may not be an SVG.
-* The badges provided in the _package.json_ may not be SVGs unless they are from [approved badge providers][vscode-docs-approved-badges].
-* Image URLs in `README.md` and `CHANGELOG.md` need to resolve to https URLs.
-* Images in `README.md` and `CHANGELOG.md` may not be SVGs unless they are from [approved badge providers][vscode-docs-approved-badges].
-* Images in `README.md` and `CHANGELOG.md` may not use data URIs.
+- The icon provided in _package.json_ may not be an SVG.
+- The badges provided in the _package.json_ may not be SVGs unless they are from [approved badge providers][vscode-docs-approved-badges].
+- Image URLs in `README.md` and `CHANGELOG.md` need to resolve to https URLs.
+- Images in `README.md` and `CHANGELOG.md` may not be SVGs unless they are from [approved badge providers][vscode-docs-approved-badges].
+- Images in `README.md` and `CHANGELOG.md` may not use data URIs.
 
 Additionally, the [footer mountain banner](https://github.com/arcticicestudio/nord/blob/develop/src/assets/banner-footer-mountains.svg) has been changed to PNG format (arcticicestudio/nord#49) and removed the non-HTTPS Arctic Ice Studio logo favicon from the copyright footer line.
 
@@ -153,39 +284,39 @@ This results in a reduced `vsix` extension package size of **almost 99%** from *
 
 Next to the changes above the following new workbench theme settings have been adapted to Nord:
 
-* [Base Colors](https://code.visualstudio.com/docs/getstarted/theme-color-reference#_base-colors)
-  * `errorForeground`
-* [List and Trees](https://code.visualstudio.com/docs/getstarted/theme-color-reference#_lists-and-trees)
-  * `list.inactiveSelectionForeground`
-  * `list.hoverForeground`
-  * `list.focusForeground`
-* [Sidebar](https://code.visualstudio.com/docs/getstarted/theme-color-reference#_side-bar)
-  * `sideBar.foreground`
-  * `sideBar.border`
-  * `sideBarSectionHeader.foreground`
-* Code Lens
-  * `editorCodeLens.foreground`
-* Overview ruler
-  * `editorOverviewRuler.border`
-* [Editor Widgets](https://code.visualstudio.com/docs/getstarted/theme-color-reference#_editor-widget-colors)
-  * `editorWidgetBorder`
-* [Peek View Colors](https://code.visualstudio.com/docs/getstarted/theme-color-reference#_peek-view-colors)
-  * `peekViewEditorGutter.background`
-* [Status Bar Colors](https://code.visualstudio.com/docs/getstarted/theme-color-reference#_status-bar-colors)
-  * `statusBar.debuggingForeground`
-  * `statusBar.noFolderForeground`
-  * `statusBar.noFolderBackground`
-  * `statusBar.border`
-* [Quick Picker](https://code.visualstudio.com/docs/getstarted/theme-color-reference#_quick-picker)
-  * `pickerGroup.border`
-* [Integrated Terminal Colors](https://code.visualstudio.com/docs/getstarted/theme-color-reference#_integrated-terminal-colors)
-  * `terminal.background`
-  * `terminal.foreground`
-* [Errors and Warnings](https://code.visualstudio.com/docs/getstarted/theme-color-reference#_editor-colors)
-  * `editorError.foreground`
-  * `editorError.border`
-  * `editorWarning.foreground`
-  * `editorWarning.border`
+- [Base Colors](https://code.visualstudio.com/docs/getstarted/theme-color-reference#_base-colors)
+  - `errorForeground`
+- [List and Trees](https://code.visualstudio.com/docs/getstarted/theme-color-reference#_lists-and-trees)
+  - `list.inactiveSelectionForeground`
+  - `list.hoverForeground`
+  - `list.focusForeground`
+- [Sidebar](https://code.visualstudio.com/docs/getstarted/theme-color-reference#_side-bar)
+  - `sideBar.foreground`
+  - `sideBar.border`
+  - `sideBarSectionHeader.foreground`
+- Code Lens
+  - `editorCodeLens.foreground`
+- Overview ruler
+  - `editorOverviewRuler.border`
+- [Editor Widgets](https://code.visualstudio.com/docs/getstarted/theme-color-reference#_editor-widget-colors)
+  - `editorWidgetBorder`
+- [Peek View Colors](https://code.visualstudio.com/docs/getstarted/theme-color-reference#_peek-view-colors)
+  - `peekViewEditorGutter.background`
+- [Status Bar Colors](https://code.visualstudio.com/docs/getstarted/theme-color-reference#_status-bar-colors)
+  - `statusBar.debuggingForeground`
+  - `statusBar.noFolderForeground`
+  - `statusBar.noFolderBackground`
+  - `statusBar.border`
+- [Quick Picker](https://code.visualstudio.com/docs/getstarted/theme-color-reference#_quick-picker)
+  - `pickerGroup.border`
+- [Integrated Terminal Colors](https://code.visualstudio.com/docs/getstarted/theme-color-reference#_integrated-terminal-colors)
+  - `terminal.background`
+  - `terminal.foreground`
+- [Errors and Warnings](https://code.visualstudio.com/docs/getstarted/theme-color-reference#_editor-colors)
+  - `editorError.foreground`
+  - `editorError.border`
+  - `editorWarning.foreground`
+  - `editorWarning.border`
 
 ### Syntax
 
@@ -339,9 +470,61 @@ Detailed information about features, supported languages and install instruction
 
 **Project Initialization**
 
+<!--
++------------------+
++ Symbol Reference +
++------------------+
+↠ (U+21A0): Start of a log section description
+— (U+2014): Separator between a log section title and the metadata
+⇄ (U+21C4): Separator between a issue ID and pull request ID in a log metadata
+⊶ (U+22B6): Icon prefix for the short commit SHA checksum in a log metadata
+-->
+
+<!-- lint disable final-definition -->
+
+<!-- Base Links -->
+
+[ci-circle-docs-api-2.0]: https://circleci.com/docs/2.0
+[ci-circle]: https://circleci.com
+[ci-travis]: https://travis-ci.org
+[eslint-config-arcticicestudio-base]: https://www.npmjs.com/package/eslint-config-arcticicestudio-base
+[eslint]: https://eslint.org
+[gh-arcticicestudio/styleguide-javascript]: https://github.com/arcticicestudio/styleguide-javascript
+[gh-arcticicestudio/styleguide-markdown]: https://github.com/arcticicestudio/styleguide-markdown
+[gh-remark-lint]: https://github.com/remarkjs/remark-lint
+[gh-user-gulshan]: https://github.com/gulshan
+[gh-user-kingdaro]: https://github.com/kingdaro
+[gh-user-lilyball]: https://github.com/lilyball
+[gh-user-octref]: https://github.com/octref
+[gh-user-officerhalf]: https://github.com/OfficerHalf
+[gh-user-oxyrus]: https://github.com/Oxyrus
+[gulp]: https://gulpjs.com
+[nord]: https://www.nordtheme.com
+[nord#55]: https://github.com/arcticicestudio/nord/issues/55
+[npm-remark-preset-lint-arcticicestudio]: https://www.npmjs.com/package/remark-preset-lint-arcticicestudio
+[prettier]: https://prettier.io
+[typescript]: https://www.typescriptlang.org
 [vscode-color-ref-editor-colors]: https://code.visualstudio.com/docs/getstarted/theme-color-reference#_editor-colors
 [vscode-docs-approved-badges]: https://code.visualstudio.com/docs/extensionAPI/extension-manifest#_approved-badges
+[vscode-docs-theme-git-colors]: https://code.visualstudio.com/docs/getstarted/theme-color-reference#_git-colors
 [vscode-docs-vscodeignore]: https://code.visualstudio.com/docs/extensions/publish-extension#_vscodeignore
 [vscode-relnote-1.14-extension-authoring]: https://code.visualstudio.com/updates/v1_14#_extension-authoring
 [vscode-relnote-1.15-title-bar-border]: https://code.visualstudio.com/updates/v1_15#_new-theme-color-for-title-bar-border
 [vscode-relnote-1.16-theme-improv]: https://code.visualstudio.com/updates/v1_16#_theming-improvements
+
+<!--v 0.7.0 -->
+
+[gh-100-c-fontc]: https://github.com/arcticicestudio/nord-visual-studio-code/issues/100#issuecomment-426005938
+[vsc-rln-1.18-gitexp]: https://code.visualstudio.com/updates/v1_18#_git-status-in-file-explorer
+[vsc-rln-1.18]: https://code.visualstudio.com/updates/v1_18
+[vsc-rln-1.20-tabc]: https://code.visualstudio.com/updates/v1_20#_more-themable-colors-for-editor-tabs
+[vsc-rln-1.21-actl]: https://code.visualstudio.com/updates/v1_21#_coloring-of-active-line-number
+[vsc-rln-1.21-noti]: https://code.visualstudio.com/updates/v1_21#_new-notifications-ui
+[vsc-rln-1.21]: https://code.visualstudio.com/updates/v1_21
+[vsc-rln-1.22-hint]: https://code.visualstudio.com/updates/v1_22#_hints-in-the-editor
+[vsc-rln-1.22-thc]: https://code.visualstudio.com/updates/v1_22#_new-theme-colors
+[vsc-rln-1.22]: https://code.visualstudio.com/updates/v1_22
+[vsc-rln-1.23-idg]: https://code.visualstudio.com/updates/v1_23#_highlighted-indent-guides
+[vsc-rln-1.24-thc]: https://code.visualstudio.com/updates/v1_24#_new-theme-colors
+[vsc-rln-1.24]: https://code.visualstudio.com/updates/v1_24
+[vscode#178]: https://github.com/Microsoft/vscode/issues/178
