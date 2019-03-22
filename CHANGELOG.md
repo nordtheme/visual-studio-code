@@ -4,6 +4,17 @@
 
 <!--lint disable no-duplicate-headings-->
 
+# 0.7.1
+
+![Release Date: 2019-03-22](https://img.shields.io/badge/Release_Date-2019--03--22-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.7.1-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/14) [![Milestone](https://img.shields.io/badge/Milestone-0.7.1-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/11)
+
+## Bug Fixes
+
+### Documentation
+
+**Removed not allowed SVG image in changelog** — ⇄ #60 (⊶ 613b515c) by [@kingdaro][gh-user-kingdaro]
+↠ The [vsce][] doesn't allow to use SVG images in the README or CHANGELOG, therefore the SVG image used in the section of version 0.7.0 has been removed.
+
 # 0.7.0
 
 ![Release Date: 2019-03-22](https://img.shields.io/badge/Release_Date-2019--03--22-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.7.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/12) [![Milestone](https://img.shields.io/badge/Milestone-0.7.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/10)
@@ -117,8 +128,6 @@ All currently implemented Gulp tasks have therefore been migrated to npm scripts
 
 **Arctic Ice Studio remark-lint rule preset** — #74 ⇄ #88 (⊶ 02721f01)
 ↠ The default rule set coming with [remark-lint][gh-remark-lint] has been replaced with [Arctic Ice Studio's custom rule preset][npm-remark-preset-lint-arcticicestudio] that adheres to the [Arctic Ice Studio Markdown code style][gh-arcticicestudio/styleguide-markdown].
-
-<p align="center"><img src="https://raw.githubusercontent.com/remarkjs/remark-lint/02295bc/logo.svg?sanitize=true" /></p>
 
 ## Bug Fixes
 
@@ -504,6 +513,7 @@ Detailed information about features, supported languages and install instruction
 [npm-remark-preset-lint-arcticicestudio]: https://www.npmjs.com/package/remark-preset-lint-arcticicestudio
 [prettier]: https://prettier.io
 [typescript]: https://www.typescriptlang.org
+[vsce]: https://github.com/Microsoft/vscode-vsce
 [vscode-color-ref-editor-colors]: https://code.visualstudio.com/docs/getstarted/theme-color-reference#_editor-colors
 [vscode-docs-approved-badges]: https://code.visualstudio.com/docs/extensionAPI/extension-manifest#_approved-badges
 [vscode-docs-theme-git-colors]: https://code.visualstudio.com/docs/getstarted/theme-color-reference#_git-colors
