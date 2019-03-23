@@ -839,9 +839,20 @@
     },
     {
       "name": "[JavaScript] String Template Literals Punctuation",
-      "scope": "source.js string.template punctuation.definition.template-expression",
+      "scope": [
+        "source.js string.quoted.template punctuation.quasi.element.begin",
+        "source.js string.quoted.template punctuation.quasi.element.end",
+        "source.js string.template punctuation.definition.template-expression"
+      ],
       "settings": {
-        "foreground": "#5E81AC"
+        "foreground": "#81A1C1"
+      }
+    },
+    {
+      "name": "[JavaScript] Interpolated String Template Punctuation Functions",
+      "scope": "source.js string.quoted.template meta.method-call.with-arguments",
+      "settings": {
+        "foreground": "#ECEFF4"
       }
     },
     {
