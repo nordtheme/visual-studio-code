@@ -160,7 +160,7 @@
     "peekView.border": "#4c566a",
     "peekViewEditor.background": "#2e3440",
     "peekViewEditorGutter.background": "#2e3440",
-    "peekViewEditor.matchHighlightBackground": "#88c0d0cc",
+    "peekViewEditor.matchHighlightBackground": "#88c0d04d",
     "peekViewResult.background": "#2e3440",
     "peekViewResult.fileForeground": "#88c0d0",
     "peekViewResult.lineForeground": "#d8dee966",
