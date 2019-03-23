@@ -1009,6 +1009,13 @@
       }
     },
     {
+      "name": "[Perl] Perl Sigils",
+      "scope": "source.perl punctuation.definition.variable",
+      "settings": {
+        "foreground": "#D8DEE9"
+      }
+    },
+    {
       "name": "[PHP] Meta Function-Call Object",
       "scope": ["source.php meta.function-call", "source.php meta.function-call.object"],
       "settings": {
