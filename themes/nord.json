@@ -1024,7 +1024,7 @@
     },
     {
       "name": "[Python] Function Call",
-      "scope": ["source.python meta.function-call", "source.python meta.function-call.generic"],
+      "scope": "source.python meta.function-call.generic",
       "settings": {
         "foreground": "#88C0D0"
       }
