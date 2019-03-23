@@ -849,6 +849,13 @@
       }
     },
     {
+      "name": "[JavaScript] Interpolated String Template Punctuation Functions",
+      "scope": "source.js string.quoted.template meta.method-call.with-arguments",
+      "settings": {
+        "foreground": "#ECEFF4"
+      }
+    },
+    {
       "name": "[JavaScript] String Template Literal Variable",
       "scope": [
         "source.js string.template meta.template.expression support.variable.property",
