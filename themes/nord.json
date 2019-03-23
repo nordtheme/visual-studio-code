@@ -840,7 +840,7 @@
     },
     {
       "name": "[JavaScript] Variable Other Object",
-      "scope": "source.js meta.var.expr variable.other.object",
+      "scope": "source.js variable.other.object",
       "settings": {
         "foreground": "#D8DEE9"
       }
