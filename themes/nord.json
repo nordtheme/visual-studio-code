@@ -262,7 +262,7 @@
       "name": "Comment",
       "scope": "comment",
       "settings": {
-        "foreground": "#4C566A"
+        "foreground": "#616E88"
       }
     },
     {
@@ -441,7 +441,7 @@
         "punctuation.start.definition.comment"
       ],
       "settings": {
-        "foreground": "#4C566A"
+        "foreground": "#616E88"
       }
     },
     {
@@ -768,7 +768,7 @@
         "source.java punctuation.definition.tag.end.javadoc"
       ],
       "settings": {
-        "foreground": "#4C566A"
+        "foreground": "#616E88"
       }
     },
     {
@@ -989,7 +989,7 @@
       "name": "[Markdown] Markup Quote Punctuation Definition",
       "scope": "text.html.markdown markup.quote",
       "settings": {
-        "foreground": "#4C566A"
+        "foreground": "#616E88"
       }
     },
     {
