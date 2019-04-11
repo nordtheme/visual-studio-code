@@ -17,10 +17,8 @@
     "debugExceptionWidget.background": "#4c566a",
     "debugExceptionWidget.border": "#2e3440",
     "debugToolBar.background": "#3b4252",
-    "diffEditor.insertedTextBackground": "#a3be8c4d",
-    "diffEditor.insertedTextBorder": "#a3be8c4d",
+    "diffEditor.insertedTextBackground": "#81a1c133",
     "diffEditor.removedTextBackground": "#bf616a4d",
-    "diffEditor.removedTextBorder": "#bf616a4d",
     "dropdown.background": "#3b4252",
     "dropdown.border": "#3b4252",
     "dropdown.foreground": "#d8dee9",
@@ -56,7 +54,7 @@
     "editorBracketMatch.border": "#88c0d0",
     "editorCodeLens.foreground": "#4c566a",
     "editorGroup.background": "#2e3440",
-    "editorGroup.border": "#3b425200",
+    "editorGroup.border": "#3b425201",
     "editorGroup.dropBackground": "#3b425299",
     "editorGroupHeader.noTabsBackground": "#2e3440",
     "editorGroupHeader.tabsBackground": "#2e3440",
@@ -116,6 +114,7 @@
     "list.activeSelectionForeground": "#2e3440",
     "list.inactiveSelectionBackground": "#434c5e",
     "list.inactiveSelectionForeground": "#d8dee9",
+    "list.inactiveFocusBackground": "#434c5ecc",
     "list.hoverForeground": "#eceff4",
     "list.focusForeground": "#d8dee9",
     "list.focusBackground": "#88c0d099",
@@ -160,7 +159,7 @@
     "peekView.border": "#4c566a",
     "peekViewEditor.background": "#2e3440",
     "peekViewEditorGutter.background": "#2e3440",
-    "peekViewEditor.matchHighlightBackground": "#88c0d0cc",
+    "peekViewEditor.matchHighlightBackground": "#88c0d04d",
     "peekViewResult.background": "#2e3440",
     "peekViewResult.fileForeground": "#88c0d0",
     "peekViewResult.lineForeground": "#d8dee966",
@@ -261,7 +260,7 @@
       "name": "Comment",
       "scope": "comment",
       "settings": {
-        "foreground": "#4C566A"
+        "foreground": "#616E88"
       }
     },
     {
@@ -440,7 +439,7 @@
         "punctuation.start.definition.comment"
       ],
       "settings": {
-        "foreground": "#4C566A"
+        "foreground": "#616E88"
       }
     },
     {
@@ -767,7 +766,7 @@
         "source.java punctuation.definition.tag.end.javadoc"
       ],
       "settings": {
-        "foreground": "#4C566A"
+        "foreground": "#616E88"
       }
     },
     {
@@ -839,9 +838,20 @@
     },
     {
       "name": "[JavaScript] String Template Literals Punctuation",
-      "scope": "source.js string.template punctuation.definition.template-expression",
+      "scope": [
+        "source.js string.quoted.template punctuation.quasi.element.begin",
+        "source.js string.quoted.template punctuation.quasi.element.end",
+        "source.js string.template punctuation.definition.template-expression"
+      ],
       "settings": {
-        "foreground": "#5E81AC"
+        "foreground": "#81A1C1"
+      }
+    },
+    {
+      "name": "[JavaScript] Interpolated String Template Punctuation Functions",
+      "scope": "source.js string.quoted.template meta.method-call.with-arguments",
+      "settings": {
+        "foreground": "#ECEFF4"
       }
     },
     {
@@ -863,9 +873,9 @@
     },
     {
       "name": "[JavaScript] Variable Other Object",
-      "scope": "source.js meta.var.expr variable.other.object",
+      "scope": "source.js variable.other.object",
       "settings": {
-        "foreground": "#8FBCBB"
+        "foreground": "#D8DEE9"
       }
     },
     {
@@ -977,7 +987,7 @@
       "name": "[Markdown] Markup Quote Punctuation Definition",
       "scope": "text.html.markdown markup.quote",
       "settings": {
-        "foreground": "#4C566A"
+        "foreground": "#616E88"
       }
     },
     {
@@ -1009,6 +1019,13 @@
       }
     },
     {
+      "name": "[Perl] Perl Sigils",
+      "scope": "source.perl punctuation.definition.variable",
+      "settings": {
+        "foreground": "#D8DEE9"
+      }
+    },
+    {
       "name": "[PHP] Meta Function-Call Object",
       "scope": ["source.php meta.function-call", "source.php meta.function-call.object"],
       "settings": {
@@ -1024,7 +1041,7 @@
     },
     {
       "name": "[Python] Function Call",
-      "scope": ["source.python meta.function-call", "source.python meta.function-call.generic"],
+      "scope": "source.python meta.function-call.generic",
       "settings": {
         "foreground": "#88C0D0"
       }
