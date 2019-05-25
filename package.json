@@ -27,8 +27,16 @@
   },
   "icon": "assets/nord-visual-studio-code-icon-marketplace.png",
   "markdown": "github",
-  "categories": ["Themes"],
-  "keywords": ["arctic", "north", "bluish", "clean", "elegant"],
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "arctic",
+    "north",
+    "bluish",
+    "clean",
+    "elegant"
+  ],
   "badges": [
     {
       "url": "https://vsmarketplacebadge.apphb.com/version/arcticicestudio.nord-visual-studio-code.svg",
@@ -56,23 +64,30 @@
     ]
   },
   "scripts": {
-    "format": "prettier --write '*.{js,json}' 'themes/**/*.{js,json}'",
-    "format:fix": "eslint --fix '*.{js,json}' 'themes/**/*.{js,json}'",
-    "lint": "npm run lint:js && npm run lint:json && npm run lint:md",
-    "lint:js": "eslint '*.js' 'themes/**/*.js'",
-    "lint:json": "eslint '*.json' 'themes/**/*.json'",
-    "lint:md": "remark '*.md'"
+    "build": "npm-run-all --sequential clean package",
+    "clean": "del *.vsix",
+    "format": "npm-run-all format:pretty format:fix",
+    "format:fix": "eslint --fix --ext .js,.json .",
+    "format:pretty": "prettier --write \"./**/*.{js,json,md,yml}\"",
+    "lint": "npm-run-all lint:*",
+    "lint:js": "eslint --ext .js,.jsx .",
+    "lint:json": "eslint --ext .json .",
+    "lint:md": "remark --no-stdout . \".github/**/*.md\"",
+    "package": "vsce package"
   },
   "devDependencies": {
-    "babel-eslint": "8.2.5",
-    "eslint": "4.19.1",
-    "eslint-config-arcticicestudio-base": "0.3.0",
-    "eslint-plugin-import": "2.13.0",
-    "eslint-plugin-json": "1.2.0",
-    "eslint-plugin-prettier": "2.6.1",
-    "prettier": "1.13.7",
-    "remark-cli": "5.0.0",
-    "remark-preset-lint-arcticicestudio": "0.1.0"
+    "babel-eslint": "10.0.1",
+    "del-cli": "1.1.0",
+    "eslint": "5.16.0",
+    "eslint-config-arcticicestudio-base": ">=0.5.0 <1.0.0",
+    "eslint-plugin-import": "2.17.3",
+    "eslint-plugin-json": "1.4.0",
+    "eslint-plugin-prettier": "3.1.0",
+    "npm-run-all": "4.1.5",
+    "prettier": "1.17.1",
+    "remark-cli": "6.0.1",
+    "remark-preset-lint-arcticicestudio": ">=0.3.0 <1.0.0",
+    "vsce": "1.62.0"
   },
   "__metadata": {
     "id": "6f35c257-7fd5-4bc2-9cd1-01976589c17a",
