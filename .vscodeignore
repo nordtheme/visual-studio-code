@@ -19,7 +19,6 @@ node_modules
 .npmrc
 .prettierignore
 .remarkrc.js
-.travis.yml
 package-lock.json
 prettier.config.js
 *.vsix
