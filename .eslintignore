@@ -11,4 +11,5 @@
 assets/*
 **/node_modules/*
 *.vsix
+!lint-staged.config.js
 !.eslintrc.js
