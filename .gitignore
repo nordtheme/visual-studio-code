@@ -9,13 +9,13 @@
 # + Logs +
 # +------+
 logs/
-*.log
+**/*.log
 npm-debug.log*
 
 # +---------+
 # + Node.js +
 # +---------+
-node_modules/
+**/node_modules/
 .npm/
 
 # +--------------------+
