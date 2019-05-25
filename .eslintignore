@@ -13,3 +13,5 @@ assets/*
 *.vsix
 !lint-staged.config.js
 !.eslintrc.js
+!.huskyrc.js
+!.remarkrc.js
