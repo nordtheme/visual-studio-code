@@ -4,6 +4,15 @@
 
 <!--lint disable no-duplicate-headings-->
 
+# 0.9.1
+
+![Release Date: 2019-05-26](https://img.shields.io/badge/Release_Date-2019--05--26-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.9.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/17) [![Milestone](https://img.shields.io/badge/Milestone-0.9.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/14)
+
+# Bug Fixes
+
+**VSCE artifact build due to restricted SVG image policy** — #137 (⊶ 97d8b7ee)
+↠ Due to the [restricted security policy of the `vsce` packaging and publishing tool][vscode-docs-vsce-pubext] the previously used SVG images in the `CHANGELOG.md` have been removed in order to fix the build process.
+
 # 0.9.0
 
 ![Release Date: 2019-05-26](https://img.shields.io/badge/Release_Date-2019--05--26-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.9.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/16) [![Milestone](https://img.shields.io/badge/Milestone-0.9.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/13)
@@ -31,14 +40,10 @@ Read the [GitHub Help article][gh-help-issue-templ] for more details about issue
 **GitHub Open Source community standards** — #131 (⊶ 90c6906f)
 ↠ Inspired _Nord Visual Studio Code's_ project philosophy using GitHub's features for [recommended community standards][gh-blog-intro-comm-tools]. It adheres to the great [Open Source Guides][ossg] and adapted to the recommendations to complete the projects [community profile][gh-community-profile].
 
-<p align="center"><img src="https://opensource.guide/assets/images/illos/coc.svg?sanitize=true" width="200" /></p>
-
 To facilitate a healthy and constructive community behavior, _Nord Visual Studio Code_ also introduced and enforces a [code of conduct][gh-help-coc].
 Read the [GitHub Help article][gh-help-coc] for more details about the provided integrations.
 
 The added [contribution guidelines][gh-blog-intro-contrib-gl] help to build a community that [encourages people to use, contribute to][ossg-contrib], and evangelize the project.
-
-<p align="center"><img src="https://opensource.guide/assets/images/illos/contribute.svg?sanitize=true" width="200" /></p>
 
 It includes sections about
 
@@ -753,6 +758,7 @@ Detailed information about features, supported languages and install instruction
 [vscode-docs-color-theme-customize]: https://code.visualstudio.com/docs/getstarted/themes#_customizing-a-color-theme
 [vscode-docs-settings]: https://code.visualstudio.com/docs/getstarted/settings
 [vscode-docs-theme-git-colors]: https://code.visualstudio.com/docs/getstarted/theme-color-reference#_git-colors
+[vscode-docs-vsce-pubext]: https://code.visualstudio.com/api/working-with-extensions/publishing-extension#publishing-extensions
 [vscode-docs-vscodeignore]: https://code.visualstudio.com/docs/extensions/publish-extension#_vscodeignore
 [vscode-relnote-1.14-extension-authoring]: https://code.visualstudio.com/updates/v1_14#_extension-authoring
 [vscode-relnote-1.15-title-bar-border]: https://code.visualstudio.com/updates/v1_15#_new-theme-color-for-title-bar-border
@@ -796,3 +802,5 @@ Detailed information about features, supported languages and install instruction
 [gh-blog-intro-contrib-gl]: https://github.com/blog/1184-contributing-guidelines
 [gh-blog-intro-issue-templ]: https://blog.github.com/2016-02-17-issue-and-pull-request-templates
 [gh-blog-multi-issue-templ]: https://blog.github.com/2018-01-25-multiple-issue-and-pull-request-templates
+
+<!--v 0.9.1 -->
