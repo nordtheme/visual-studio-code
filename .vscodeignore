@@ -16,9 +16,13 @@ node_modules
 .eslintignore
 .eslintrc.js
 .gitignore
+.huskyrc.js
+.mailmap
 .npmrc
 .prettierignore
+.remarkignore
 .remarkrc.js
+lint-staged.config.js
 package-lock.json
 prettier.config.js
 *.vsix
