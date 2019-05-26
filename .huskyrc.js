@@ -8,11 +8,14 @@
  */
 
 /**
- * @file The remark-lint configuration.
+ * @file The husky configuration.
  * @author Arctic Ice Studio <development@arcticicestudio.com>
  * @author Sven Greb <development@svengreb.de>
+ * @see https://github.com/typicode/husky
  */
 
 module.exports = {
-  plugins: ["remark-preset-lint-arcticicestudio"]
+  hooks: {
+    "pre-commit": "lint-staged"
+  }
 };

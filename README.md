@@ -1,8 +1,8 @@
 <p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord-visual-studio-code/develop/assets/nord-visual-studio-code-banner.png" srcset="https://cdn.rawgit.com/arcticicestudio/nord-visual-studio-code/develop/assets/nord-visual-studio-code-banner-2x.png 2x"/></p>
 
-<p align="center"><img src="https://cdn.travis-ci.org/images/favicon-c566132d45ab1a9bcae64d8d90e4378a.svg" width=24 height=24/> <a href="https://travis-ci.org/arcticicestudio/nord-visual-studio-code"><img src="https://img.shields.io/travis/arcticicestudio/nord-visual-studio-code/develop.svg?style=flat-square"/></a> <img src="https://circleci.com/favicon.ico" width=24 height=24/> <a href="https://circleci.com/gh/arcticicestudio/nord-visual-studio-code"><img src="https://img.shields.io/circleci/project/github/arcticicestudio/nord-visual-studio-code/develop.svg?style=flat-square"/></a> <img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/nord-visual-studio-code/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord-visual-studio-code.svg?style=flat-square"/></a> <a href="https://github.com/arcticicestudio/nord/releases/tag/v0.2.0"><img src="https://img.shields.io/badge/Nord-v0.2.0-88C0D0.svg?style=flat-square"/></a> <img src="https://marketplace.visualstudio.com/favicon.ico" width=24 height=24/> <a href="https://code.visualstudio.com/updates/v1_12"><img src="https://img.shields.io/badge/VS_Code-v1.12+-373277.svg?style=flat-square"/></a> <a href="https://marketplace.visualstudio.com/items/arcticicestudio.nord-visual-studio-code"><img src="https://vsmarketplacebadge.apphb.com/version/arcticicestudio.nord-visual-studio-code.svg?style=flat-square"/></a> <a href="https://marketplace.visualstudio.com/items/arcticicestudio.nord-visual-studio-code"><img src="https://vsmarketplacebadge.apphb.com/installs/arcticicestudio.nord-visual-studio-code.svg?style=flat-square"/></a> <a href="https://marketplace.visualstudio.com/items/arcticicestudio.nord-visual-studio-code"><img src="https://vsmarketplacebadge.apphb.com/rating-short/arcticicestudio.nord-visual-studio-code.svg?style=flat-square"/></a></p>
+<p align="center"><img src="https://circleci.com/favicon.ico" width=24 height=24/> <a href="https://circleci.com/gh/arcticicestudio/nord-visual-studio-code"><img src="https://img.shields.io/circleci/project/github/arcticicestudio/nord-visual-studio-code/develop.svg?style=flat-square"/></a> <img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/nord-visual-studio-code/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord-visual-studio-code.svg?style=flat-square"/></a> <a href="https://github.com/arcticicestudio/nord/releases/tag/v0.2.0"><img src="https://img.shields.io/badge/Nord-v0.2.0-88C0D0.svg?style=flat-square"/></a> <img src="https://marketplace.visualstudio.com/favicon.ico" width=24 height=24/> <a href="https://code.visualstudio.com/updates/v1_12"><img src="https://img.shields.io/badge/VS_Code-v1.12+-373277.svg?style=flat-square"/></a> <a href="https://marketplace.visualstudio.com/items/arcticicestudio.nord-visual-studio-code"><img src="https://vsmarketplacebadge.apphb.com/version/arcticicestudio.nord-visual-studio-code.svg?style=flat-square"/></a> <a href="https://marketplace.visualstudio.com/items/arcticicestudio.nord-visual-studio-code"><img src="https://vsmarketplacebadge.apphb.com/installs/arcticicestudio.nord-visual-studio-code.svg?style=flat-square"/></a> <a href="https://marketplace.visualstudio.com/items/arcticicestudio.nord-visual-studio-code"><img src="https://vsmarketplacebadge.apphb.com/rating-short/arcticicestudio.nord-visual-studio-code.svg?style=flat-square"/></a></p>
 
-<p align="center"><a href="https://github.com/arcticicestudio/nord-visual-studio-code/blob/v0.8.0/CHANGELOG.md#070"><img src="https://img.shields.io/badge/Changelog-0.8.0-81A1C1.svg?style=flat-square"/></a></p>
+<p align="center"><a href="https://github.com/arcticicestudio/nord-visual-studio-code/blob/v0.9.0/CHANGELOG.md#070"><img src="https://img.shields.io/badge/Changelog-0.9.0-81A1C1.svg?style=flat-square"/></a></p>
 
 <p align="center">An arctic, north-bluish clean and elegant <a href="https://code.visualstudio.com">Visual Studio Code</a> theme.</p>
 
@@ -33,17 +33,17 @@ ext install arcticicestudio.nord-visual-studio-code
 
 #### <img src="https://marketplace.visualstudio.com/favicon.ico" width=16 height=16/> [Packaged VSIX Extension](https://code.visualstudio.com/docs/extensions/install-extension#_install-from-a-vsix)
 
-[Download](https://github.com/arcticicestudio/nord-visual-studio-code/releases/latest) the latest [`nord-visual-studio-code-0.8.0.vsix`](https://github.com/arcticicestudio/nord-visual-studio-code/releases/download/v0.8.0/nord-visual-studio-code-0.8.0.vsix) file from the GitHub repository and install it from the command line
+[Download](https://github.com/arcticicestudio/nord-visual-studio-code/releases/latest) the latest [`nord-visual-studio-code-0.9.0.vsix`](https://github.com/arcticicestudio/nord-visual-studio-code/releases/download/v0.9.0/nord-visual-studio-code-0.9.0.vsix) file from the GitHub repository and install it from the command line
 
 ```shell
-code --install-extension nord-visual-studio-code-0.8.0.vsix
+code --install-extension nord-visual-studio-code-0.9.0.vsix
 ```
 
 or from within VS Code by launching _Quick Open_ and running the _Install from VSIX..._ command.
 
 #### From Source
 
-Continuous integration builds are running at [Travis-CI](https://travis-ci.org/arcticicestudio/nord-visual-studio-code) and [Circle CI](https://circleci.com/gh/arcticicestudio/nord-visual-studio-code).
+Continuous integration builds are running at [Circle CI](https://circleci.com/gh/arcticicestudio/nord-visual-studio-code).
 
 ##### <img src="https://github.com/favicon.ico" width=16 height=16/> [GitHub Repository Clone](https://help.github.com/articles/cloning-a-repository)
 

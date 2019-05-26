@@ -8,11 +8,14 @@
  */
 
 /**
- * @file The remark-lint configuration.
+ * @file The lint-staged configuration.
  * @author Arctic Ice Studio <development@arcticicestudio.com>
  * @author Sven Greb <development@svengreb.de>
+ * @see https://github.com/okonet/lint-staged#configuration
  */
 
 module.exports = {
-  plugins: ["remark-preset-lint-arcticicestudio"]
+  "*.{js,json,md,yml}": "prettier --list-different",
+  "*.{js,json}": "eslint --ext .js,.json",
+  "*.md": "remark --no-stdout"
 };
