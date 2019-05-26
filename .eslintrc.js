@@ -18,7 +18,7 @@
 
 module.exports = {
   extends: "arcticicestudio-base",
-  plugins: ["babel", "json", "prettier"],
+  plugins: ["json", "prettier"],
   parser: "babel-eslint",
   env: {
     node: true,
