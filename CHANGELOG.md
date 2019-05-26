@@ -31,14 +31,10 @@ Read the [GitHub Help article][gh-help-issue-templ] for more details about issue
 **GitHub Open Source community standards** — #131 (⊶ 90c6906f)
 ↠ Inspired _Nord Visual Studio Code's_ project philosophy using GitHub's features for [recommended community standards][gh-blog-intro-comm-tools]. It adheres to the great [Open Source Guides][ossg] and adapted to the recommendations to complete the projects [community profile][gh-community-profile].
 
-<p align="center"><img src="https://opensource.guide/assets/images/illos/coc.svg?sanitize=true" width="200" /></p>
-
 To facilitate a healthy and constructive community behavior, _Nord Visual Studio Code_ also introduced and enforces a [code of conduct][gh-help-coc].
 Read the [GitHub Help article][gh-help-coc] for more details about the provided integrations.
 
 The added [contribution guidelines][gh-blog-intro-contrib-gl] help to build a community that [encourages people to use, contribute to][ossg-contrib], and evangelize the project.
-
-<p align="center"><img src="https://opensource.guide/assets/images/illos/contribute.svg?sanitize=true" width="200" /></p>
 
 It includes sections about
 
