@@ -4,6 +4,125 @@
 
 <!--lint disable no-duplicate-headings-->
 
+# 0.9.0
+
+![Release Date: 2019-05-26](https://img.shields.io/badge/Release_Date-2019--05--26-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.9.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/16) [![Milestone](https://img.shields.io/badge/Milestone-0.9.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/13)
+
+# Features
+
+**GitHub code owners** — #129 (⊶ 9fce5d88)
+↠ Adapted to GitHub's [code owners][gh-blog-intro-code-owners] feature to define matching pattern for project paths to automatically add all required reviewers of the core team and contributors to new PRs. Read the [GitHub Help article][gh-help-code-owners] for more details.
+
+![](https://user-images.githubusercontent.com/2513/27803645-87c9a9c8-5ff8-11e7-91d7-2fa0718e6871.png)
+
+![](https://user-images.githubusercontent.com/2513/27803663-a4bb073e-5ff8-11e7-9c45-2c3cbdc999cd.png)
+
+![](https://user-images.githubusercontent.com/2513/27803610-544ba222-5ff8-11e7-9313-e4062315fb0c.png)
+
+**GitHub issue and pull request templates** — #130 (⊶ 393640ad)
+↠ Integrated GitHub's feature to define [multiple issue templates][gh-blog-multi-issue-templ] while the [initial template file][gh-blog-intro-issue-templ] is used as a fallback/generic template to link to the specific ones.
+
+<p align="center"><img src="https://user-images.githubusercontent.com/7321362/35420642-8e5271e2-01f3-11e8-8109-0d21ddb89011.png" width="80%" /></p>
+
+<p align="center"><img src="https://blog.github.com/assets/img/2018-04-30-issue-templates/new-issue-page-with-multiple-templates.png" width="80%" /></p>
+
+Read the [GitHub Help article][gh-help-issue-templ] for more details about issue and pull request templates. Also check out how to manually create [issue templates][gh-help-pr-templ], a [pull request template][gh-help-issue-templ-repo]. and the guide on [how to create the (deprecated) fallback/generic issue template][gh-help-issue-templ-depr].
+
+**GitHub Open Source community standards** — #131 (⊶ 90c6906f)
+↠ Inspired _Nord Visual Studio Code's_ project philosophy using GitHub's features for [recommended community standards][gh-blog-intro-comm-tools]. It adheres to the great [Open Source Guides][ossg] and adapted to the recommendations to complete the projects [community profile][gh-community-profile].
+
+<p align="center"><img src="https://opensource.guide/assets/images/illos/coc.svg?sanitize=true" width="200" /></p>
+
+To facilitate a healthy and constructive community behavior, _Nord Visual Studio Code_ also introduced and enforces a [code of conduct][gh-help-coc].
+Read the [GitHub Help article][gh-help-coc] for more details about the provided integrations.
+
+The added [contribution guidelines][gh-blog-intro-contrib-gl] help to build a community that [encourages people to use, contribute to][ossg-contrib], and evangelize the project.
+
+<p align="center"><img src="https://opensource.guide/assets/images/illos/contribute.svg?sanitize=true" width="200" /></p>
+
+It includes sections about
+
+- how to get started
+- bug reports
+- enhancement suggestions
+- pull requests
+- style guides
+  - [JavaScript Style Guide][gh-arcticicestudio/styleguide-javascript]
+  - [Markdown Style Guide][gh-arcticicestudio/styleguide-markdown]
+  - [Git Style Guide][gh-arcticicestudio/styleguide-git]
+- credits
+
+Read the [GitHub introduction blog post][gh-blog-intro-contrib-gl] and the [GitHub Help article][gh-help-contrib-gl] for more details about the provided integrations.
+
+**Git mail mapping** — #132 (⊶ 9fce5d88)
+↠ Added a Git [mailmap][git-docs-mailmap] file to link to in documentations and allow contributors to send mails regarding security issues. This prevents unnecessary overhead of updating all documents when new core team and members and contributors are added and additionally adds the main functionality of the file: Mapping commits when someone uses a different email address.
+
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/48658851-01e38400-ea49-11e8-911e-d859eefe6dd5.png" width="100" /></p>
+
+**Introducing _lint-staged_** — #133 (⊶ 80dee6a1)
+↠ Integrated [lint-staged][gh-lint-staged] to run linters against staged Git files and prevent adding code that violates any style guide into the code base.
+
+Read [#133][gh-133] for more details about the configuration and setup.
+
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/48658801-30ad2a80-ea48-11e8-9323-16bb0b25002b.png" width="100" /></p>
+
+**Introducing _Husky_** — #134 (⊶ 38a50d65)
+↠ Integrated [Husky][gh-husky], the tool that make Git hooks easy and can prevent bad Git commits, pushes and more _woof_!
+
+Read #18 for more details about the configuration and setup.
+
+# Improvements
+
+**Active editor line highlighting** — #123 ⇄ #125 (⊶ fbfab3b8)
+↠ The currently active editor line now uses `nord1` for both the background and border to match Nord's design principles/guidelines. Previously it was highlighted with `nord2` instead with a opacity of ~32% as background color and additionally used a border with a higher opacity.
+
+<p align="center"><strong>Before</strong></p>
+
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/58370550-34929b80-7f08-11e9-97f6-ee0b81cbd930.png" /></p>
+
+<p align="center"><strong>After</strong></p>
+
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/58370549-34929b80-7f08-11e9-9399-76f9f43f2881.png" /></p>
+
+**Active and inactive editor line number highlighting** — #124 ⇄ #126 (⊶ 17be33d8)
+↠ Inactive editor line numbers now using `nord3` as foreground color while the theme key for the active number `editorLineNumber.activeForeground` has alos been added using `nord4`. Previously inactive editor line numbers used `nord4` with a opacity of ~40% as foreground color and the theme key for the active line number wasn't supported.
+
+<p align="center"><strong>Before</strong></p>
+
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/58370586-9521d880-7f08-11e9-9130-1cee41a1d5b5.png" /></p>
+
+<p align="center"><strong>After</strong></p>
+
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/58370585-9521d880-7f08-11e9-9a47-68f6f9060d2b.png" /></p>
+
+**Refactored project workflow and update dependencies** — #127 ⇄ #128 (⊶ 8177b8f3)
+↠ To match Arctic Ice Studio's workflow for all projects, the current setup has been refactored including updates for all outdated dependencies, addition of new packages and changes to existing CI/CD tools and NPM scripts.
+
+- Retired Travis CI — As of Circle CI v2, the features like multi-stage builds and custom workflows are by far sufficient and doesn't require a second CI binding.
+- [Circle CI v2.1][circle-ci-doc-config] — Updated to the latest Circle CI version 2.1 for full compatibility and latest features.
+- NPM scripts — Refactored all NPM scripts and added new commands to simplify and stabilize the project development process.
+
+Also updated all outdated development dependencies and added new packages:
+
+- babel-eslint 8.2.5 ➜ 10.0.1
+- del-cli 1.1.0 🆕
+- eslint 4.19.1 ➜ 5.16.0
+- eslint-config-arcticicestudio-base 0.3.0 ➜ >=0.1.0 <1.0.0
+- eslint-plugin-import 2.13.0 ➜ 2.17.3
+- eslint-plugin-json 1.2.0 ➜ 1.4.0
+- eslint-plugin-prettier 2.6.1 ➜ 3.1.0
+- npm-run-all 4.1.5 🆕
+- prettier 1.13.7 ➜ 1.17.1
+- remark-preset-lint-arcticicestudio >=0.1.0 <1.0.0
+- vsce 1.62.0 🆕
+
+New and refactored NPM script commands are
+
+- `build` — Creates a clean `*.vsix` project artifact using the `vsce` VS Code's official packaging tool.
+- `clean` — Cleans the project root directory from previous builds and VSC ignored metadata files.
+- `format:pretty` — Extracted from the main `format` command for a better modularity.
+- `package` — Packages the project `*.vsix` artifact using the `vsce` VS Code's official packaging tool.
+
 # 0.8.0
 
 ![Release Date: 2019-04-11](https://img.shields.io/badge/Release_Date-2019--04--11-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.8.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/15) [![Milestone](https://img.shields.io/badge/Milestone-0.8.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/12)
@@ -599,8 +718,19 @@ Detailed information about features, supported languages and install instruction
 [ci-travis]: https://travis-ci.org
 [eslint-config-arcticicestudio-base]: https://www.npmjs.com/package/eslint-config-arcticicestudio-base
 [eslint]: https://eslint.org
+[gh-arcticicestudio/styleguide-git]: https://github.com/arcticicestudio/styleguide-git
 [gh-arcticicestudio/styleguide-javascript]: https://github.com/arcticicestudio/styleguide-javascript
 [gh-arcticicestudio/styleguide-markdown]: https://github.com/arcticicestudio/styleguide-markdown
+[gh-community-profile]: https://github.com/arcticicestudio/nord-docs/community
+[gh-help-coc]: https://help.github.com/articles/adding-a-code-of-conduct-to-your-project
+[gh-help-code-owners]: https://help.github.com/articles/about-codeowners
+[gh-help-contrib-gl]: https://help.github.com/articles/setting-guidelines-for-repository-contributors
+[gh-help-issue-templ-depr]: https://help.github.com/articles/manually-creating-a-single-issue-template-for-your-repository
+[gh-help-issue-templ-repo]: https://help.github.com/articles/creating-issue-templates-for-your-repository
+[gh-help-issue-templ]: https://help.github.com/articles/about-issue-and-pull-request-templates
+[gh-help-pr-templ]: https://help.github.com/articles/creating-a-pull-request-template-for-your-repository
+[gh-husky]: https://github.com/typicode/husky
+[gh-lint-staged]: https://github.com/okonet/lint-staged
 [gh-remark-lint]: https://github.com/remarkjs/remark-lint
 [gh-user-gulshan]: https://github.com/gulshan
 [gh-user-kingdaro]: https://github.com/kingdaro
@@ -608,10 +738,13 @@ Detailed information about features, supported languages and install instruction
 [gh-user-octref]: https://github.com/octref
 [gh-user-officerhalf]: https://github.com/OfficerHalf
 [gh-user-oxyrus]: https://github.com/Oxyrus
+[git-docs-mailmap]: https://git-scm.com/docs/git-shortlog#_mapping_authors
 [gulp]: https://gulpjs.com
 [nord]: https://www.nordtheme.com
 [nord#55]: https://github.com/arcticicestudio/nord/issues/55
 [npm-remark-preset-lint-arcticicestudio]: https://www.npmjs.com/package/remark-preset-lint-arcticicestudio
+[ossg-contrib]: https://opensource.guide/how-to-contribute
+[ossg]: https://opensource.guide
 [prettier]: https://prettier.io
 [typescript]: https://www.typescriptlang.org
 [vsce]: https://github.com/Microsoft/vscode-vsce
@@ -653,3 +786,13 @@ Detailed information about features, supported languages and install instruction
 [gh-user-samchamberland]: https://github.com/samchamberland
 [gh-user-sdr0x07b6]: https://github.com/sdr0x07b6
 [gh-user-varog-norman]: https://github.com/varog-norman
+
+<!--v 0.9.0 -->
+
+[circle-ci-doc-config]: https://circleci.com/docs/2.0/configuration-reference
+[gh-133]: https://github.com/arcticicestudio/nord-visual-studio-code/issues/133
+[gh-blog-intro-code-owners]: https://github.com/blog/2392-introducing-code-owners
+[gh-blog-intro-comm-tools]: https://github.com/blog/2380-new-community-tools
+[gh-blog-intro-contrib-gl]: https://github.com/blog/1184-contributing-guidelines
+[gh-blog-intro-issue-templ]: https://blog.github.com/2016-02-17-issue-and-pull-request-templates
+[gh-blog-multi-issue-templ]: https://blog.github.com/2018-01-25-multiple-issue-and-pull-request-templates
