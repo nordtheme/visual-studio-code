@@ -25,7 +25,7 @@
     "color": "#2E3440",
     "theme": "dark"
   },
-  "icon": "assets/nord-visual-studio-code-icon-marketplace.png",
+  "icon": "assets/extension-marketplace-icon.png",
   "markdown": "github",
   "categories": [
     "Themes"
@@ -73,7 +73,7 @@
     "lint:js": "eslint --ext .js,.jsx .",
     "lint:json": "eslint --ext .json .",
     "lint:md": "remark --no-stdout . \".github/**/*.md\"",
-    "package": "vsce package"
+    "package": "vsce package --out nord-visual-studio-code.vsix"
   },
   "devDependencies": {
     "babel-eslint": "10.0.1",

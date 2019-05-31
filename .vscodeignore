@@ -5,8 +5,8 @@
 # Repository: https://github.com/arcticicestudio/nord-visual-studio-code
 # License:    MIT
 
-!assets/nord-visual-studio-code-icon-marketplace.png
-!assets/nord-visual-studio-code-icon-marketplace-2x.png
+!assets/extension-marketplace-icon.png
+!assets/extension-marketplace-icon-2x.png
 .circleci/**
 .github/**
 .vscode/**
