@@ -8,9 +8,39 @@
 
 <!--lint disable no-duplicate-headings-->
 
+# 0.10.0
+
+![Release Date: 2019-06-01](https://img.shields.io/badge/Release_Date-2019--06--01-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.10.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/19) [![Milestone](https://img.shields.io/badge/Milestone-0.10.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/15)
+
+## Features
+
+**Nord Docs Transition** — #138 ⇄ #139 (⊶ ee91f385)
+↠ Transferred all documentations, assets and from „Nord Visual Studio Code“ to [Nord Docs][nord]
+Please see the [corresponding issue in the Nord Docs repository][nord-docs#149] to get an overview of what has changed for Nord Visual Studio Code and what has been done to migrate to Nord Docs.
+
+###### Landing Page
+
+<p align="center"><a href="https://www.nordtheme.com/ports/visual-studio-code" target="_blank"><img src="https://user-images.githubusercontent.com/7836623/58706701-14a12300-83b3-11e9-8bad-d652e7d910d1.png" alt="Preview: Nord Visual Studio Code Port Project Landing Page"/></a></p>
+
+###### Landing Page Docs
+
+<p align="center"><a href="https://www.nordtheme.com/docs/ports/visual-studio-code" target="_blank"><img src="https://user-images.githubusercontent.com/7836623/58706700-14a12300-83b3-11e9-8bd4-1f3f29f61775.png" alt="Preview: Nord Visual Studio Code Docs Project Landing Page"/></a></p>
+
+###### Installation & Activation Docs
+
+<p align="center"><a href="https://www.nordtheme.com/docs/ports/visual-studio-code/installation" target="_blank"><img src="https://user-images.githubusercontent.com/7836623/58706699-14a12300-83b3-11e9-8700-27fa215ae6e9.png" alt="Preview: Nord Visual Studio Code Docs Installation & Activation Docs Page"/></a></p>
+
+###### Customization Docs
+
+<p align="center"><a href="https://www.nordtheme.com/docs/ports/visual-studio-code/customization" target="_blank"><img src="https://user-images.githubusercontent.com/7836623/58706697-14088c80-83b3-11e9-8dc9-3b13cb8ab9e3.png" alt="Preview: Nord Visual Studio Code Docs Customization Docs Page"/></a></p>
+
+###### Development Docs
+
+<p align="center"><a href="https://www.nordtheme.com/docs/ports/visual-studio-code/development" target="_blank"><img src="https://user-images.githubusercontent.com/7836623/58706698-14a12300-83b3-11e9-9fb6-b1b61cfa1cad.png" alt="Preview: Nord Visual Studio Code Docs Development Docs Page"/></a></p>
+
 # 0.9.1
 
-![Release Date: 2019-05-26](https://img.shields.io/badge/Release_Date-2019--05--26-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.9.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/17) [![Milestone](https://img.shields.io/badge/Milestone-0.9.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/14)
+![Release Date: 2019-05-26](https://img.shields.io/badge/Release_Date-2019--05--26-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.9.1-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/18) [![Milestone](https://img.shields.io/badge/Milestone-0.9.1-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/14)
 
 # Bug Fixes
 
@@ -807,4 +837,6 @@ Detailed information about features, supported languages and install instruction
 [gh-blog-intro-issue-templ]: https://blog.github.com/2016-02-17-issue-and-pull-request-templates
 [gh-blog-multi-issue-templ]: https://blog.github.com/2018-01-25-multiple-issue-and-pull-request-templates
 
-<!--v 0.9.1 -->
+<!--v 0.10.0 -->
+
+[nord-docs#149]: https://github.com/arcticicestudio/nord-docs/issues/149
