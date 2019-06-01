@@ -46,7 +46,7 @@ See Nord Visual Studio Code's documentation for details about [more activation o
 
 <div align="center"><p><strong>Beautiful code to keep focused.</strong></p><p>The editor color scheme supports a wide range of programming languages — From bundled definitions up to many popular third-party syntax extensions.</p></div>
 
-<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/ports/visual-studio-code/ui-overview-go.png"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/ports/visual-studio-code/editor-syntax-go.png"/></p>
 
 <div align="center"><p><strong>Small details with unobtrusive styles.</strong></p><p>Popular and common code editor features like search result marker and brace matching are designed to get out of your way with a visually attractive appearance.</p></div>
 
