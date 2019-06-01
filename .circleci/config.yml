@@ -25,7 +25,7 @@ commands:
     steps:
       - save-npm-cache
       - store_artifacts:
-          path: "*.vsix"
+          path: "nord-visual-studio-code.vsix"
   pre-process:
     description: "Pre-process the build"
     steps:

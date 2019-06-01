@@ -1,176 +1,95 @@
-<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord-visual-studio-code/develop/assets/nord-visual-studio-code-banner.png" srcset="https://cdn.rawgit.com/arcticicestudio/nord-visual-studio-code/develop/assets/nord-visual-studio-code-banner-2x.png 2x"/></p>
+<p align="center"><a href="https://www.nordtheme.com/ports/visual-studio-code" target="_blank"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/ports/visual-studio-code/repository-hero.png" srcset="https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/ports/visual-studio-code/repository-hero-2x.png 2x"/></a></p>
 
-<p align="center"><img src="https://circleci.com/favicon.ico" width=24 height=24/> <a href="https://circleci.com/gh/arcticicestudio/nord-visual-studio-code"><img src="https://img.shields.io/circleci/project/github/arcticicestudio/nord-visual-studio-code/develop.svg?style=flat-square"/></a> <img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/nord-visual-studio-code/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord-visual-studio-code.svg?style=flat-square"/></a> <a href="https://github.com/arcticicestudio/nord/releases/tag/v0.2.0"><img src="https://img.shields.io/badge/Nord-v0.2.0-88C0D0.svg?style=flat-square"/></a> <img src="https://marketplace.visualstudio.com/favicon.ico" width=24 height=24/> <a href="https://code.visualstudio.com/updates/v1_12"><img src="https://img.shields.io/badge/VS_Code-v1.12+-373277.svg?style=flat-square"/></a> <a href="https://marketplace.visualstudio.com/items/arcticicestudio.nord-visual-studio-code"><img src="https://vsmarketplacebadge.apphb.com/version/arcticicestudio.nord-visual-studio-code.svg?style=flat-square"/></a> <a href="https://marketplace.visualstudio.com/items/arcticicestudio.nord-visual-studio-code"><img src="https://vsmarketplacebadge.apphb.com/installs/arcticicestudio.nord-visual-studio-code.svg?style=flat-square"/></a> <a href="https://marketplace.visualstudio.com/items/arcticicestudio.nord-visual-studio-code"><img src="https://vsmarketplacebadge.apphb.com/rating-short/arcticicestudio.nord-visual-studio-code.svg?style=flat-square"/></a></p>
+<p align="center"><a href="https://github.com/arcticicestudio/nord-visual-studio-code/releases/latest" target="_blank"><img src="https://img.shields.io/github/release/arcticicestudio/nord-visual-studio-code.svg?style=flat-square&label=Release&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/></a> <a href="https://www.nordtheme.com/docs/ports/visual-studio-code" target="_blank"><img src="https://img.shields.io/github/release/arcticicestudio/nord-visual-studio-code.svg?style=flat-square&label=Docs&colorA=4c566a&colorB=88c0d0&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI%2BCiAgICA8cGF0aCBmaWxsPSIjZDhkZWU5IiBkPSJNMTMuNzQ2IDIuODEzYS42Ny42NyAwIDAgMC0uNTU5LS4xMzNMOCAzLjg0OGwtNS4xODgtMS4xOGEuNjY5LjY2OSAwIDAgMC0uNTcuMTMzLjY3Ny42NzcgMCAwIDAtLjI0Mi41MzF2OC4xMzNjLS4wMDguMzIuMjEuNTk4LjUyLjY2OGw1LjMzMiAxLjE5OWguMjk2bDUuMzMyLTEuMmEuNjY4LjY2OCAwIDAgMCAuNTItLjY2N1YzLjMzMmEuNjU5LjY1OSAwIDAgMC0uMjU0LS41MnpNMy4zMzIgNC4xNjhsNCAuODk4djYuNzY2bC00LS44OTh6bTkuMzM2IDYuNzY2bC00IC44OThWNS4wNjZsNC0uODk4em0wIDAiLz4KPC9zdmc%2BCg%3D%3D"/></a> <a href="https://github.com/arcticicestudio/nord-visual-studio-code/blob/develop/CHANGELOG.md" target="_blank"><img src="https://img.shields.io/github/release/arcticicestudio/nord-visual-studio-code.svg?style=flat-square&label=Changelog&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/></a></p>
 
-<p align="center"><a href="https://github.com/arcticicestudio/nord-visual-studio-code/blob/v0.9.1/CHANGELOG.md#091"><img src="https://img.shields.io/badge/Changelog-0.9.1-81A1C1.svg?style=flat-square"/></a></p>
+<p align="center"><a href="https://marketplace.visualstudio.com/items/arcticicestudio.nord-visual-studio-code" target="_blank"><img src="https://vsmarketplacebadge.apphb.com/version/arcticicestudio.nord-visual-studio-code.svg?style=flat-square&label=Extension%20Marketplace&logo=visual-studio-code&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/></a> <a href="https://marketplace.visualstudio.com/items/arcticicestudio.nord-visual-studio-code" target="_blank"><img src="https://vsmarketplacebadge.apphb.com/installs/arcticicestudio.nord-visual-studio-code.svg?style=flat-square&label=Installations&logo=visual-studio-code&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/></a> <a href="https://marketplace.visualstudio.com/items/arcticicestudio.nord-visual-studio-code" target="_blank"><img src="https://vsmarketplacebadge.apphb.com/rating-short/arcticicestudio.nord-visual-studio-code.svg?style=flat-square&label=Rating&logo=visual-studio-code&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/></a></p>
 
-<p align="center">An arctic, north-bluish clean and elegant <a href="https://code.visualstudio.com">Visual Studio Code</a> theme.</p>
+<p align="center"><a href="https://circleci.com/gh/arcticicestudio/nord-visual-studio-code" target="_blank"><img src="https://img.shields.io/circleci/project/github/arcticicestudio/nord-visual-studio-code/develop.svg?style=flat-square&label=Build&logo=circleci&logoColor=eceff4&colorA=4c566a"/></a> <a href="https://code.visualstudio.com/updates/v1_12" target="_blank"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=Compatibility&message=%3E%3D1.12.0&logo=visual-studio-code&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/></a></p>
 
-<p align="center">Designed for a fluent and clear workflow.<br>
-Based on the <a href="https://github.com/arcticicestudio/nord">Nord</a> color palette.</p>
+<p align="center"><a href="https://github.com/arcticicestudio/styleguide-javascript/releases/latest" target="_blank"><img src="https://img.shields.io/github/release/arcticicestudio/styleguide-javascript.svg?style=flat-square&label=JavaScript%20Style%20Guide&logoColor=eceff4&colorA=4c566a&colorB=88c0d0&logo=javascript"/></a> <a href="https://github.com/arcticicestudio/styleguide-markdown/releases/latest" target="_blank"><img src="https://img.shields.io/github/release/arcticicestudio/styleguide-markdown.svg?style=flat-square&label=Markdown%20Style%20Guide&colorA=4c566a&colorB=88c0d0&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzOSIgaGVpZ2h0PSIzOSIgdmlld0JveD0iMCAwIDM5IDM5Ij48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiNEOERFRTkiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBkPSJNMS41IDEuNWgzNnYzNmgtMzZ6Ii8%2BPHBhdGggZmlsbD0iI0Q4REVFOSIgZD0iTTIwLjY4MyAyNS42NTVsNS44NzItMTMuNDhoLjU2Nmw1Ljg3MyAxMy40OGgtMS45OTZsLTQuMTU5LTEwLjA1Ni00LjE2MSAxMC4wNTZoLTEuOTk1em0tMi42OTYgMGwtMTMuNDgtNS44NzJ2LS41NjZsMTMuNDgtNS44NzJ2MS45OTVMNy45MzEgMTkuNWwxMC4wNTYgNC4xNnoiLz48L3N2Zz4%3D"/></a> <a href="https://github.com/arcticicestudio/styleguide-git/releases/latest" target="_blank"><img src="https://img.shields.io/github/release/arcticicestudio/styleguide-git.svg?style=flat-square&label=Git%20Style%20Guide&logoColor=eceff4&colorA=4c566a&colorB=88c0d0&logo=git"/></a></p>
 
----
+<p align="center">An arctic, north-bluish clean and elegant <a href="https://code.visualstudio.com" target="_blank">Visual Studio Code</a> theme.</p>
 
-<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-preview.png"/><br><blockquote>Icons provided by <a href="https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme">Material Icon Theme</a>.<br>Font: <a href="https://adobe-fonts.github.io/source-code-pro">Source Code Pro</a> 20px</blockquote></p>
+<p align="center">Designed for a fluent and clear workflow based on the <a href="https://www.nordtheme.com" target="_blank">Nord</a> color palette.</p>
 
-## Getting started
+<p align="center"><a href="https://www.nordtheme.com/ports/visual-studio-code" target="_blank"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/ports/visual-studio-code/ui-overview-jsx.png"/></a></p>
 
-### Installation
+## Getting Started
 
-#### <img src="https://marketplace.visualstudio.com/favicon.ico" width=16 height=16/> [VS Code Extension Marketplace](https://code.visualstudio.com/docs/editor/extension-gallery)
+Visit the [official website][nord-home] to learn all about the [syntax highlighting][nord-home#syntax] features, details and elements of the [UI and editor elements][nord-home#editor-details] and the [one-click setup][nord-home#setup].
 
-Launch _Quick Open_
+Learn about the [installation and activation][nord-docs-home-install], how to [customize][nord-docs-home-custom] and [develop][nord-docs-home-develop] the theme from the [official documentations][nord-docs-home].
 
-- <img src="https://www.kernel.org/theme/images/logos/favicon.png" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf">Linux</a> `Ctrl+P`
-- <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">macOS</a> `⌘P`
-- <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a> `Ctrl+P`
+### Quick Start
 
-Paste the following command and press `Enter`:
+Thanks to the official [VS Code Extension Marketplace][vscode-extmarket-home], _Nord Visual Studio Code_ can be installed with one click.
 
-```shell
-ext install arcticicestudio.nord-visual-studio-code
-```
+Open the [extension marketplace][vscode-docs-extmarket] by clicking on the _Extensions_ icon in the [_Activity Bar_][vscode-docs-ui-actbar]. Search for `Nord` and click on the <kbd>Install</kbd> button.
 
-#### <img src="https://marketplace.visualstudio.com/favicon.ico" width=16 height=16/> [Packaged VSIX Extension](https://code.visualstudio.com/docs/extensions/install-extension#_install-from-a-vsix)
+<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/ports/visual-studio-code/ui-extension-marketplace.png"/></p>
 
-[Download](https://github.com/arcticicestudio/nord-visual-studio-code/releases/latest) the latest [`nord-visual-studio-code-0.9.1.vsix`](https://github.com/arcticicestudio/nord-visual-studio-code/releases/download/v0.9.1/nord-visual-studio-code-0.9.1.vsix) file from the GitHub repository and install it from the command line
+See Nord Visual Studio Code's documentation for details about more installation options like a [manual import through a local VSIX extension file][nord-docs-home-install#local].
 
-```shell
-code --install-extension nord-visual-studio-code-0.9.1.vsix
-```
+#### Activation
 
-or from within VS Code by launching _Quick Open_ and running the _Install from VSIX..._ command.
+To activate the theme click on the gear icon in the _Activity Bar_ and select _Color Theme_. Search for `Nord` and confirm the color theme change with <kbd>Enter</kbd>.
 
-#### From Source
+<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/ports/visual-studio-code/ui-color-theme-select.png"/></p>
 
-Continuous integration builds are running at [Circle CI](https://circleci.com/gh/arcticicestudio/nord-visual-studio-code).
-
-##### <img src="https://github.com/favicon.ico" width=16 height=16/> [GitHub Repository Clone](https://help.github.com/articles/cloning-a-repository)
-
-Change to your `.vscode/extensions` [VS Code extensions directory](https://code.visualstudio.com/docs/extensions/install-extension#_side-loading).
-Depending on your platform it is located in the following folders:
-
-- <img src="https://www.kernel.org/theme/images/logos/favicon.png" width=16 height=16/> **Linux** `~/.vscode/extensions`
-- <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> **macOs** `~/.vscode/extensions`
-- <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> **Windows** `%USERPROFILE%\.vscode\extensions`
-
-Clone the Nord repository as `nord-visual-studio-code`:
-
-```shell
-git clone https://github.com/arcticicestudio/nord-visual-studio-code arcticicestudio.nord-visual-studio-code
-```
-
-##### <img src="https://marketplace.visualstudio.com/favicon.ico" width=16 height=16/> [VSIX Package Extension Build](https://code.visualstudio.com/docs/extensions/install-extension#_sharing-privately-with-others)
-
-The VSIX package extension file can be build from source using the [`vsce` publishing tool](https://code.visualstudio.com/docs/tools/vscecli) by running
-
-```shell
-vsce package
-```
-
-from the command line.
-
-### [Activation](https://code.visualstudio.com/docs/customization/themes)
-
-Launch _Quick Open_,
-
-- <img src="https://www.kernel.org/theme/images/logos/favicon.png" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf">Linux</a> `Ctrl+P`
-- <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">macOS</a> `Shift+⌘+P`
-- <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a> `Ctrl+P`
-
-run the `Preferences: Color Theme` command and select `Nord` from the drop-down menu.
-
-The color theme drop-down can alternatively be opened via _File_ (_Code_ on macOS) > _Preferences_ > _Color Theme_.
+See Nord Visual Studio Code's documentation for details about [more activation options][nord-docs-home-install#activation].
 
 ## Features
 
-### Editor
+<div align="center"><p><strong>Your IDE. Your style.</strong></p><p>A unified UI and editor syntax element design provides a clutter-free and fluidly merging appearance.</p></div>
 
-<p align="center"><strong>Non-obtrusive cursor line and search marker.</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-cursorline.png"/><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-search.png"/><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrcast-feature-search.gif"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/ports/visual-studio-code/ui-overview-go.png"/></p>
 
-<p align="center"><strong>Colors of selected code can still be easily recognized.</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrcast-feature-selection.gif"/></p>
+<div align="center"><p><strong>Beautiful code to keep focused.</strong></p><p>The editor color scheme supports a wide range of programming languages — From bundled definitions up to many popular third-party syntax extensions.</p></div>
 
-### Workbench
+<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/ports/visual-studio-code/ui-overview-go.png"/></p>
 
-Fully supported [Workbench](https://code.visualstudio.com/docs/getstarted/theme-color-reference) styles.
+<div align="center"><p><strong>Small details with unobtrusive styles.</strong></p><p>Popular and common code editor features like search result marker and brace matching are designed to get out of your way with a visually attractive appearance.</p></div>
 
-<p align="center"><strong>Activity Bar Badges</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-ui-activity-bar-badge.png"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/ports/visual-studio-code/editor-syntax-go-comments.png"/></p>
 
-<p align="center"><strong>Tabs</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-ui-tab-bar.png"/></p>
+## Contributing
 
-<p align="center"><strong>Status Bar</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-ui-status-bar.png"/></p>
+Nord is an open source project and we love to receive contributions from the [community][nord-comm]!
 
-<p align="center"><strong>Panels and terminal colors</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-ui-panel-terminal-colors.png"/></p>
+There are many ways to contribute, from [writing- and improving documentation and tutorials][nord-contrib-guide-docs], [reporting bugs][nord-contrib-guide-bugs], [submitting enhancement suggestions][nord-contrib-guide-enhance] that can be added to Nord by [submitting pull requests][nord-contrib-guide-pr].
 
-<p align="center"><strong>Debug panel</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-ui-debug-panel.png"/></p>
+Please take a moment to read Nord's full [contributing guide][nord-contrib-guide] to learn about the development process, the project's used [styleguides][nord-contrib-guide-styles], [branch organization][nord-contrib-guide-branching] and [versioning][nord-contrib-guide-versioning] model.
 
-<p align="center"><strong>Debug status panel</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-ui-status-bar-debug.png"/></p>
+The guide also includes information about [minimal, complete, and verifiable examples][nord-contrib-guide-mcve] and other ways to contribute to the project like [improving existing issues][nord-contrib-guide-impr-issues] and [giving feedback on issues and pull requests][nord-contrib-guide-feedback].
 
-<p align="center"><strong>Editor Widgets (Search)</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-ui-editor-widget-search.png"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/nord/repository-footer-separator.png" srcset="https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/nord/repository-footer-separator-2x.png 2x" /></p>
 
-<p align="center"><strong>Notifications</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-ui-notification.png"/></p>
+<p align="center">Copyright &copy; 2017-present <a href="https://www.arcticicestudio.com" target="_blank">Arctic Ice Studio</a> and <a href="https://www.svengreb.de" target="_blank">Sven Greb</a></p>
 
-<p align="center"><strong>Notification Center (supported as of VS Code version 1.21 or higher)</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrcast-feature-notification-center.gif"/></p>
+<p align="center"><a href="https://github.com/arcticicestudio/nord-visual-studio-code/blob/develop/LICENSE.md"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=License&message=MIT&logoColor=eceff4&logo=github&colorA=4c566a&colorB=88c0d0"/></a></p>
 
-<p align="center"><strong>Badges</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-ui-badges.png"/></p>
-
-<p align="center"><strong>Side Bar Views (Debug)</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-ui-side-bar-debug.png"/></p>
-
-<p align="center"><strong>Peek View</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-ui-peek-view.png"/></p>
-
-<p align="center"><strong>Diff Editor</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-ui-diffeditor-inserted.png"/><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-ui-diffeditor-removed.png"</p>
-
-<p align="center"><strong>Peek View</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-ui-peek-view.png"/></p>
-
-<p align="center"><strong>Validations</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-ui-validation-info.png"/><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-ui-validation-warning.png"/><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-ui-validation-error.png"/></p>
-
-<p align="center"><strong>Validations</strong><br><strong>Active selection</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-ui-list-active-selection.png"/><br><strong>Inactive selection</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-ui-list-inactive-selection.png"/><br><strong>Active selection with keyboard navigation marker</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-ui-list-active-selection-keyboard.png"/><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrcast-feature-ui-list-active-selection-keyboard.gif"/><br><strong>Active- and inactive selection with hover marker</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-ui-list-inactive-selection-hover.png"/><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrcast-feature-ui-list-hover.gif"/></p>
-
-<p align="center"><strong>Active Indent Guide</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrcast-feature-active-indent-guide.gif"/></p>
-
-<p align="center"><strong>Git status in File Explorer</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-git-status-file-explorer.png"/></p>
-
-<p align="center"><strong>Coloring of active line number</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-active-line-number.png"/></p>
-
-<p align="center"><strong>Editor Hints</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-editor-hints.png"/></p>
-
-## Languages
-
-This theme contains optimized styles to achieve a consistent and uniform coloring across languages.
-Detailed descriptions for supported languages can be found in the [project wiki](https://github.com/arcticicestudio/nord-visual-studio-code/wiki).
-
-![][scrot-lang-c]
-![][scrot-lang-css]
-![][scrot-lang-diff]
-![][scrot-lang-java]
-![][scrot-lang-javascript]
-![][scrot-lang-json]
-![][scrot-lang-markdown]
-![][scrot-lang-php]
-![][scrot-lang-python]
-![][scrot-lang-ruby]
-![][scrot-lang-xml]
-![][scrot-lang-yaml]
-
-### Contribution
-
-Please report issues/bugs, feature requests and suggestions for improvements to the [issue tracker](https://github.com/arcticicestudio/nord-visual-studio-code/issues).
-
-<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord/develop/src/assets/banner-footer-mountains-2x.png" /></p>
-
-<p align="center">Copyright &copy; 2017-present Arctic Ice Studio</p>
-
-<p align="center"><a href="https://github.com/arcticicestudio/nord-visual-studio-code/blob/develop/LICENSE"><img src="https://img.shields.io/badge/License-MIT-5E81AC.svg?style=flat-square"/></a> <a href="https://creativecommons.org/licenses/by-sa/4.0"><img src="https://img.shields.io/badge/License-CC_BY--SA_4.0-5E81AC.svg?style=flat-square"/></a></p>
-
-[scrot-lang-c]: https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-lang-c.png
-[scrot-lang-css]: https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-lang-css.png
-[scrot-lang-diff]: https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-lang-diff.png
-[scrot-lang-java]: https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-lang-java.png
-[scrot-lang-javascript]: https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-lang-javascript.png
-[scrot-lang-json]: https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-lang-json.png
-[scrot-lang-markdown]: https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-lang-markdown.png
-[scrot-lang-php]: https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-lang-php.png
-[scrot-lang-python]: https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-lang-python.png
-[scrot-lang-ruby]: https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-lang-ruby.png
-[scrot-lang-xml]: https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-lang-xml.png
-[scrot-lang-yaml]: https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-lang-yaml.png
+[nord-comm]: https://www.nordtheme.com/community
+[nord-contrib-guide-branching]: https://github.com/arcticicestudio/nord/blob/develop/CONTRIBUTING.md#branch-organization
+[nord-contrib-guide-bugs]: https://github.com/arcticicestudio/nord/blob/develop/CONTRIBUTING.md#bug-reports
+[nord-contrib-guide-docs]: https://github.com/arcticicestudio/nord/blob/develop/CONTRIBUTING.md#documentations
+[nord-contrib-guide-enhance]: https://github.com/arcticicestudio/nord/blob/develop/CONTRIBUTING.md#enhancement-suggestions
+[nord-contrib-guide-feedback]: https://github.com/arcticicestudio/nord/blob/develop/CONTRIBUTING.md#give-feedback-on-issues-and-pull-requests
+[nord-contrib-guide-impr-issues]: https://github.com/arcticicestudio/nord/blob/develop/CONTRIBUTING.md#improve-issues
+[nord-contrib-guide-mcve]: https://github.com/arcticicestudio/nord/blob/develop/CONTRIBUTING.md#mcve
+[nord-contrib-guide-pr]: https://github.com/arcticicestudio/nord/blob/develop/CONTRIBUTING.md#pull-requests
+[nord-contrib-guide-styles]: https://github.com/arcticicestudio/nord/blob/develop/CONTRIBUTING.md#styleguides
+[nord-contrib-guide-versioning]: https://github.com/arcticicestudio/nord/blob/develop/CONTRIBUTING.md#versioning
+[nord-contrib-guide]: https://github.com/arcticicestudio/nord/blob/develop/CONTRIBUTING.md
+[nord-docs-home-custom]: https://www.nordtheme.com/docs/ports/visual-studio-code/customization
+[nord-docs-home-develop]: https://www.nordtheme.com/docs/ports/visual-studio-code/development
+[nord-docs-home-install]: https://www.nordtheme.com/docs/ports/visual-studio-code/installation
+[nord-docs-home-install#activation]: https://www.nordtheme.com/docs/ports/visual-studio-code/installation#activation
+[nord-docs-home-install#local]: https://www.nordtheme.com/docs/ports/visual-studio-code/installation#local-installation
+[nord-docs-home]: https://www.nordtheme.com/docs/ports/visual-studio-code
+[nord-home]: https://www.nordtheme.com/ports/visual-studio-code
+[nord-home#editor-details]: https://www.nordtheme.com/ports/visual-studio-code#editor-details
+[nord-home#setup]: https://www.nordtheme.com/ports/visual-studio-code#setup
+[nord-home#syntax]: https://www.nordtheme.com/ports/visual-studio-code#syntax
+[vscode-docs-extmarket]: https://code.visualstudio.com/docs/editor/extension-gallery
+[vscode-docs-ui-actbar]: https://code.visualstudio.com/docs/getstarted/userinterface#_activity-bar
+[vscode-extmarket-home]: https://marketplace.visualstudio.com/items?itemName=arcticicestudio.nord-visual-studio-code
