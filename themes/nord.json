@@ -1133,6 +1133,18 @@
       }
     },
     {
+      "name": "[TypeScript] Node.js global variables",
+      "scope": [
+        "source.ts support.variable.object.process",
+        "source.ts support.variable.object.node",
+        "source.tsx support.variable.object.process",
+        "source.tsx support.variable.object.node"
+      ],
+      "settings": {
+        "foreground": "#8FBCBB"
+      }
+    },
+    {
       "name": "[TypeScript] JSX inner text",
       "scope": "source.tsx meta.jsx.children",
       "settings": {
