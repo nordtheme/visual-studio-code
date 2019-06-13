@@ -331,7 +331,6 @@
       "name": "Entity Other Inherited Class",
       "scope": "entity.other.inherited-class",
       "settings": {
-        "fontStyle": "bold",
         "foreground": "#8FBCBB"
       }
     },
