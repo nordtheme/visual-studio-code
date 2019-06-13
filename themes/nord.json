@@ -812,6 +812,13 @@
       }
     },
     {
+      "name": "[JavaScript] Node.js global variables",
+      "scope": ["source.js support.variable.object.process", "source.js support.variable.object.node"],
+      "settings": {
+        "foreground": "#8FBCBB"
+      }
+    },
+    {
       "name": "[JavaScript] JSX inner text",
       "scope": "source.js meta.jsx.children",
       "settings": {
