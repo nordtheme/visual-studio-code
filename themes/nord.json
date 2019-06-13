@@ -1188,6 +1188,70 @@
       }
     },
     {
+      "name": "[TypeScript] Variable Other Object",
+      "scope": ["source.ts variable.other.object", "source.tsx variable.other.object"],
+      "settings": {
+        "foreground": "#D8DEE9"
+      }
+    },
+    {
+      "name": "[TypeScript] Variable Other Read-Write Alias",
+      "scope": ["source.ts variable.other.readwrite.alias", "source.tsx variable.other.readwrite.alias"],
+      "settings": {
+        "foreground": "#8FBCBB"
+      }
+    },
+    {
+      "name": "[TypeScript] Support Type Primitive",
+      "scope": ["source.ts support.type.primitive", "source.tsx support.type.primitive"],
+      "settings": {
+        "foreground": "#81A1C1"
+      }
+    },
+    {
+      "name": "[TypeScript](JSDoc) Storage Type Class",
+      "scope": ["source.ts storage.type.class.jsdoc", "source.tsx storage.type.class.jsdoc"],
+      "settings": {
+        "foreground": "#8FBCBB"
+      }
+    },
+    {
+      "name": "[TypeScript] String Template Literals Punctuation",
+      "scope": [
+        "source.ts string.quoted.template punctuation.quasi.element.begin",
+        "source.ts string.quoted.template punctuation.quasi.element.end",
+        "source.ts string.template punctuation.definition.template-expression",
+        "source.tsx string.quoted.template punctuation.quasi.element.begin",
+        "source.tsx string.quoted.template punctuation.quasi.element.end",
+        "source.tsx string.template punctuation.definition.template-expression"
+      ],
+      "settings": {
+        "foreground": "#81A1C1"
+      }
+    },
+    {
+      "name": "[TypeScript] Interpolated String Template Punctuation Functions",
+      "scope": [
+        "source.ts string.quoted.template meta.method-call.with-arguments",
+        "source.tsx string.quoted.template meta.method-call.with-arguments"
+      ],
+      "settings": {
+        "foreground": "#ECEFF4"
+      }
+    },
+    {
+      "name": "[TypeScript] String Template Literal Variable",
+      "scope": [
+        "source.ts string.template meta.template.expression support.variable.property",
+        "source.ts string.template meta.template.expression variable.other.object",
+        "source.tsx string.template meta.template.expression support.variable.property",
+        "source.tsx string.template meta.template.expression variable.other.object"
+      ],
+      "settings": {
+        "foreground": "#D8DEE9"
+      }
+    },
+    {
       "name": "[XML] Entity Name Tag Namespace",
       "scope": "text.xml entity.name.tag.namespace",
       "settings": {
