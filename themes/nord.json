@@ -813,7 +813,7 @@
       }
     },
     {
-      "name": "[JavaScript] Decorator",
+      "name": "[JavaScript] Decorators",
       "scope": [
         "source.js punctuation.decorator",
         "source.js meta.decorator variable.other.readwrite",
@@ -824,10 +824,64 @@
       }
     },
     {
-      "name": "[JavaScript] Meta Object-Literal Key",
+      "name": "[JavaScript] Object-literal keys",
       "scope": "source.js meta.object-literal.key",
       "settings": {
+        "foreground": "#D8DEE9"
+      }
+    },
+    {
+      "name": "[JavaScript] Object-literal functions",
+      "scope": "source.js meta.object-literal.key entity.name.function",
+      "settings": {
         "foreground": "#88C0D0"
+      }
+    },
+    {
+      "name": "[JavaScript] Type/Class",
+      "scope": [
+        "source.js support.class",
+        "source.js support.type",
+        "source.js entity.name.type",
+        "source.js entity.name.class"
+      ],
+      "settings": {
+        "foreground": "#8FBCBB"
+      }
+    },
+    {
+      "name": "[JavaScript] Static Class Support",
+      "scope": ["source.js support.constant.math", "source.js support.constant.dom", "source.js support.constant.json"],
+      "settings": {
+        "foreground": "#8FBCBB"
+      }
+    },
+    {
+      "name": "[JavaScript] Variables",
+      "scope": "source.js support.variable",
+      "settings": {
+        "foreground": "#D8DEE9"
+      }
+    },
+    {
+      "name": "[JavaScript] Variable Other Object",
+      "scope": "source.js variable.other.object",
+      "settings": {
+        "foreground": "#D8DEE9"
+      }
+    },
+    {
+      "name": "[JavaScript] Variable Other Read-Write Alias",
+      "scope": "source.js variable.other.readwrite.alias",
+      "settings": {
+        "foreground": "#8FBCBB"
+      }
+    },
+    {
+      "name": "[JavaScript] Support Type Primitive",
+      "scope": "source.js support.type.primitive",
+      "settings": {
+        "foreground": "#81A1C1"
       }
     },
     {
@@ -863,27 +917,6 @@
       ],
       "settings": {
         "foreground": "#D8DEE9"
-      }
-    },
-    {
-      "name": "[JavaScript] Support Type Primitive",
-      "scope": "source.js support.type.primitive",
-      "settings": {
-        "foreground": "#81A1C1"
-      }
-    },
-    {
-      "name": "[JavaScript] Variable Other Object",
-      "scope": "source.js variable.other.object",
-      "settings": {
-        "foreground": "#D8DEE9"
-      }
-    },
-    {
-      "name": "[JavaScript] Variable Other Read-Write Alias",
-      "scope": "source.js variable.other.readwrite.alias",
-      "settings": {
-        "foreground": "#8FBCBB"
       }
     },
     {
