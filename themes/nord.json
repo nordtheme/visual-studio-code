@@ -414,6 +414,13 @@
       }
     },
     {
+      "name": "Meta Brace Round",
+      "scope": "meta.brace.round",
+      "settings": {
+        "foreground": "#ECEFF4"
+      }
+    },
+    {
       "name": "Punctuation Definition Parameters",
       "scope": [
         "punctuation.definition.method-parameters",
