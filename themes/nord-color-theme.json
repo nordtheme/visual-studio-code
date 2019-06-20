@@ -31,7 +31,7 @@
     "editorLineNumber.activeForeground": "#d8dee9",
     "editorWhitespace.foreground": "#4c566ab3",
     "editorWidget.background": "#2e3440",
-    "editorWidgetBorder": "#3b4252",
+    "editorWidget.border": "#3b4252",
     "editor.background": "#2e3440",
     "editor.foreground": "#d8dee9",
     "editor.hoverHighlightBackground": "#3b4252",
