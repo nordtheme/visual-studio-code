@@ -128,20 +128,6 @@
     "merge.incomingHeaderBackground": "#8fbcbb66",
     "merge.incomingContentBackground": "#8fbcbb4d",
     "merge.border": "#3b425200",
-
-    /* `notification.*` keys are legacy support for VS Code versions >1.21.0 */
-    "notification.background": "#3b4252",
-    "notification.buttonBackground": "#434c5e",
-    "notification.buttonForeground": "#d8dee9",
-    "notification.buttonHoverBackground": "#4c566a",
-    "notification.errorBackground": "#bf616a",
-    "notification.errorForeground": "#2e3440",
-    "notification.foreground": "#d8dee9",
-    "notification.infoBackground": "#88c0d0",
-    "notification.infoForeground": "#2e3440",
-    "notification.warningBackground": "#ebcb8b",
-    "notification.warningForeground": "#2e3440",
-
     "notificationCenter.border": "#3b425200",
     "notificationCenterHeader.background": "#2e3440",
     "notificationCenterHeader.foreground": "#88c0d0",
@@ -150,7 +136,6 @@
     "notifications.border": "#2e3440",
     "notifications.foreground": "#d8dee9",
     "notificationToast.border": "#3b425200",
-
     "panel.background": "#2e3440",
     "panel.border": "#3b4252",
     "panelTitle.activeBorder": "#88c0d000",
