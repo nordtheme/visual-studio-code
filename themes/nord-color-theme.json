@@ -22,7 +22,6 @@
     "dropdown.background": "#3b4252",
     "dropdown.border": "#3b4252",
     "dropdown.foreground": "#d8dee9",
-    "editorActiveLineNumber.foreground": "#d8dee9cc",
     "editorCursor.foreground": "#d8dee9",
     "editorHint.border": "#ebcb8b00",
     "editorHint.foreground": "#ebcb8b",
