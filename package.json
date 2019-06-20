@@ -59,7 +59,7 @@
       {
         "label": "Nord",
         "uiTheme": "vs-dark",
-        "path": "./themes/nord.json"
+        "path": "./themes/nord-color-theme.json"
       }
     ]
   },
