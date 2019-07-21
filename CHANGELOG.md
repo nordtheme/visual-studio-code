@@ -8,6 +8,31 @@
 
 <!--lint disable no-duplicate-headings-->
 
+# 0.11.0
+
+![Release Date: 2019-07-21](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2019-07-21&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.11.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/20) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.11.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/16)
+
+## Features
+
+**Indent guide lines in explorer tree view** — #145 ⇄ #147 (⊶ 54b6b205) by [@octref][gh-user-octref]
+↠ Added the `tree.indentGuidesStroke` theme key introduced in [VS Code 1.36.0][vsc-rln-1.36] (June 2019) that adds [support for indent guide lines in the tree view][vsc-rln-1.36-igl]. To adapt to Nord's style and ensure it is still distinguishable from the background when hovering with the mouse, the new brightened comment color based on `nord3` ([GH-118][]) is used.
+
+<p align="center"><strong>Before</strong></p>
+<p align="center"><img width="60%" src="https://user-images.githubusercontent.com/7836623/61582804-c0532d80-ab2f-11e9-9626-9c95610f0d09.png" /></p>
+
+<p align="center"><strong>After</strong></p>
+<p align="center"><img width="60%" src="https://user-images.githubusercontent.com/7836623/61582803-c0532d80-ab2f-11e9-92e4-b801f60092f6.png" /></p>
+
+## Bug Fixes
+
+**Duplicate feature screenshot in README** — #141 (⊶ 994cae19) by [@chris78er][gh-user-chris78er]
+↠ Renamed the invalid key `editorWidgetBorder` to the valid `editorWidget.border` key.
+
+### Documentation
+
+**Duplicate feature screenshot in README** — #140 (⊶ 46cce261)
+↠ The second block in the [README's _Features_ section][gh-repo-readme#features] made use of the same screenshot two times like already used in the first block that has been fixed by adding and replacing the screenshot showing Go syntax instead.
+
 # 0.10.0
 
 ![Release Date: 2019-06-01](https://img.shields.io/badge/Release_Date-2019--06--01-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.10.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/19) [![Milestone](https://img.shields.io/badge/Milestone-0.10.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/15)
@@ -757,6 +782,7 @@ Detailed information about features, supported languages and install instruction
 [ci-travis]: https://travis-ci.org
 [eslint-config-arcticicestudio-base]: https://www.npmjs.com/package/eslint-config-arcticicestudio-base
 [eslint]: https://eslint.org
+[gh-118]: https://github.com/arcticicestudio/nord-visual-studio-code/issues/118
 [gh-arcticicestudio/styleguide-git]: https://github.com/arcticicestudio/styleguide-git
 [gh-arcticicestudio/styleguide-javascript]: https://github.com/arcticicestudio/styleguide-javascript
 [gh-arcticicestudio/styleguide-markdown]: https://github.com/arcticicestudio/styleguide-markdown
@@ -771,6 +797,7 @@ Detailed information about features, supported languages and install instruction
 [gh-husky]: https://github.com/typicode/husky
 [gh-lint-staged]: https://github.com/okonet/lint-staged
 [gh-remark-lint]: https://github.com/remarkjs/remark-lint
+[gh-repo-readme#features]: https://github.com/arcticicestudio/nord-visual-studio-code#features
 [gh-user-gulshan]: https://github.com/gulshan
 [gh-user-kingdaro]: https://github.com/kingdaro
 [gh-user-lilyball]: https://github.com/lilyball
@@ -840,3 +867,9 @@ Detailed information about features, supported languages and install instruction
 <!--v 0.10.0 -->
 
 [nord-docs#149]: https://github.com/arcticicestudio/nord-docs/issues/149
+
+<!--v 0.11.0 -->
+
+[gh-user-chris78er]: https://github.com/chris78er
+[vsc-rln-1.36-igl]: https://code.visualstudio.com/updates/v1_36#_tree-indent-guides
+[vsc-rln-1.36]: https://code.visualstudio.com/updates/v1_36
