@@ -332,7 +332,6 @@
       "name": "Entity Other Inherited Class",
       "scope": "entity.other.inherited-class",
       "settings": {
-        "fontStyle": "bold",
         "foreground": "#8FBCBB"
       }
     },
@@ -411,6 +410,20 @@
     {
       "name": "Punctuation",
       "scope": "punctuation",
+      "settings": {
+        "foreground": "#ECEFF4"
+      }
+    },
+    {
+      "name": "Meta Brace Round",
+      "scope": "meta.brace.round",
+      "settings": {
+        "foreground": "#ECEFF4"
+      }
+    },
+    {
+      "name": "Meta Brace Square",
+      "scope": "meta.brace.square",
       "settings": {
         "foreground": "#ECEFF4"
       }
@@ -814,7 +827,21 @@
       }
     },
     {
-      "name": "[JavaScript] Decorator",
+      "name": "[JavaScript] Node.js global variables",
+      "scope": ["source.js support.variable.object.process", "source.js support.variable.object.node"],
+      "settings": {
+        "foreground": "#8FBCBB"
+      }
+    },
+    {
+      "name": "[JavaScript] JSX inner text",
+      "scope": "source.js meta.jsx.children",
+      "settings": {
+        "foreground": "#D8DEE9"
+      }
+    },
+    {
+      "name": "[JavaScript] Decorators",
       "scope": [
         "source.js punctuation.decorator",
         "source.js meta.decorator variable.other.readwrite",
@@ -825,10 +852,64 @@
       }
     },
     {
-      "name": "[JavaScript] Meta Object-Literal Key",
+      "name": "[JavaScript] Object-literal keys",
       "scope": "source.js meta.object-literal.key",
       "settings": {
+        "foreground": "#D8DEE9"
+      }
+    },
+    {
+      "name": "[JavaScript] Object-literal functions",
+      "scope": "source.js meta.object-literal.key entity.name.function",
+      "settings": {
         "foreground": "#88C0D0"
+      }
+    },
+    {
+      "name": "[JavaScript] Type/Class",
+      "scope": [
+        "source.js support.class",
+        "source.js support.type",
+        "source.js entity.name.type",
+        "source.js entity.name.class"
+      ],
+      "settings": {
+        "foreground": "#8FBCBB"
+      }
+    },
+    {
+      "name": "[JavaScript] Static Class Support",
+      "scope": ["source.js support.constant.math", "source.js support.constant.dom", "source.js support.constant.json"],
+      "settings": {
+        "foreground": "#8FBCBB"
+      }
+    },
+    {
+      "name": "[JavaScript] Variables",
+      "scope": "source.js support.variable",
+      "settings": {
+        "foreground": "#D8DEE9"
+      }
+    },
+    {
+      "name": "[JavaScript] Variable Other Object",
+      "scope": "source.js variable.other.object",
+      "settings": {
+        "foreground": "#D8DEE9"
+      }
+    },
+    {
+      "name": "[JavaScript] Variable Other Read-Write Alias",
+      "scope": "source.js variable.other.readwrite.alias",
+      "settings": {
+        "foreground": "#8FBCBB"
+      }
+    },
+    {
+      "name": "[JavaScript] Support Type Primitive",
+      "scope": "source.js support.type.primitive",
+      "settings": {
+        "foreground": "#81A1C1"
       }
     },
     {
@@ -864,27 +945,6 @@
       ],
       "settings": {
         "foreground": "#D8DEE9"
-      }
-    },
-    {
-      "name": "[JavaScript] Support Type Primitive",
-      "scope": "source.js support.type.primitive",
-      "settings": {
-        "foreground": "#81A1C1"
-      }
-    },
-    {
-      "name": "[JavaScript] Variable Other Object",
-      "scope": "source.js variable.other.object",
-      "settings": {
-        "foreground": "#D8DEE9"
-      }
-    },
-    {
-      "name": "[JavaScript] Variable Other Read-Write Alias",
-      "scope": "source.js variable.other.readwrite.alias",
-      "settings": {
-        "foreground": "#8FBCBB"
       }
     },
     {
@@ -1088,6 +1148,25 @@
       }
     },
     {
+      "name": "[TypeScript] Node.js global variables",
+      "scope": [
+        "source.ts support.variable.object.process",
+        "source.ts support.variable.object.node",
+        "source.tsx support.variable.object.process",
+        "source.tsx support.variable.object.node"
+      ],
+      "settings": {
+        "foreground": "#8FBCBB"
+      }
+    },
+    {
+      "name": "[TypeScript] JSX inner text",
+      "scope": "source.tsx meta.jsx.children",
+      "settings": {
+        "foreground": "#D8DEE9"
+      }
+    },
+    {
       "name": "[TypeScript] Decorators",
       "scope": [
         "source.ts punctuation.decorator",
@@ -1151,6 +1230,70 @@
     {
       "name": "[TypeScript] Variables",
       "scope": ["source.ts support.variable", "source.tsx support.variable"],
+      "settings": {
+        "foreground": "#D8DEE9"
+      }
+    },
+    {
+      "name": "[TypeScript] Variable Other Object",
+      "scope": ["source.ts variable.other.object", "source.tsx variable.other.object"],
+      "settings": {
+        "foreground": "#D8DEE9"
+      }
+    },
+    {
+      "name": "[TypeScript] Variable Other Read-Write Alias",
+      "scope": ["source.ts variable.other.readwrite.alias", "source.tsx variable.other.readwrite.alias"],
+      "settings": {
+        "foreground": "#8FBCBB"
+      }
+    },
+    {
+      "name": "[TypeScript] Support Type Primitive",
+      "scope": ["source.ts support.type.primitive", "source.tsx support.type.primitive"],
+      "settings": {
+        "foreground": "#81A1C1"
+      }
+    },
+    {
+      "name": "[TypeScript](JSDoc) Storage Type Class",
+      "scope": ["source.ts storage.type.class.jsdoc", "source.tsx storage.type.class.jsdoc"],
+      "settings": {
+        "foreground": "#8FBCBB"
+      }
+    },
+    {
+      "name": "[TypeScript] String Template Literals Punctuation",
+      "scope": [
+        "source.ts string.quoted.template punctuation.quasi.element.begin",
+        "source.ts string.quoted.template punctuation.quasi.element.end",
+        "source.ts string.template punctuation.definition.template-expression",
+        "source.tsx string.quoted.template punctuation.quasi.element.begin",
+        "source.tsx string.quoted.template punctuation.quasi.element.end",
+        "source.tsx string.template punctuation.definition.template-expression"
+      ],
+      "settings": {
+        "foreground": "#81A1C1"
+      }
+    },
+    {
+      "name": "[TypeScript] Interpolated String Template Punctuation Functions",
+      "scope": [
+        "source.ts string.quoted.template meta.method-call.with-arguments",
+        "source.tsx string.quoted.template meta.method-call.with-arguments"
+      ],
+      "settings": {
+        "foreground": "#ECEFF4"
+      }
+    },
+    {
+      "name": "[TypeScript] String Template Literal Variable",
+      "scope": [
+        "source.ts string.template meta.template.expression support.variable.property",
+        "source.ts string.template meta.template.expression variable.other.object",
+        "source.tsx string.template meta.template.expression support.variable.property",
+        "source.tsx string.template meta.template.expression variable.other.object"
+      ],
       "settings": {
         "foreground": "#D8DEE9"
       }
