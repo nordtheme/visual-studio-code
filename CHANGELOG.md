@@ -6,7 +6,67 @@
 
 <p align="center">Changelog for <a href="https://www.nordtheme.com/ports/visual-studio-code">Nord Visual Studio Code</a> — An arctic, north-bluish clean and elegant <a href="https://code.visualstudio.com" target="_blank">Visual Studio Code</a> theme.</p>
 
-<!--lint disable no-duplicate-headings-->
+<!--lint disable no-duplicate-headings no-duplicate-headings-in-section-->
+
+# 0.12.0
+
+![Release Date: 2019-08-10](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2019-08-10&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.12.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/21) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.12.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/17)
+
+## Features
+
+**Minimap search results visibility** — #150 ⇄ #152 (⊶ 6b6655fc)
+↠ In [VS Code 1.37][vsc-rln-1.37#minimap_search_marker] (July 2019) the search decorations in the minimap (code outline) have been improved so the entire line will now be highlighted with low opacity, and the actual match shown with high opacity.
+To customize the color, the new `minimap.findMatchHighlight` UI/workbench theme key has been added to Nord.
+
+<p align="center"><strong>Before</strong></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62819896-1548f900-bb5c-11e9-8590-47b65c68466b.png" /></p>
+
+<p align="center"><strong>After</strong></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62819895-1548f900-bb5c-11e9-819e-fe9e84ef21be.png" /></p>
+
+**Filled background color for „Find“ widget's button toggle active state** — #151 ⇄ #153 (⊶ f5c767fd)
+↠ In [VS Code 1.37][vsc-rln-1.37#find_button_bg] (July 2019) the Find widget's button toggle active state now has a filled background so that it is easier to tell when the focus is on an active toggle.
+To customize the background color of the toggle active state, the new `inputOption.activeBackground` UI/workbench theme key has been added to Nord.
+
+<p align="center"><strong>Before</strong></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62819937-ba63d180-bb5c-11e9-88cf-2d9c9c699693.png" /></p>
+
+<p align="center"><strong>After</strong></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62819936-ba63d180-bb5c-11e9-9dd0-47544a046ac9.png" /></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/62819940-c94a8400-bb5c-11e9-8189-6bd29132560b.gif" /></p>
+
+Unfortunately there is no UI theme key (yet) to also change the foreground color of active state toggles. It is "hard-coded" using a relatively bright color so it is not possible to also use a bright background color. It would be great to apply a "reverse" effect to e.g. use `nord0` as foreground to increase the contrast when using `nord8` as background color.
+
+## Improvements
+
+**Renamed theme file to enable „hidden“ theme development features** — #143/#148 (⊶ 4f808c88) co-authored by [@svipas][gh-user-svipas]
+↠ An undocumented feature for theme extension developers is to ensure the name of the JSON file is suffixed with `-color-theme.json`. This enables the JSON scheme validation for the theme API allowing developers to validate the implemented theme keys, showing warnings about deprecated keys and providing full auto completion, field documentations and color previews (color picker) for the HEX format.
+By renaming the theme file, Nord aligns to the [official bundled and default themes][microsoft/vscode-tree-ext-theme-abyss] by adapting to the naming scheme without introducing a breaking change since the theme is identified by it's extension ID as well as the `_metadata` field in the `package.json` and not by the name of the theme file (which would be odd since a theme can provide multiple theme files).
+
+# 0.11.0
+
+![Release Date: 2019-07-21](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2019-07-21&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.11.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/20) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.11.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/16)
+
+## Features
+
+**Indent guide lines in explorer tree view** — #145 ⇄ #147 (⊶ 54b6b205) by [@octref][gh-user-octref]
+↠ Added the `tree.indentGuidesStroke` theme key introduced in [VS Code 1.36.0][vsc-rln-1.36] (June 2019) that adds [support for indent guide lines in the tree view][vsc-rln-1.36-igl]. To adapt to Nord's style and ensure it is still distinguishable from the background when hovering with the mouse, the new brightened comment color based on `nord3` ([GH-118][]) is used.
+
+<p align="center"><strong>Before</strong></p>
+<p align="center"><img width="60%" src="https://user-images.githubusercontent.com/7836623/61582804-c0532d80-ab2f-11e9-9626-9c95610f0d09.png" /></p>
+
+<p align="center"><strong>After</strong></p>
+<p align="center"><img width="60%" src="https://user-images.githubusercontent.com/7836623/61582803-c0532d80-ab2f-11e9-92e4-b801f60092f6.png" /></p>
+
+## Bug Fixes
+
+**Duplicate feature screenshot in README** — #141 (⊶ 994cae19) by [@chris78er][gh-user-chris78er]
+↠ Renamed the invalid key `editorWidgetBorder` to the valid `editorWidget.border` key.
+
+### Documentation
+
+**Duplicate feature screenshot in README** — #140 (⊶ 46cce261)
+↠ The second block in the [README's _Features_ section][gh-repo-readme#features] made use of the same screenshot two times like already used in the first block that has been fixed by adding and replacing the screenshot showing Go syntax instead.
 
 # 0.11.0
 
@@ -773,7 +833,7 @@ Detailed information about features, supported languages and install instruction
 ⊶ (U+22B6): Icon prefix for the short commit SHA checksum in a log metadata
 -->
 
-<!-- lint disable final-definition -->
+<!--lint disable final-definition-->
 
 <!-- Base Links -->
 
@@ -825,7 +885,7 @@ Detailed information about features, supported languages and install instruction
 [vscode-relnote-1.15-title-bar-border]: https://code.visualstudio.com/updates/v1_15#_new-theme-color-for-title-bar-border
 [vscode-relnote-1.16-theme-improv]: https://code.visualstudio.com/updates/v1_16#_theming-improvements
 
-<!--v 0.7.0 -->
+<!-- v0.7.0 -->
 
 [gh-100-c-fontc]: https://github.com/arcticicestudio/nord-visual-studio-code/issues/100#issuecomment-426005938
 [vsc-rln-1.18-gitexp]: https://code.visualstudio.com/updates/v1_18#_git-status-in-file-explorer
@@ -842,7 +902,7 @@ Detailed information about features, supported languages and install instruction
 [vsc-rln-1.24]: https://code.visualstudio.com/updates/v1_24
 [vscode#178]: https://github.com/Microsoft/vscode/issues/178
 
-<!--v 0.8.0 -->
+<!-- v0.8.0 -->
 
 [gh-microsoft/vscode#71663]: https://github.com/Microsoft/vscode/issues/71663
 [gh-nord#94]: https://github.com/arcticicestudio/nord/issues/94
@@ -854,7 +914,7 @@ Detailed information about features, supported languages and install instruction
 [gh-user-sdr0x07b6]: https://github.com/sdr0x07b6
 [gh-user-varog-norman]: https://github.com/varog-norman
 
-<!--v 0.9.0 -->
+<!-- v0.9.0 -->
 
 [circle-ci-doc-config]: https://circleci.com/docs/2.0/configuration-reference
 [gh-133]: https://github.com/arcticicestudio/nord-visual-studio-code/issues/133
@@ -864,12 +924,19 @@ Detailed information about features, supported languages and install instruction
 [gh-blog-intro-issue-templ]: https://blog.github.com/2016-02-17-issue-and-pull-request-templates
 [gh-blog-multi-issue-templ]: https://blog.github.com/2018-01-25-multiple-issue-and-pull-request-templates
 
-<!--v 0.10.0 -->
+<!-- v0.10.0 -->
 
 [nord-docs#149]: https://github.com/arcticicestudio/nord-docs/issues/149
 
-<!--v 0.11.0 -->
+<!-- v0.11.0 -->
 
 [gh-user-chris78er]: https://github.com/chris78er
 [vsc-rln-1.36-igl]: https://code.visualstudio.com/updates/v1_36#_tree-indent-guides
 [vsc-rln-1.36]: https://code.visualstudio.com/updates/v1_36
+
+<!-- v0.11.0 -->
+
+[gh-user-svipas]: https://github.com/svipas
+[microsoft/vscode-tree-ext-theme-abyss]: https://github.com/microsoft/vscode/tree/master/extensions/theme-abyss/themes
+[vsc-rln-1.37#find_button_bg]: https://code.visualstudio.com/updates/v1_37#_button-toggle-active-state-in-find-widget
+[vsc-rln-1.37#minimap_search_marker]: https://code.visualstudio.com/updates/v1_37#_improved-minimap-search-results-visibility

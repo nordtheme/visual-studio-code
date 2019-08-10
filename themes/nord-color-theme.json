@@ -104,7 +104,8 @@
     "input.foreground": "#d8dee9",
     "input.placeholderForeground": "#d8dee999",
     "input.border": "#3b4252",
-    "inputOption.activeBorder": "#88c0d0",
+    "inputOption.activeBackground": "#5e81ac",
+    "inputOption.activeBorder": "#5e81ac",
     "inputValidation.errorBackground": "#bf616a",
     "inputValidation.errorBorder": "#bf616a",
     "inputValidation.infoBackground": "#81a1c1",
@@ -129,6 +130,7 @@
     "merge.incomingHeaderBackground": "#8fbcbb66",
     "merge.incomingContentBackground": "#8fbcbb4d",
     "merge.border": "#3b425200",
+    "minimap.findMatchHighlight": "#88c0d0",
 
     /* `notification.*` keys are legacy support for VS Code versions >1.21.0 */
     "notification.background": "#3b4252",
