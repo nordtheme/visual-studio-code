@@ -129,6 +129,7 @@
     "merge.incomingHeaderBackground": "#8fbcbb66",
     "merge.incomingContentBackground": "#8fbcbb4d",
     "merge.border": "#3b425200",
+    "minimap.findMatchHighlight": "#88c0d0",
 
     /* `notification.*` keys are legacy support for VS Code versions >1.21.0 */
     "notification.background": "#3b4252",
