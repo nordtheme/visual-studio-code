@@ -230,6 +230,7 @@
     "terminal.ansiBrightMagenta": "#b48ead",
     "terminal.ansiBrightCyan": "#8fbcbb",
     "terminal.ansiBrightWhite": "#eceff4",
+    "textCodeBlock.background": "#4c566a",
     "titleBar.activeBackground": "#2e3440",
     "titleBar.activeForeground": "#d8dee9",
     "titleBar.border": "#2e344000",
