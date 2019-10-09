@@ -17,6 +17,7 @@
     "debugExceptionWidget.background": "#4c566a",
     "debugExceptionWidget.border": "#2e3440",
     "debugToolBar.background": "#3b4252",
+    "descriptionForeground": "#d8dee9e6",
     "diffEditor.insertedTextBackground": "#81a1c133",
     "diffEditor.removedTextBackground": "#bf616a4d",
     "dropdown.background": "#3b4252",
