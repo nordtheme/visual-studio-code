@@ -898,6 +898,16 @@
       }
     },
     {
+      "name": "[JavaScript] Parentheses in Template Strings",
+      "scope": [
+        "source.js meta.embedded.line meta.brace.square",
+        "source.js meta.embedded.line meta.brace.round"
+      ],
+      "settings": {
+        "foreground": "#eceff4"
+      }
+    },
+    {
       "name": "[HTML] Constant Character Entity",
       "scope": "text.html.basic constant.character.entity.html",
       "settings": {
@@ -1163,6 +1173,18 @@
       "scope": ["source.ts support.variable", "source.tsx support.variable"],
       "settings": {
         "foreground": "#D8DEE9"
+      }
+    },
+    {
+      "name": "[TypeScript] Parentheses in Template Strings",
+      "scope": [
+        "source.ts meta.embedded.line meta.brace.square",
+        "source.ts meta.embedded.line meta.brace.round",
+        "source.tsx meta.embedded.line meta.brace.square",
+        "source.tsx meta.embedded.line meta.brace.round"
+      ],
+      "settings": {
+        "foreground": "#eceff4"
       }
     },
     {
