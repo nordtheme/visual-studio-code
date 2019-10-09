@@ -904,7 +904,7 @@
         "source.js meta.embedded.line meta.brace.round"
       ],
       "settings": {
-        "foreground": "#eceff4"
+        "foreground": "#ECEFF4"
       }
     },
     {
@@ -1184,7 +1184,7 @@
         "source.tsx meta.embedded.line meta.brace.round"
       ],
       "settings": {
-        "foreground": "#eceff4"
+        "foreground": "#ECEFF4"
       }
     },
     {
