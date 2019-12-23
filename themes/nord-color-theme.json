@@ -695,6 +695,36 @@
       }
     },
     {
+      "name": "[Elixir](JakeBecker.elixir-ls) module names",
+      "scope": "entity.name.type.module.elixir",
+      "settings": {
+        "foreground": "#8FBCBB"
+      }
+    },
+    {
+      "name": "[Elixir](JakeBecker.elixir-ls) module attributes",
+      "scope": "variable.other.readwrite.module.elixir",
+      "settings": {
+        "foreground": "#D8DEE9",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "[Elixir](JakeBecker.elixir-ls) atoms",
+      "scope": "constant.other.symbol.elixir",
+      "settings": {
+        "foreground": "#D8DEE9",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "[Elixir](JakeBecker.elixir-ls) modules",
+      "scope": "variable.other.constant.elixir",
+      "settings": {
+        "foreground": "#8FBCBB"
+      }
+    },
+    {
       "name": "[Go] String Format Placeholder",
       "scope": "source.go constant.other.placeholder.go",
       "settings": {
