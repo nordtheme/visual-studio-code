@@ -8,6 +8,63 @@
 
 <!--lint disable no-duplicate-headings no-duplicate-headings-in-section-->
 
+# 0.13.0
+
+![Release Date: 2019-12-23](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2019-12-23&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.13.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/22) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.13.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/18)
+
+## Features
+
+### UI
+
+**Inline code block background for hover/completion popups** — #155 ⇄ #158 (⊶ 7be0eaf6) by [@octref][gh-user-octref]
+↠ Added the `textCodeBlock.background` workbench theme key that is used by VS Code features like the [IntelliSense _quick info_][vscode-docs-intellisense] to style the background color of code blocks in the documentation text. By default this used a very dark color which has been changed to `nord3` instead.
+
+<p align="center"><strong>Auto-Completion</strong></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/66107330-483dc500-e5c0-11e9-9482-2dc648019b7c.png" /></p>
+
+<p align="center"><strong><em>Quick Info</em></strong></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/66107331-48d65b80-e5c0-11e9-842c-31d8a01daf36.png" /></p>
+
+**Text color related workbench theme keys** — #154 ⇄ #159 (⊶ 7be0eaf6) by [@mserajnik][gh-user-mserajnik]
+↠ Added some workbench color keys for text related elements that were not supported by Nord yet.
+The commit in the VS Code repository ([microsoft/vscode@752acd50][]) added multiple new theme keys through [microsoft/vscode#26298][] that was merged over 2 years ago and released for the first time in stable version [1.13.0][vscode-rel-1.13.0] but were never mentioned in the release notes.
+
+The following theme keys have now been added:
+
+- `textBlockQuote.background` — Background color for block quotes in text.
+- `textBlockQuote.border` — Right-side border color for block quotes in text.
+- `textLink.activeForeground` — Foreground color for links in text when clicked on and on mouse hover.
+- `textLink.foreground` — Foreground color for links in text.
+- `textPreformat.foreground` — Foreground color for preformatted text segments like inline code.
+- `textSeparator.foreground` — Color for text separators.
+
+<p align="center"><strong><em>Interactive Playground</em> before/after</strong></p>
+<img src="https://user-images.githubusercontent.com/7836623/66111612-84c1ee80-e5c9-11e9-93cc-8aa51c936ff9.png">
+<img src="https://user-images.githubusercontent.com/7836623/66111608-84295800-e5c9-11e9-9251-ab3629245df1.png">
+
+<p align="center"><strong><em>Interface Overview</em> before/after</strong></p>
+<img src="https://user-images.githubusercontent.com/7836623/66111610-84295800-e5c9-11e9-9a45-31c0a625abb7.png">
+<img src="https://user-images.githubusercontent.com/7836623/66111607-8390c180-e5c9-11e9-8cd7-5225a5dd3cef.png">
+
+<p align="center"><strong><em>Welcome Screen</em> before/after</strong></p>
+<img src="https://user-images.githubusercontent.com/7836623/66111613-855a8500-e5c9-11e9-877b-c449cdb9c201.png">
+<img src="https://user-images.githubusercontent.com/7836623/66111609-84295800-e5c9-11e9-81a4-f1174d4b39c5.png">
+
+**`descriptionForeground` workbench theme key** — #160 ⇄ #161 (⊶ fe870f4f)
+↠ Added the `descriptionForeground` workbench theme key that was introduced almost 2 years ago in [microsoft/vscode@f450e0b1fe3][] for [microsoft/vscode#26298][], but not mentioned in a changelog so there was no support for it in Nord.
+It now uses `nord4` with a opacity of 90% as color value (`#d8dee9e6`).
+
+### Syntax
+
+**Syntax highlighting for Elixir module names and atoms** — #165 ⇄ #166 (⊶ 810a894b) by [@feliperenan][gh-user-feliperenan]
+↠ Added improved syntax highlighting for Elixir atoms and module names using scopes provided by the [JakeBecker.elixir-ls][] extension since they are not supported by VSCode out-of-the-box.
+
+<p align="center"><strong>Before</strong></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/71354925-b8376800-257d-11ea-8d64-f04538d066ae.png" /></p>
+
+<p align="center"><strong>After</strong></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/71354924-b79ed180-257d-11ea-89ff-e194bb78a463.png" /></p>
+
 # 0.12.0
 
 ![Release Date: 2019-08-10](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2019-08-10&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.12.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/21) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.12.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/17)
@@ -877,6 +934,7 @@ Detailed information about features, supported languages and install instruction
 [vscode-docs-approved-badges]: https://code.visualstudio.com/docs/extensionAPI/extension-manifest#_approved-badges
 [vscode-docs-color-ref-editor-colors]: https://code.visualstudio.com/docs/getstarted/theme-color-reference#_editor-colors
 [vscode-docs-color-theme-customize]: https://code.visualstudio.com/docs/getstarted/themes#_customizing-a-color-theme
+[vscode-docs-intellisense]: https://code.visualstudio.com/docs/editor/intellisense
 [vscode-docs-settings]: https://code.visualstudio.com/docs/getstarted/settings
 [vscode-docs-theme-git-colors]: https://code.visualstudio.com/docs/getstarted/theme-color-reference#_git-colors
 [vscode-docs-vsce-pubext]: https://code.visualstudio.com/api/working-with-extensions/publishing-extension#publishing-extensions
@@ -934,9 +992,19 @@ Detailed information about features, supported languages and install instruction
 [vsc-rln-1.36-igl]: https://code.visualstudio.com/updates/v1_36#_tree-indent-guides
 [vsc-rln-1.36]: https://code.visualstudio.com/updates/v1_36
 
-<!-- v0.11.0 -->
+<!-- v0.12.0 -->
 
 [gh-user-svipas]: https://github.com/svipas
 [microsoft/vscode-tree-ext-theme-abyss]: https://github.com/microsoft/vscode/tree/master/extensions/theme-abyss/themes
 [vsc-rln-1.37#find_button_bg]: https://code.visualstudio.com/updates/v1_37#_button-toggle-active-state-in-find-widget
 [vsc-rln-1.37#minimap_search_marker]: https://code.visualstudio.com/updates/v1_37#_improved-minimap-search-results-visibility
+
+<!-- v0.13.0 -->
+
+[gh-user-feliperenan]: https://github.com/feliperenan
+[gh-user-mserajnik]: https://github.com/mserajnik
+[jakebecker.elixir-ls]: https://marketplace.visualstudio.com/items?itemName=JakeBecker.elixir-ls
+[microsoft/vscode@752acd50]: https://github.com/microsoft/vscode/blame/752acd504206f00ffe4ed101c2496540d0197f56/src/vs/platform/theme/common/colorRegistry.ts#L164-L170
+[microsoft/vscode@f450e0b1fe3]: https://github.com/microsoft/vscode/blame/f450e0b1fe3ac26ce6bf8367ff1bd60fb1387a7d/src/vs/platform/theme/common/colorRegistry.ts#L154
+[microsoft/vscode#26298]: github.com/microsoft/vscode/issues/26298
+[vscode-rel-1.13.0]: https://code.visualstudio.com/updates/v1_13

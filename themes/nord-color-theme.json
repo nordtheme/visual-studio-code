@@ -17,6 +17,7 @@
     "debugExceptionWidget.background": "#4c566a",
     "debugExceptionWidget.border": "#2e3440",
     "debugToolBar.background": "#3b4252",
+    "descriptionForeground": "#d8dee9e6",
     "diffEditor.insertedTextBackground": "#81a1c133",
     "diffEditor.removedTextBackground": "#bf616a4d",
     "dropdown.background": "#3b4252",
@@ -230,6 +231,13 @@
     "terminal.ansiBrightMagenta": "#b48ead",
     "terminal.ansiBrightCyan": "#8fbcbb",
     "terminal.ansiBrightWhite": "#eceff4",
+    "textBlockQuote.background": "#3b4252",
+    "textBlockQuote.border": "#81a1c1",
+    "textCodeBlock.background": "#4c566a",
+    "textLink.activeForeground": "#88c0d0",
+    "textLink.foreground": "#88c0d0",
+    "textPreformat.foreground": "#8fbcbb",
+    "textSeparator.foreground": "#eceff4",
     "titleBar.activeBackground": "#2e3440",
     "titleBar.activeForeground": "#d8dee9",
     "titleBar.border": "#2e344000",
@@ -684,6 +692,36 @@
       "scope": "source.diff punctuation.definition.separator",
       "settings": {
         "foreground": "#81A1C1"
+      }
+    },
+    {
+      "name": "[Elixir](JakeBecker.elixir-ls) module names",
+      "scope": "entity.name.type.module.elixir",
+      "settings": {
+        "foreground": "#8FBCBB"
+      }
+    },
+    {
+      "name": "[Elixir](JakeBecker.elixir-ls) module attributes",
+      "scope": "variable.other.readwrite.module.elixir",
+      "settings": {
+        "foreground": "#D8DEE9",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "[Elixir](JakeBecker.elixir-ls) atoms",
+      "scope": "constant.other.symbol.elixir",
+      "settings": {
+        "foreground": "#D8DEE9",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "[Elixir](JakeBecker.elixir-ls) modules",
+      "scope": "variable.other.constant.elixir",
+      "settings": {
+        "foreground": "#8FBCBB"
       }
     },
     {
