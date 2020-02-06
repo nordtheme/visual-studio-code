@@ -1196,6 +1196,17 @@
       }
     },
     {
+      "name": "[VSCODE-CUSTOM] JSX/TSX Attributes",
+      "scope": [
+          "entity.other.attribute-name.tsx",
+          "meta.tag.attributes.tsx",
+          "entity.other.attribute-name.js.jsx",
+          "meta.tag.attributes.js.jsx"
+        ],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    {
       "name": "[XML] Entity Name Tag Namespace",
       "scope": "text.xml entity.name.tag.namespace",
       "settings": {
