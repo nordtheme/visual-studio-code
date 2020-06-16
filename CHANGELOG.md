@@ -8,6 +8,19 @@
 
 <!--lint disable no-duplicate-headings no-duplicate-headings-in-section-->
 
+# 0.14.0
+
+![Release Date: 2020-06-16](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2020-06-16&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.14.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/23) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.14.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/19)
+
+## Features
+
+### Syntax
+
+**Adaption and activation of semantic highlighting** — #172 ⇄ #173 (⊶ e05a9997) by [@aeschli][gh-user-aeschli]
+↠ [Visual Studio Code version 1.44 introduced support][vsc-rln-1.44-sht_api] for [semantic highlighting][vscode-docs-semantic_hl] that allows to assign colors and styles to tokens. _Semantic highlighting_ enriches syntax coloring based on symbol information from the language service, which has more complete understanding of the project so the coloring changes appear once the language server is running and has computed the semantic tokens.
+The feature has been tested for some weeks and worked out-of-the-box without the need to change or add specific matchers or rules.
+See the [semantic highlighting guide for themes][vscode-docs-semantic_hl_guide#theme] and [Github wiki][gh-wiki-shl] for more details.
+
 # 0.13.0
 
 ![Release Date: 2019-12-23](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2019-12-23&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.13.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/22) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.13.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/18)
@@ -1008,3 +1021,11 @@ Detailed information about features, supported languages and install instruction
 [microsoft/vscode@f450e0b1fe3]: https://github.com/microsoft/vscode/blame/f450e0b1fe3ac26ce6bf8367ff1bd60fb1387a7d/src/vs/platform/theme/common/colorRegistry.ts#L154
 [microsoft/vscode#26298]: github.com/microsoft/vscode/issues/26298
 [vscode-rel-1.13.0]: https://code.visualstudio.com/updates/v1_13
+
+<!-- v0.14.0 -->
+
+[gh-user-aeschli]: https://github.com/aeschli
+[gh-wiki-shl]: https://github.com/microsoft/vscode/wiki/Semantic-Highlighting-Overview
+[vsc-rln-1.44-sht_api]: https://code.visualstudio.com/updates/v1_44#_semantic-tokens-provider-api
+[vscode-docs-semantic_hl_guide#theme]: https://code.visualstudio.com/api/language-extensions/semantic-highlight-guide#theming
+[vscode-docs-semantic_hl]: https://code.visualstudio.com/docs/getstarted/themes#_semantic-highlighting
