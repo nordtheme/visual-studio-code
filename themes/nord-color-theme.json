@@ -1,6 +1,7 @@
 {
   "name": "Nord",
   "type": "dark",
+  "semanticHighlighting": true,
   "colors": {
     "focusBorder": "#3b4252",
     "foreground": "#d8dee9",
