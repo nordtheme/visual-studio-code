@@ -134,7 +134,17 @@
     "merge.incomingHeaderBackground": "#8fbcbb66",
     "merge.incomingContentBackground": "#8fbcbb4d",
     "merge.border": "#3b425200",
+    "minimap.background": "#2e3440",
+    "minimap.errorHighlight": "#bf616acc",
     "minimap.findMatchHighlight": "#88c0d0",
+    "minimap.selectionHighlight": "#88c0d0cc",
+    "minimap.warningHighlight": "#ebcb8bcc",
+    "minimapGutter.addedBackground": "#a3be8c",
+    "minimapGutter.deletedBackground": "#bf616a",
+    "minimapGutter.modifiedBackground": "#ebcb8b",
+    "minimapSlider.activeBackground": "#434c5eaa",
+    "minimapSlider.background": "#434c5e99",
+    "minimapSlider.hoverBackground": "#434c5eaa",
 
     /* `notification.*` keys are legacy support for VS Code versions >1.21.0 */
     "notification.background": "#3b4252",
