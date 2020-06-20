@@ -61,6 +61,7 @@
     "editorGroup.background": "#2e3440",
     "editorGroup.border": "#3b425201",
     "editorGroup.dropBackground": "#3b425299",
+    "editorGroupHeader.border": "#3b425200",
     "editorGroupHeader.noTabsBackground": "#2e3440",
     "editorGroupHeader.tabsBackground": "#2e3440",
     "editorGroupHeader.tabsBorder": "#3b425200",
