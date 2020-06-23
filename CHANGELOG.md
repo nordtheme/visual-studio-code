@@ -8,6 +8,50 @@
 
 <!--lint disable no-duplicate-headings no-duplicate-headings-in-section-->
 
+# 0.15.0
+
+![Release Date: 2020-06-23](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2020-06-23&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.15.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/24) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.15.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/20)
+
+## Features
+
+### UI
+
+**Activity Bar indicator styles** — #174 ⇄ #175 (⊶ 7beecae3)
+↠ Added support for the [new indicator _Activity Bar_ active item indicator][vsc-rln-1.40#ac_bar_ind] that was introduced in [VS Code 1.40][vsc-rln-1.40] (October 2019) to make it stand out better and increase readability.
+
+<p align="center"><strong>Before</strong></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/84931625-52aed900-b0d3-11ea-8e16-d7fb2a4ddf33.png" width="600px" /></p>
+
+<p align="center"><strong>After</strong></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/84931619-50e51580-b0d3-11ea-9b4a-5ca3ab820178.png" width="600px" /></p>
+
+**Editor title border** — #176 ⇄ #177 (⊶ c2aca53e)
+↠ Added support for new theme keys to [render a border below the editor group header][vsc-rln-1.45#editor_title_border] (for example, below breadcrumbs if enabled) that was introduced in [VS Code 1.45][vsc-rln-1.45] (April 2020) in order to restore the previous behavior of `editorGroupHeader.tabsBorder`.
+
+**Minimap background, slider and Git state colors** — #178 ⇄ #179 (⊶ bd98c86c)
+↠ Added support for the new [minimap background, slider and _Git_ state colors][vscode-docs-theme_color#mm] that were [introduced in VSCode 1.43.0][vsc-rln-1.43#mm_bg_slider] (February 2020) and [version 1.41.0][vsc-rln-1.41#mm_warn_err] (November 2019).
+
+<p align="center"><strong>Before</strong></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/85201914-398c6f00-b303-11ea-839c-5b786ad81795.png" /></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/85201941-5759d400-b303-11ea-9422-cc36a224b2d2.gif" /></p>
+
+<p align="center"><strong>After</strong></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/85201912-36917e80-b303-11ea-8492-07de14325dba.png" /></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/85201931-4d37d580-b303-11ea-90f6-e1d65852ecf8.gif" /></p>
+
+## Improvements
+
+### Syntax
+
+**Braces in JavaScript template literals** — #162 ⇄ #163 (⊶ 41e2391d) by [@kufii][gh-user-kufii]
+↠ Improved the highlighting of braces within [_JavaScript_ template literals][mdn-js-templ_lit] to use `nord4` as foreground color instead of `nord14` like strings.
+
+<p align="center"><strong>Before</strong></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/85290066-abe28800-b498-11ea-80ca-919c1a4f24cb.png" /></p>
+
+<p align="center"><strong>After</strong></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/85290061-aab15b00-b498-11ea-9587-e6e00167a789.png" /></p>
+
 # 0.14.0
 
 ![Release Date: 2020-06-16](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2020-06-16&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.14.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/23) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.14.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/19)
@@ -1029,3 +1073,15 @@ Detailed information about features, supported languages and install instruction
 [vsc-rln-1.44-sht_api]: https://code.visualstudio.com/updates/v1_44#_semantic-tokens-provider-api
 [vscode-docs-semantic_hl_guide#theme]: https://code.visualstudio.com/api/language-extensions/semantic-highlight-guide#theming
 [vscode-docs-semantic_hl]: https://code.visualstudio.com/docs/getstarted/themes#_semantic-highlighting
+
+<!-- v0.15.0 -->
+
+[gh-user-kufii]: https://github.com/kufii
+[mdn-js-templ_lit]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
+[vsc-rln-1.40]: https://code.visualstudio.com/updates/v1_22
+[vsc-rln-1.40#ac_bar_ind]: https://code.visualstudio.com/updates/v1_40#_activity-bar-indicator
+[vsc-rln-1.41#mm_warn_err]: https://code.visualstudio.com/updates/v1_41#_minimap-decorations-for-errors-warnings-and-content-changes
+[vsc-rln-1.43#mm_bg_slider]: https://code.visualstudio.com/updates/v1_43#_minimap-background-and-slider-colors
+[vsc-rln-1.45]: https://code.visualstudio.com/updates/v1_45
+[vsc-rln-1.45#editor_title_border]: https://code.visualstudio.com/updates/v1_45#_new-theme-color-for-editor-title-border
+[vscode-docs-theme_color#mm]: https://code.visualstudio.com/api/references/theme-color#minimap
