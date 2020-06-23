@@ -901,7 +901,10 @@
       "name": "[JavaScript] Parentheses in Template Strings",
       "scope": [
         "source.js meta.embedded.line meta.brace.square",
-        "source.js meta.embedded.line meta.brace.round"
+        "source.js meta.embedded.line meta.brace.round",
+        /* Required for extension `mgmcdermott.vscode-language-babel`. */
+        "source.js string.quoted.template meta.brace.square",
+        "source.js string.quoted.template meta.brace.round",
       ],
       "settings": {
         "foreground": "#ECEFF4"
