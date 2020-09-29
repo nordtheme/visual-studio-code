@@ -71,6 +71,8 @@
     "editorGutter.deletedBackground": "#bf616a",
     "editorHoverWidget.background": "#3b4252",
     "editorHoverWidget.border": "#3b4252",
+    "editorLightBulb.foreground": "#5e81ac",
+    "editorLightBulbAutoFix.foreground": "#8fbcbb",
     "editorLink.activeForeground": "#88c0d0",
     "editorMarkerNavigation.background": "#5e81acc0",
     "editorMarkerNavigationError.background": "#bf616ac0",
