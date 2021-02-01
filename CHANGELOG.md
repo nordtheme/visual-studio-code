@@ -8,6 +8,24 @@
 
 <!--lint disable no-duplicate-headings no-duplicate-headings-in-section-->
 
+# 0.15.1
+
+![Release Date: 2021-02-01](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2021-02-01&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.15.1&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/25) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.15.1&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/21)
+
+⇅ [Show all commits][gh-compare-tag-v0.15.0_v0.15.1]
+
+This release version mainly migrates a NPM package dependency that has been deprecated and deleted from the registry to the new package.
+
+## Bug Fixes
+
+<details>
+<summary><strong>Switch to new ESLint configuration preset package</strong> — #190 (⊶ 13ef97ec) by <a href="https://github.com/kremalicious" target="_blank">@kremalicious</a></summary>
+
+↠ Before the [`eslint-config-arcticicestudio-base` NPM package][npm-eslint-config-arcticicestudio-base] was used which has been deprecated and also deleted from the registry.
+Because the goal of the deprecation was to move to the new [`@arcticicestudio/eslint-config-base` package][npm-@arcticicestudio/eslint-config-base] anyway it has now been switched.
+
+</details>
+
 # 0.15.0
 
 ![Release Date: 2020-06-23](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2020-06-23&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.15.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/24) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.15.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/20)
@@ -1060,3 +1078,9 @@ Detailed information about features, supported languages and install instruction
 [vsc-rln-1.45]: https://code.visualstudio.com/updates/v1_45
 [vsc-rln-1.45#editor_title_border]: https://code.visualstudio.com/updates/v1_45#_new-theme-color-for-editor-title-border
 [vscode-docs-theme_color#mm]: https://code.visualstudio.com/api/references/theme-color#minimap
+
+<!-- v0.15.1 -->
+
+[gh-compare-tag-v0.15.0_v0.15.1]: https://github.com/arcticicestudio/nord-visual-studio-code/compare/v0.15.0...v0.15.1
+[npm-@arcticicestudio/eslint-config-base]: https://www.npmjs.com/package/@arcticicestudio/eslint-config-base
+[npm-eslint-config-arcticicestudio-base]: https://www.npmjs.com/package/eslint-config-arcticicestudio-base
