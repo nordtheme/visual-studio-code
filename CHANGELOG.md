@@ -8,6 +8,77 @@
 
 <!--lint disable no-duplicate-headings no-duplicate-headings-in-section-->
 
+# 0.16.0
+
+![Release Date: 2021-06-19](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2021-06-19&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.16.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/26) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.15.1&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/22)
+
+⇅ [Show all commits][gh-compare-tag-v0.15.1_v0.16.0]
+
+This release version mainly migrates to the [new color tokens editor suggest and quick picker widget changes introduced in Visual Studio Code version 1.57.0][vsc-rln-1.57#quick-pick-suggest-widget-color] which made the theme kind of unusable.
+
+## Features
+
+<details>
+<summary><strong>Debug console text and input icon colors</strong> — #197 ⇄ #198 (⊶ 52432cb7)</summary>
+
+↠ [VS Code 1.46][vsc-rln-1.46] (May 2020) introduced [new debug console colors][vsc-rln-1.46#debug_console_tokens] for text of messages and the input icon.
+
+The following theme keys have been added to make it conform with Nord's theme style:
+
+- `debugConsole.infoForeground` — foreground color for info messages in the debug console.
+- `debugConsole.warningForeground` — foreground color for warning messages in the debug console.
+- `debugConsole.errorForeground` — foreground color for error messages in the debug console.
+- `debugConsole.sourceForeground` — foreground color for source filenames in the debug console.
+- `debugConsoleInputIcon.foreground` — foreground color for the debug console input marker icon.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/7836623/121751227-06438100-cb0e-11eb-975f-f21a23dd0fbf.png"  />
+</p>
+
+</details>
+
+<details>
+<summary><strong>Quick pick and suggest widget colors</strong> — #196 ⇄ #199 (⊶ 11cd6c3d)</summary>
+
+↠ [VS Code 1.57][vsc-rln-1.57] (May 2021) introduced [new color tokens for the “quick pick“ and “editor suggest“ widgets][vsc-rln-1.57#quick-pick-suggest-widget-color] in focused state to better align with the tree widget styles.
+These changes broke the current style of Nord and made the theme har to use. The new keys have now been added to make it conform with Nord‘s style:
+
+- `editorSuggestWidget.focusHighlightForeground` — color of the match highlights in the suggest widget when an item is focused.
+- `editorSuggestWidget.selectedForeground` — foreground color of the selected entry in the suggest widget.
+- `list.focusHighlightForeground` — list/tree foreground color of the match highlights on actively focused items when searching inside the list/tree.
+- `quickInputList.focusForeground` — quick picker foreground color for the focused item.
+
+<h3 align="center">Editor Suggest Widget</h3>
+<p align="center"><strong>Before</strong></p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/7836623/122639072-148a3200-d0f8-11eb-9110-8abd4c06258c.png" width="80%">
+</p>
+<p align="center"><strong>After</strong></p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/7836623/122639070-13590500-d0f8-11eb-98c2-9b45ac6b172c.png" width="80%">
+</p>
+
+<h3 align="center">(Quick) List</h3>
+<p align="center"><strong>Before</strong></p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/7836623/122639075-15bb5f00-d0f8-11eb-801e-640c3b352467.png" width="80%">
+</p>
+<p align="center"><strong>After</strong></p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/7836623/122639074-1522c880-d0f8-11eb-9e9e-ac5acd219e99.png" width="80%">
+</p>
+
+</details>
+
+## Bug Fixes
+
+<details>
+<summary><strong>GitHub repository link to license in README</strong> — #195, #189 (⊶ 31236d88, 5ccef9c1) by <a href="https://github.com/Pukimaa" target="_blank" rel="noreferrer">@Pukimaa</a> and <a href="https://github.com/shmokmt" target="_blank" rel="noreferrer">@shmokmt</a></summary>
+
+↠ The link still included the `md` file extension that was mainly used for license files some years ago.
+
+</details>
+
 # 0.15.1
 
 ![Release Date: 2021-02-01](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2021-02-01&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.15.1&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/25) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.15.1&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/21)
@@ -1084,3 +1155,11 @@ Detailed information about features, supported languages and install instruction
 [gh-compare-tag-v0.15.0_v0.15.1]: https://github.com/arcticicestudio/nord-visual-studio-code/compare/v0.15.0...v0.15.1
 [npm-@arcticicestudio/eslint-config-base]: https://www.npmjs.com/package/@arcticicestudio/eslint-config-base
 [npm-eslint-config-arcticicestudio-base]: https://www.npmjs.com/package/eslint-config-arcticicestudio-base
+
+<!-- v0.16.0 -->
+
+[gh-compare-tag-v0.15.1_v0.16.0]: https://github.com/arcticicestudio/nord-visual-studio-code/compare/v0.15.1...v0.16.0
+[vsc-rln-1.46]: https://code.visualstudio.com/updates/v1_46
+[vsc-rln-1.46#debug_console_tokens]: https://code.visualstudio.com/updates/v1_46#_new-debug-console-theme-colors
+[vsc-rln-1.57]: https://code.visualstudio.com/updates/v1_57
+[vsc-rln-1.57#quick-pick-suggest-widget-color]: https://code.visualstudio.com/updates/v1_57#_updated-quick-pick-suggest-widget-color
