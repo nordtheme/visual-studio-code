@@ -2,7 +2,7 @@
   "name": "nord-visual-studio-code",
   "displayName": "Nord",
   "description": "An arctic, north-bluish clean and elegant Visual Studio Code theme.",
-  "version": "0.15.1",
+  "version": "0.16.0",
   "publisher": "arcticicestudio",
   "author": {
     "name": "Arctic Ice Studio",
@@ -73,7 +73,7 @@
     "lint:js": "eslint --ext .js,.jsx .",
     "lint:json": "eslint --ext .json .",
     "lint:md": "remark --no-stdout . \".github/**/*.md\"",
-    "package": "vsce package --out nord-visual-studio-code.vsix"
+    "package": "vsce package"
   },
   "devDependencies": {
     "@arcticicestudio/eslint-config-base": ">=0.5.0 <1.0.0",
