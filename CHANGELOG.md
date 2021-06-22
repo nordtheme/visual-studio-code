@@ -8,9 +8,190 @@
 
 <!--lint disable no-duplicate-headings no-duplicate-headings-in-section-->
 
+# 0.17.0
+
+![Release Date: 2021-06-22](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2021-06-22&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.17.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/27) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.17.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/23)
+
+⇅ [Show all commits][gh-compare-tag-v0.16.0_v0.17.0]
+
+This release version includes various theme features introduced in Visual Studio Code versions [1.46][vsc-rln-1.46] to [1.57][vsc-rln-1.57].
+
+## Features
+
+<details>
+<summary><strong>Color tokens for input fields</strong> — #200 ⇄ #210 (⊶ 59ad1616)</summary>
+
+↠ [VS Code 1.46][vsc-rln-1.46] (May 2020) introduced the [new `inputOption.activeForeground` theme token for the foreground color of active inputs][vsc-rln-1.46#input-theme-colors] which are used in the search view and find widget.
+The token uses `nord6` to make it more conform with Nord's style.
+
+</details>
+
+<details>
+<summary><strong>Pinned tabs, Git and charts color tokens</strong> — #202 ⇄ #211 (⊶ 973b9272)</summary>
+
+↠ [VS Code 1.50][vsc-rln-1.50] (September 2020) introduced [new theme color tokens pinned tabs, Git integration and charts][vsc-rln-1.50#new-theme-colors].
+
+The following tokens have been added to make it more conform with Nord's style:
+
+- `tab.lastPinnedBorder` — border on the right of the last pinned editor to separate from unpinned editors.
+- `gitDecoration.stageDeletedResourceForeground` — foreground color for staged deletions git decorations.
+- `gitDecoration.stageModifiedResourceForeground` — foreground color for staged modifications git decorations.
+- Colors intended to be used by data visualization extensions:
+  - `charts.red`
+  - `charts.blue`
+  - `charts.yellow`
+  - `charts.orange`
+  - `charts.green`
+  - `charts.purple`
+  - `charts.foreground`
+  - `charts.lines`
+
+<h3 align="center">Git Staged State Decorations</h3>
+<div align="center">
+  <p><strong>Deleted</strong></p>
+  <img src="https://user-images.githubusercontent.com/7836623/122881628-a766de80-d33b-11eb-98f9-e45298419558.png" width="75%" />
+</div>
+<div align="center">
+  <p><strong>Modified</strong></p>
+  <img src="https://user-images.githubusercontent.com/7836623/122881630-a7ff7500-d33b-11eb-996d-688d3a81e3f8.png" width="75%" />
+</div>
+
+<h3 align="center">Last Tab Separator</h3>
+<div align="center">
+  <p><strong>Before</strong></p>
+  <img src="https://user-images.githubusercontent.com/7836623/122881627-a6ce4800-d33b-11eb-97cc-725b69a521e0.png" width="75%" />
+</div>
+<div align="center">
+  <p><strong>After</strong></p>
+  <img src="https://user-images.githubusercontent.com/7836623/122881623-a635b180-d33b-11eb-8e04-9fb732c7c9cb.png" width="75%" />
+</div>
+
+</details>
+
+<details>
+<summary><strong>Status bar error color tokens</strong> — #203 ⇄ #212 (⊶ a51c0ef3)</summary>
+
+↠ [VS Code 1.52][vsc-rln-1.52] (November 2020) introduced [new theme color tokens for error items in the status bar][vsc-rln-1.52#new-theme-colors].
+
+The following tokens have been added to make it more conform with Nord's style:
+
+- `statusBarItem.errorBackground` — status bar error items background color. Error items stand out from other status bar entries to indicate error conditions.
+- `statusBarItem.errorForeground` — status bar error items foreground color. Error items stand out from other status bar entries to indicate error conditions.
+
+</details>
+
+<details>
+<summary><strong>Sash hover border color token</strong> — #204 ⇄ #213 (⊶ 097e0cc2)</summary>
+
+↠ [VS Code 1.52][vsc-rln-1.52] (November 2020) introduced [the new `sash.hoverBorder` theme color token for the sash border in hover state][vsc-rln-1.52#sash-hover-border-color].
+The token uses `nord8` to make it more conform with Nord's style.
+
+<h3 align="center">Before</h3>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/7836623/122885680-961fd100-d33f-11eb-9498-c00dcca0512f.png" />
+</p>
+<video align="center" src="https://user-images.githubusercontent.com/7836623/122885712-9ddf7580-d33f-11eb-9419-1ae913797257.mp4"></video>
+
+<h3 align="center">After</h3>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/7836623/122885678-961fd100-d33f-11eb-9f96-807a8ddc5669.png" />
+</p>
+<video align="center" src="https://user-images.githubusercontent.com/7836623/122885710-9ddf7580-d33f-11eb-96c0-093cba7092fd.mp4"></video>
+
+</details>
+
+<details>
+<summary><strong>Color token for debugged line shown in overview ruler</strong> — #205 ⇄ #214 (⊶ 94f35a3b)</summary>
+
+↠ [VS Code 1.52][vsc-rln-1.52] (November 2020) introduced [the new `editor.focusedStackFrameHighlightBackground` theme color token][vsc-rln-1.52#ui-improvements] to highlight the currently focused debugged line in the overview ruler.
+Additionally, the `editor.stackFrameHighlightBackground` key has been added that is used to highlight the decoration in the overview ruler on the right of the editor.
+Both tokens use `nord10` to make them more conform with Nord's style.
+
+</details>
+
+<details>
+<summary><strong>Deprecated color token for focused background of list/tree UI elements</strong> — #206 ⇄ #215 (⊶ 942e9d12)</summary>
+
+↠ [VS Code 1.54][vsc-rln-1.54] (February 2021) introduced a breaking change for the focused background color of list/tree UI elements by [deprecating the `list.focusBackground` in favor of the `quickInputList.focusBackground` theme color token][vsc-rln-1.54#listtree-ui]. The advised adaption for theme authors is to simply adopt the same value of the deprecated token.
+
+</details>
+
+<details>
+<summary><strong>Color tokens for secondary buttons of custom dialogs</strong> — #207 ⇄ #216 (⊶ 24e34f8a)</summary>
+
+↠ [VS Code 1.56][vsc-rln-1.56] (April 2021) introduced [new colors tokens for secondary buttons of custom dialogs][vsc-rln-1.56#custom-dialogs]:
+
+- `button.secondaryBackground`
+- `button.secondaryForeground`
+- `button.secondaryHoverBackground`
+
+This also includes a visual improvement for the current Nord theme styles of primary buttons:
+
+- `button.background` - `nord2` to `nord8` with a transparency of ~93%.
+- `button.foreground` - `nord4` to `nord0`.
+- `button.hoverBackground` - `nord3` to `nord8`.
+
+<h3 align="center">Before</h3>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/7836623/122892482-b783bb80-d345-11eb-846d-fd02253df2d0.png" />
+</p>
+<video align="center" src="https://user-images.githubusercontent.com/7836623/122892413-a76bdc00-d345-11eb-9bb0-7d846679b959.mp4"></video>
+
+<h3 align="center">After</h3>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/7836623/122892479-b6eb2500-d345-11eb-9297-b2781cab5068.png" />
+</p>
+<video align="center" src="https://user-images.githubusercontent.com/7836623/122892406-a6d34580-d345-11eb-8199-6f1a809f6bf1.mp4"></video>
+
+</details>
+
+<details>
+<summary><strong>Color tokens for keybinding labels</strong> — #208 ⇄ #217 (⊶ 266a8a15)</summary>
+
+↠ [VS Code 1.56][vsc-rln-1.56] (April 2021) introduced [new color tokens for keybinding labels][vsc-rln-1.56#keybinding-label-colors].
+These have been added to make them conform with Nord's theme style:
+
+- `keybindingLabel.background` — keybinding label background color used to represent a keyboard shortcut.
+- `keybindingLabel.foreground` — keybinding label foreground color used to represent a keyboard shortcut.
+- `keybindingLabel.border` — keybinding label border color used to represent a keyboard shortcut.
+- `keybindingLabel.bottomBorder` — keybinding label border bottom color used to represent a keyboard shortcut.
+
+<h3 align="center">Command Palette</h3>
+<div align="center">
+  <p><strong>Before</strong></p>
+  <img src="https://user-images.githubusercontent.com/7836623/122893202-66c09280-d346-11eb-8477-cbffbb2b9f6f.png" width="75%" />
+</div>
+<div align="center">
+  <p><strong>After</strong></p>
+  <img src="https://user-images.githubusercontent.com/7836623/122893199-66c09280-d346-11eb-82d8-0a3e554514d3.png" width="75%" />
+</div>
+
+<h3 align="center">Key Binding Configurations</h3>
+<div align="center">
+  <p><strong>Before</strong></p>
+  <img src="https://user-images.githubusercontent.com/7836623/122893203-67592900-d346-11eb-9aaf-f42d218a0525.png" width="75%" />
+</div>
+<div align="center">
+  <p><strong>After</strong></p>
+  <img src="https://user-images.githubusercontent.com/7836623/122893205-67f1bf80-d346-11eb-8021-eccf60a1af3f.png" width="75%" />
+</div>
+
+</details>
+
+<details>
+<summary><strong>Color tokens for debugger inline values</strong> — #209 ⇄ #218 (⊶ 299f1cd1)</summary>
+
+↠ [VS Code 1.57][vsc-rln-1.57] (May 2021) introduced [new color tokens for debugger inline values][vsc-rln-1.57#theme-colors-inline-values].
+They have been added to make them conform with Nord's theme style:
+
+- `editor.inlineValuesBackground` — color for the debug inline value foreground text.
+- `editor.inlineValuesForeground` — color for the debug inline value background.
+
+</details>
+
 # 0.16.0
 
-![Release Date: 2021-06-19](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2021-06-19&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.16.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/26) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.15.1&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/22)
+![Release Date: 2021-06-19](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2021-06-19&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.16.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/26) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.16.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/22)
 
 ⇅ [Show all commits][gh-compare-tag-v0.15.1_v0.16.0]
 
@@ -1038,7 +1219,7 @@ Detailed information about features, supported languages and install instruction
 
 <!--lint disable final-definition-->
 
-<!-- Base Links -->
+<!-- Shared -->
 
 [ci-circle-docs-api-2.0]: https://circleci.com/docs/2.0
 [ci-circle]: https://circleci.com
@@ -1076,6 +1257,8 @@ Detailed information about features, supported languages and install instruction
 [ossg]: https://opensource.guide
 [prettier]: https://prettier.io
 [typescript]: https://www.typescriptlang.org
+[vsc-rln-1.46]: https://code.visualstudio.com/updates/v1_46
+[vsc-rln-1.57]: https://code.visualstudio.com/updates/v1_57
 [vsce]: https://github.com/Microsoft/vscode-vsce
 [vscode-docs-approved-badges]: https://code.visualstudio.com/docs/extensionAPI/extension-manifest#_approved-badges
 [vscode-docs-color-ref-editor-colors]: https://code.visualstudio.com/docs/getstarted/theme-color-reference#_editor-colors
@@ -1184,7 +1367,22 @@ Detailed information about features, supported languages and install instruction
 <!-- v0.16.0 -->
 
 [gh-compare-tag-v0.15.1_v0.16.0]: https://github.com/arcticicestudio/nord-visual-studio-code/compare/v0.15.1...v0.16.0
-[vsc-rln-1.46]: https://code.visualstudio.com/updates/v1_46
 [vsc-rln-1.46#debug_console_tokens]: https://code.visualstudio.com/updates/v1_46#_new-debug-console-theme-colors
-[vsc-rln-1.57]: https://code.visualstudio.com/updates/v1_57
 [vsc-rln-1.57#quick-pick-suggest-widget-color]: https://code.visualstudio.com/updates/v1_57#_updated-quick-pick-suggest-widget-color
+
+<!-- v0.16.0 -->
+
+[gh-compare-tag-v0.16.0_v0.17.0]: https://github.com/arcticicestudio/nord-visual-studio-code/compare/v0.16.0...v0.17.0
+[vsc-rln-1.46#input-theme-colors]: https://code.visualstudio.com/updates/v1_46#_new-input-theme-colors
+[vsc-rln-1.50]: https://code.visualstudio.com/updates/v1_50
+[vsc-rln-1.50#new-theme-colors]: https://code.visualstudio.com/updates/v1_50#_new-theme-colors
+[vsc-rln-1.52]: https://code.visualstudio.com/updates/v1_52
+[vsc-rln-1.52#new-theme-colors]: https://code.visualstudio.com/updates/v1_52#_new-theme-colors
+[vsc-rln-1.52#sash-hover-border-color]: https://code.visualstudio.com/updates/v1_52#_sash-hover-border-color
+[vsc-rln-1.52#ui-improvements]: https://code.visualstudio.com/updates/v1_52#_ui-improvements
+[vsc-rln-1.54]: https://code.visualstudio.com/updates/v1_54
+[vsc-rln-1.54#listtree-ui]: https://code.visualstudio.com/updates/v1_54#_updated-listtree-ui
+[vsc-rln-1.56]: https://code.visualstudio.com/updates/v1_56
+[vsc-rln-1.56#custom-dialogs]: https://code.visualstudio.com/updates/v1_56#_updated-custom-dialogs
+[vsc-rln-1.56#keybinding-label-colors]: https://code.visualstudio.com/updates/v1_56#_keybinding-label-colors
+[vsc-rln-1.57#theme-colors-inline-values]: https://code.visualstudio.com/updates/v1_57#_new-theme-colors-for-inline-values
