@@ -118,6 +118,7 @@
     "input.border": "#3b4252",
     "inputOption.activeBackground": "#5e81ac",
     "inputOption.activeBorder": "#5e81ac",
+    "inputOption.activeForeground": "#eceff4",
     "inputValidation.errorBackground": "#bf616a",
     "inputValidation.errorBorder": "#bf616a",
     "inputValidation.infoBackground": "#81a1c1",
