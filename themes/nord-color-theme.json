@@ -199,6 +199,7 @@
     "pickerGroup.foreground": "#88c0d0",
     "progressBar.background": "#88c0d0",
     "quickInputList.focusForeground": "#2e3440",
+    "sash.hoverBorder": "#88c0d0",
     "scrollbar.shadow": "#00000066",
     "scrollbarSlider.activeBackground": "#434c5eaa",
     "scrollbarSlider.background": "#434c5e99",
