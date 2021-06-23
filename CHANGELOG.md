@@ -8,6 +8,33 @@
 
 <!--lint disable no-duplicate-headings no-duplicate-headings-in-section-->
 
+# 0.17.1
+
+![Release Date: 2021-06-23](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2021-06-23&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.17.1&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/28) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.17.1&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/24)
+
+⇅ [Show all commits][gh-compare-tag-v0.17.0_v0.17.1]
+
+This release version includes a small bug fix, introduced [version 0.17.0](#0170), for the background color of input lists in focused state.
+
+## Bug Fixes
+
+<details>
+<summary><strong>Invalid quick input list background for focused state</strong> — #219 ⇄ #220 (⊶ 280ae189)</summary>
+
+↠ In #206 the [deprecated `list.focusBackground` color token][vsc-rln-1.54#listtree-ui] was replaced by the new `quickInputList.focusBackground` token, but somehow in #215 (while resolving merge conflicts) the value was changed to use a alpha layer value of 60%. This is not intended was should use `nord8` instead without any transparency.
+
+<h3 align="center">Before</h3>
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/7836623/123047579-bdd56e80-d3fd-11eb-9467-faa1275d50f3.png" width="75%" />
+</div>
+
+<h3 align="center">After</h3>
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/7836623/122639074-1522c880-d0f8-11eb-9e9e-ac5acd219e99.png" width="75%" />
+</div>
+
+</details>
+
 # 0.17.0
 
 ![Release Date: 2021-06-22](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2021-06-22&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.17.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/27) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.17.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/23)
@@ -1258,6 +1285,7 @@ Detailed information about features, supported languages and install instruction
 [prettier]: https://prettier.io
 [typescript]: https://www.typescriptlang.org
 [vsc-rln-1.46]: https://code.visualstudio.com/updates/v1_46
+[vsc-rln-1.54#listtree-ui]: https://code.visualstudio.com/updates/v1_54#_updated-listtree-ui
 [vsc-rln-1.57]: https://code.visualstudio.com/updates/v1_57
 [vsce]: https://github.com/Microsoft/vscode-vsce
 [vscode-docs-approved-badges]: https://code.visualstudio.com/docs/extensionAPI/extension-manifest#_approved-badges
@@ -1370,7 +1398,7 @@ Detailed information about features, supported languages and install instruction
 [vsc-rln-1.46#debug_console_tokens]: https://code.visualstudio.com/updates/v1_46#_new-debug-console-theme-colors
 [vsc-rln-1.57#quick-pick-suggest-widget-color]: https://code.visualstudio.com/updates/v1_57#_updated-quick-pick-suggest-widget-color
 
-<!-- v0.16.0 -->
+<!-- v0.17.0 -->
 
 [gh-compare-tag-v0.16.0_v0.17.0]: https://github.com/arcticicestudio/nord-visual-studio-code/compare/v0.16.0...v0.17.0
 [vsc-rln-1.46#input-theme-colors]: https://code.visualstudio.com/updates/v1_46#_new-input-theme-colors
@@ -1381,8 +1409,11 @@ Detailed information about features, supported languages and install instruction
 [vsc-rln-1.52#sash-hover-border-color]: https://code.visualstudio.com/updates/v1_52#_sash-hover-border-color
 [vsc-rln-1.52#ui-improvements]: https://code.visualstudio.com/updates/v1_52#_ui-improvements
 [vsc-rln-1.54]: https://code.visualstudio.com/updates/v1_54
-[vsc-rln-1.54#listtree-ui]: https://code.visualstudio.com/updates/v1_54#_updated-listtree-ui
 [vsc-rln-1.56]: https://code.visualstudio.com/updates/v1_56
 [vsc-rln-1.56#custom-dialogs]: https://code.visualstudio.com/updates/v1_56#_updated-custom-dialogs
 [vsc-rln-1.56#keybinding-label-colors]: https://code.visualstudio.com/updates/v1_56#_keybinding-label-colors
 [vsc-rln-1.57#theme-colors-inline-values]: https://code.visualstudio.com/updates/v1_57#_new-theme-colors-for-inline-values
+
+<!-- v0.17.1 -->
+
+[gh-compare-tag-v0.17.0_v0.17.1]: https://github.com/arcticicestudio/nord-visual-studio-code/compare/v0.17.0...v0.17.1
