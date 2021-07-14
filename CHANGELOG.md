@@ -8,6 +8,38 @@
 
 <!--lint disable no-duplicate-headings no-duplicate-headings-in-section-->
 
+# 0.18.0
+
+![Release Date: 2021-07-14](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2021-04-14&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.18.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/29) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.18.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/25)
+
+⇅ [Show all commits][gh-compare-tag-v0.17.1_v0.18.0]
+
+This release version includes features introduced in [VS Code version 1.58][vsc-rln-1.58].
+
+### Features
+
+<details>
+<summary><strong><em>TextMate</em> rules for Markdown math formula syntax highlighting</strong> — #221 ⇄ #222 (⊶ 60733483)</summary>
+
+↠ [VS Code 1.58][vsc-rln-1.58] (June 2021) introduced [syntax highlighting for Markdown math formulas][vsc-rln-1.58#md_math_hl]. To adapt the coloring to Nord's style new _TextMate_ rules with the following scopes have been added:
+
+- `text.html.markdown constant.character.math.tex` — targets constants like `\displaystyle` and `\left`.
+- `text.html.markdown constant.character.math.tex` — targets `$$` definition markers.
+- `text.html.markdown punctuation.definition.function.math.tex` — targets the `\` (backslash) function definition marker.
+- `text.html.markdown punctuation.math.operator.latex` — targets operators like `=`.
+
+<h3 align="center">Before</h3>
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/7836623/125685322-3fd170ae-8927-44e3-ab3e-bd5e062cc1de.png" width="75%" />
+</div>
+
+<h3 align="center">After</h3>
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/7836623/125685315-d03b4719-4957-44c5-bb1e-674889a063cc.png" width="75%" />
+</div>
+
+</details>
+
 # 0.17.1
 
 ![Release Date: 2021-06-23](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2021-06-23&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.17.1&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/28) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.17.1&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/24)
@@ -1417,3 +1449,9 @@ Detailed information about features, supported languages and install instruction
 <!-- v0.17.1 -->
 
 [gh-compare-tag-v0.17.0_v0.17.1]: https://github.com/arcticicestudio/nord-visual-studio-code/compare/v0.17.0...v0.17.1
+
+<!-- v0.18.0 -->
+
+[gh-compare-tag-v0.17.1_v0.18.0]: https://github.com/arcticicestudio/nord-visual-studio-code/compare/v0.17.1...v0.18.0
+[vsc-rln-1.58]: https://code.visualstudio.com/updates/v1_58
+[vsc-rln-1.58#md_math_hl]: https://code.visualstudio.com/updates/v1_58#_markdown-math-formula-syntax-highlighting
