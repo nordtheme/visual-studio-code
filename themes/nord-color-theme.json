@@ -246,6 +246,8 @@
     "statusBarItem.prominentHoverBackground": "#434c5e",
     "statusBarItem.errorBackground": "#3b4252",
     "statusBarItem.errorForeground": "#bf616a",
+    "statusBarItem.warningBackground": "#ebcb8b",
+    "statusBarItem.warningForeground": "#2e3440",
     "statusBar.border": "#3b425200",
     "tab.activeBackground": "#3b4252",
     "tab.activeForeground": "#d8dee9",
