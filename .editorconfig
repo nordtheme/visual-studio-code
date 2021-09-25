@@ -8,6 +8,8 @@
 # +--------------------+
 # + Base Configuration +
 # +--------------------+
+root = true
+
 [*]
 charset = utf-8
 end_of_line = lf
@@ -22,4 +24,5 @@ trim_trailing_whitespace = true
 # +-----------+
 # +--- Markdown ---+
 [*.{md}]
+max_line_length = off
 trim_trailing_whitespace = false

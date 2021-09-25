@@ -8,13 +8,11 @@
  */
 
 /**
- * @file The Prettier configuration.
- * @author Arctic Ice Studio <development@arcticicestudio.com>
- * @author Sven Greb <development@svengreb.de>
+ * Configurations for Prettier.
+ *
  * @see https://prettier.io/docs/en/configuration.html
  * @see https://prettier.io/docs/en/options.html
  */
-
 module.exports = {
-  printWidth: 120
+  printWidth: 120,
 };
