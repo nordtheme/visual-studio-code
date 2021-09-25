@@ -909,7 +909,7 @@ All currently implemented Gulp tasks have therefore been migrated to npm scripts
 <p align="center"><img src="https://camo.githubusercontent.com/0839818322a1f81721f7f35e55e5a84fc8f27437/68747470733a2f2f70726574746965722e696f2f69636f6e2e706e67" width="200" /></p>
 
 **Arctic Ice Studio ESLint rule set** — #75 ⇄ #87 (⊶ c9e0c93d)
-↠ The default rule set coming with [ESLint][] has been replaced with [Arctic Ice Studio's custom rule set][eslint-config-arcticicestudio-base] that adheres to the [Arctic Ice Studio JavaScript code style][gh-arcticicestudio/styleguide-javascript].
+↠ The default rule set coming with [ESLint][] has been replaced with [Arctic Ice Studio's custom rule set][npm-eslint-config-arcticicestudio-base] that adheres to the [Arctic Ice Studio JavaScript code style][gh-arcticicestudio/styleguide-javascript].
 
 <p align="center"><img src="https://cdn-images-1.medium.com/max/1920/1*_jMm9Z6Adgj6BIso7kCEhA.png" width="888" /></p>
 
@@ -1283,7 +1283,6 @@ Detailed information about features, supported languages and install instruction
 [ci-circle-docs-api-2.0]: https://circleci.com/docs/2.0
 [ci-circle]: https://circleci.com
 [ci-travis]: https://travis-ci.org
-[eslint-config-arcticicestudio-base]: https://www.npmjs.com/package/eslint-config-arcticicestudio-base
 [eslint]: https://eslint.org
 [gh-118]: https://github.com/arcticicestudio/nord-visual-studio-code/issues/118
 [gh-arcticicestudio/styleguide-git]: https://github.com/arcticicestudio/styleguide-git
@@ -1311,6 +1310,7 @@ Detailed information about features, supported languages and install instruction
 [gulp]: https://gulpjs.com
 [nord]: https://www.nordtheme.com
 [nord#55]: https://github.com/arcticicestudio/nord/issues/55
+[npm-eslint-config-arcticicestudio-base]: https://www.npmjs.com/package/eslint-config-arcticicestudio-base
 [npm-remark-preset-lint-arcticicestudio]: https://www.npmjs.com/package/remark-preset-lint-arcticicestudio
 [ossg-contrib]: https://opensource.guide/how-to-contribute
 [ossg]: https://opensource.guide
@@ -1410,7 +1410,7 @@ Detailed information about features, supported languages and install instruction
 
 [gh-user-kufii]: https://github.com/kufii
 [mdn-js-templ_lit]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
-[vsc-rln-1.40]: https://code.visualstudio.com/updates/v1_22
+[vsc-rln-1.40]: https://code.visualstudio.com/updates/v1_40
 [vsc-rln-1.40#ac_bar_ind]: https://code.visualstudio.com/updates/v1_40#_activity-bar-indicator
 [vsc-rln-1.41#mm_warn_err]: https://code.visualstudio.com/updates/v1_41#_minimap-decorations-for-errors-warnings-and-content-changes
 [vsc-rln-1.43#mm_bg_slider]: https://code.visualstudio.com/updates/v1_43#_minimap-background-and-slider-colors
@@ -1422,7 +1422,6 @@ Detailed information about features, supported languages and install instruction
 
 [gh-compare-tag-v0.15.0_v0.15.1]: https://github.com/arcticicestudio/nord-visual-studio-code/compare/v0.15.0...v0.15.1
 [npm-@arcticicestudio/eslint-config-base]: https://www.npmjs.com/package/@arcticicestudio/eslint-config-base
-[npm-eslint-config-arcticicestudio-base]: https://www.npmjs.com/package/eslint-config-arcticicestudio-base
 
 <!-- v0.16.0 -->
 

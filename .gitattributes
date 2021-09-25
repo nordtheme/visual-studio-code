@@ -10,7 +10,7 @@
 
 # Automatically perform line feed (LF) normalization for files detected as text and leave all files detected as binary
 # untouched.
-* text=auto
+* text=auto eol=lf
 
 # +--------+
 # + Assets +

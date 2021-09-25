@@ -1,3 +1,5 @@
+#!/bin/sh
+
 # Copyright (C) 2017-present Arctic Ice Studio <development@arcticicestudio.com>
 # Copyright (C) 2017-present Sven Greb <development@svengreb.de>
 #
@@ -5,5 +7,12 @@
 # Repository: https://github.com/arcticicestudio/nord-visual-studio-code
 # License:    MIT
 
-package-lock=true
-save-exact=false
+# Git "pre-commit" hook for husky.
+#
+# References:
+#   1. https://github.com/typicode/husky
+#   2. https://git-scm.com/docs/githooks#_pre_commit
+
+. "$(dirname "$0")/_/husky.sh"
+
+npm exec lint-staged

@@ -95,7 +95,7 @@ You can help improve the docs and guides by making them more coherent, consisten
 
 ## Branch Organization
 
-Nord Visual Studio Code uses the [gitflow][gitflow] branching model. The repository consists of two core branches with an infinite development lifecycle:
+Nord Visual Studio Code uses the [gitflow][] branching model. The repository consists of two core branches with an infinite development lifecycle:
 
 - `master` - The source code of `HEAD` always reflects a tagged release version.
 - `develop` - The default branch where the source code of `HEAD` always reflects a state with the latest development state.
@@ -144,7 +144,7 @@ Nord Visual Studio Code adheres to the [Arctic Ice Studio Git Style Guide][gh-st
 
 [![][gh-styleguide-git-badge]][gh-styleguide-git]
 
-The style guide assumes that you are familiar with the [gitflow][gitflow] branching model.
+The style guide assumes that you are familiar with the [gitflow][] branching model.
 
 ## MCVE
 
@@ -156,7 +156,7 @@ When [reporting a bug](#bug-reports), sometimes even when [suggesting enhancemen
 - …Complete – Provide all parts needed to reproduce the behavior
 - …Verifiable – Test the code you're about to provide to make sure it reproduces the behavior
 
-A MCVE is a common practice like on [Stack Overflow][stackoverflow-mcve] and sometimes it is also called [SSCCE][sscce], a _Short, Self Contained, Correct (Compilable), Example_.
+A MCVE is a common practice like on [Stack Overflow][stackoverflow-mcve] and sometimes it is also called [SSCCE][], a _Short, Self Contained, Correct (Compilable), Example_.
 
 The recommended way for GitHub based projects is to create it as [Gist][gh-gist] or new repository, but of course you can [attach it to issues and pull requests as files][ghh-attach-file], use any free code paste- or file hosting service or paste the code in [Markdown code blocks][ghh-markdown-code-blocks] into the issue.
 

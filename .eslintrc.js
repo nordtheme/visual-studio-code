@@ -8,24 +8,20 @@
  */
 
 /**
- * @file The ESLint configuration.
- * @author Arctic Ice Studio <development@arcticicestudio.com>
- * @author Sven Greb <development@svengreb.de>
- * @see https://github.com/babel/eslint-plugin-babel#rules
- * @see https://github.com/tc39/proposal-optional-chaining
- * @see https://eslint.org/docs/user-guide/configuring#specifying-environments
+ * Configurations for ESLint.
+ *
+ * @see https://eslint.org/docs/user-guide/configuring
  */
-
 module.exports = {
-  extends: "arcticicestudio-base",
-  plugins: ["json", "prettier"],
-  parser: "babel-eslint",
-  env: {
-    node: true,
-    browser: true
-  },
-  rules: {
-    /* Prioritize format errors found by Prettier. */
-    "prettier/prettier": "error"
-  }
+  extends: [
+    "plugin:jsonc/recommended-with-jsonc",
+    "@arcticicestudio/eslint-config-base",
+    /*
+     * Enable support for projects using Prettier.
+     * Note that this must always be placed after the `@arcticicestudio/eslint-config-base` preset to take precedence,
+     * otherwise it won't prevent errors due to useless and possibly conflicting rules!
+     */
+    "@arcticicestudio/eslint-config-base/prettier",
+  ],
+  plugins: ["jsonc"],
 };
