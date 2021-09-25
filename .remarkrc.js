@@ -8,11 +8,10 @@
  */
 
 /**
- * @file The remark-lint configuration.
- * @author Arctic Ice Studio <development@arcticicestudio.com>
- * @author Sven Greb <development@svengreb.de>
+ * Configurations for remark-lint.
+ *
+ * @see https://github.com/remarkjs/remark-lint
  */
-
 module.exports = {
-  plugins: ["remark-preset-lint-arcticicestudio"]
+  plugins: ["@arcticicestudio/remark-preset-lint"],
 };

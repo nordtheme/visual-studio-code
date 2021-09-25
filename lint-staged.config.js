@@ -15,7 +15,7 @@
  */
 
 module.exports = {
-  "*.{js,json,md,yml}": "prettier --list-different",
+  "*.{js,json,md,yaml,yml}": "prettier --check",
   "*.{js,json}": "eslint --ext .js,.json",
-  "*.md": "remark --no-stdout"
+  "*.md": "remark --no-stdout",
 };
