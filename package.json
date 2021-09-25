@@ -2,7 +2,7 @@
   "name": "nord-visual-studio-code",
   "displayName": "Nord",
   "description": "An arctic, north-bluish clean and elegant Visual Studio Code theme.",
-  "version": "0.18.0",
+  "version": "0.19.0",
   "publisher": "arcticicestudio",
   "author": {
     "name": "Arctic Ice Studio",
@@ -19,6 +19,8 @@
   },
   "license": "MIT",
   "engines": {
+    "node": ">=15.13",
+    "npm": ">=7.7",
     "vscode": "^1.12.0"
   },
   "galleryBanner": {
@@ -64,30 +66,36 @@
     ]
   },
   "scripts": {
-    "build": "npm-run-all --sequential clean package",
+    "build": "run-s clean package",
     "clean": "del *.vsix",
-    "format": "npm-run-all format:pretty format:fix",
+    "format": "run-s format:pretty format:fix",
     "format:fix": "eslint --fix --ext .js,.json .",
-    "format:pretty": "prettier --write \"./**/*.{js,json,md,yml}\"",
-    "lint": "npm-run-all lint:*",
-    "lint:js": "eslint --ext .js,.jsx .",
+    "format:pretty": "prettier --write .",
+    "lint": "run-s lint:*",
+    "lint:ci:pretty": "prettier --loglevel silent --check .",
+    "lint:js": "eslint --ext .",
     "lint:json": "eslint --ext .json .",
     "lint:md": "remark --no-stdout . \".github/**/*.md\"",
-    "package": "vsce package"
+    "package": "vsce package",
+    "prepare:husky": "husky install",
+    "prepare": "run-s prepare:*"
   },
   "devDependencies": {
-    "@arcticicestudio/eslint-config-base": ">=0.5.0 <1.0.0",
-    "babel-eslint": "10.0.1",
-    "del-cli": "1.1.0",
-    "eslint": "5.16.0",
-    "eslint-plugin-import": "2.17.3",
-    "eslint-plugin-json": "1.4.0",
-    "eslint-plugin-prettier": "3.1.0",
-    "npm-run-all": "4.1.5",
-    "prettier": "1.17.1",
-    "remark-cli": "6.0.1",
-    "remark-preset-lint-arcticicestudio": ">=0.3.0 <1.0.0",
-    "vsce": "1.62.0"
+    "@arcticicestudio/eslint-config-base": ">=0.11.0 <1.0.0",
+    "@arcticicestudio/remark-preset-lint": ">=0.4.0 <1.0.0",
+    "@babel/eslint-parser": "^7.15.7",
+    "del-cli": "^4.0.1",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jsonc": "^1.7.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.1.2",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.4.1",
+    "remark-cli": "^9.0.0",
+    "vsce": "^1.100.0"
   },
   "__metadata": {
     "id": "6f35c257-7fd5-4bc2-9cd1-01976589c17a",
