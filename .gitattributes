@@ -1,21 +1,17 @@
-# Copyright (C) 2017-present Arctic Ice Studio <development@arcticicestudio.com>
-# Copyright (C) 2017-present Sven Greb <development@svengreb.de>
-#
-# Project:    Nord Visual Studio Code
-# Repository: https://github.com/arcticicestudio/nord-visual-studio-code
-# License:    MIT
-# References:
-#   https://git-scm.com/docs/gitattributes
-#   https://git-scm.com/book/en/v2/Customizing-Git-Git-Attributes#Keyword-Expansion
+# Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+# This source code is licensed under the MIT license found in the license file.
 
-# Automatically perform line feed (LF) normalization for files detected as text and leave all files detected as binary
-# untouched.
+# Configuration to define attributes per path.
+# References:
+#   1. https://git-scm.com/docs/gitattributes
+#   2. https://git-scm.com/book/en/v2/Customizing-Git-Git-Attributes#Keyword-Expansion
+
+# Automatically perform line feed (LF) normalization for files detected as text and leave all files detected as binary untouched.
 * text=auto eol=lf
 
 # +--------+
 # + Assets +
 # +--------+
-*.ai binary
 *.png binary
 
 # +-----------------+

@@ -1,16 +1,31 @@
-<p align="center"><a href="https://www.nordtheme.com/ports/visual-studio-code" target="_blank"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/ports/visual-studio-code/repository-hero.png" srcset="https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/ports/visual-studio-code/repository-hero-2x.png 2x"/></a></p>
+<p align="center">
+  <a href="https://www.nordtheme.com/ports/visual-studio-code" target="_blank">
+    <picture>
+      <source srcset="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/ports/visual-studio-code/repository-hero.png" srcset="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/ports/visual-studio-code/repository-hero-2x.png 2x" width="100%" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+      <img srcset="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/ports/visual-studio-code/repository-hero.png" srcset="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/ports/visual-studio-code/repository-hero-2x.png 2x" width="100%" />
+    </picture>
+  </a>
+</p>
 
-<p align="center"><a href="https://www.nordtheme.com/docs/ports/visual-studio-code" target="_blank"><img src="https://img.shields.io/github/release/arcticicestudio/nord-visual-studio-code.svg?style=flat-square&label=Docs&colorA=4c566a&colorB=88c0d0&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI%2BCiAgICA8cGF0aCBmaWxsPSIjZDhkZWU5IiBkPSJNMTMuNzQ2IDIuODEzYS42Ny42NyAwIDAgMC0uNTU5LS4xMzNMOCAzLjg0OGwtNS4xODgtMS4xOGEuNjY5LjY2OSAwIDAgMC0uNTcuMTMzLjY3Ny42NzcgMCAwIDAtLjI0Mi41MzF2OC4xMzNjLS4wMDguMzIuMjEuNTk4LjUyLjY2OGw1LjMzMiAxLjE5OWguMjk2bDUuMzMyLTEuMmEuNjY4LjY2OCAwIDAgMCAuNTItLjY2N1YzLjMzMmEuNjU5LjY1OSAwIDAgMC0uMjU0LS41MnpNMy4zMzIgNC4xNjhsNCAuODk4djYuNzY2bC00LS44OTh6bTkuMzM2IDYuNzY2bC00IC44OThWNS4wNjZsNC0uODk4em0wIDAiLz4KPC9zdmc%2BCg%3D%3D"/></a></p>
+<p align="center">
+  <a href="https://www.nordtheme.com/docs/ports/visual-studio-code" target="_blank">
+    <img src="https://img.shields.io/github/release/nordtheme/visual-studio-code.svg?style=flat-square&label=Docs&colorA=4c566a&colorB=88c0d0&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI%2BCiAgICA8cGF0aCBmaWxsPSIjZDhkZWU5IiBkPSJNMTMuNzQ2IDIuODEzYS42Ny42NyAwIDAgMC0uNTU5LS4xMzNMOCAzLjg0OGwtNS4xODgtMS4xOGEuNjY5LjY2OSAwIDAgMC0uNTcuMTMzLjY3Ny42NzcgMCAwIDAtLjI0Mi41MzF2OC4xMzNjLS4wMDguMzIuMjEuNTk4LjUyLjY2OGw1LjMzMiAxLjE5OWguMjk2bDUuMzMyLTEuMmEuNjY4LjY2OCAwIDAgMCAuNTItLjY2N1YzLjMzMmEuNjU5LjY1OSAwIDAgMC0uMjU0LS41MnpNMy4zMzIgNC4xNjhsNCAuODk4djYuNzY2bC00LS44OTh6bTkuMzM2IDYuNzY2bC00IC44OThWNS4wNjZsNC0uODk4em0wIDAiLz4KPC9zdmc%2BCg%3D%3D"/>
+  </a>
+</p>
 
-<p align="center"><a href="https://code.visualstudio.com/updates/v1_12" target="_blank"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=Compatibility&message=%3E%3D1.12.0&logo=visual-studio-code&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/></a></p>
+<p align="center">
+  <a href="https://code.visualstudio.com/updates/v1_12" target="_blank">
+    <img src="https://img.shields.io/static/v1.svg?style=flat-square&label=Compatibility&message=%3E%3D1.12.0&logo=visual-studio-code&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/>
+  </a>
+</p>
 
-<p align="center">Changelog for <a href="https://www.nordtheme.com/ports/visual-studio-code">Nord Visual Studio Code</a> — An arctic, north-bluish clean and elegant <a href="https://code.visualstudio.com" target="_blank">Visual Studio Code</a> theme.</p>
+<p align="center">Changelog for <a href="https://www.nordtheme.com/ports/visual-studio-code" target="_blank">Nord Visual Studio Code</a> — An arctic, north-bluish clean and elegant <a href="https://code.visualstudio.com" target="_blank">Visual Studio Code</a> theme.</p>
 
 <!--lint disable no-duplicate-headings no-duplicate-headings-in-section-->
 
 # 0.19.0
 
-![Release Date: 2021-09-25](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2021-09-25&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.19.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/30) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.19.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/26)
+![Release Date: 2021-09-25](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2021-09-25&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.19.0&colorA=4c566a&colorB=88c0d0)](https://github.com/orgs/nordtheme/projects/1/views/10) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.19.0&colorA=4c566a&colorB=88c0d0)](https://github.com/nordtheme/visual-studio-code/milestone/26)
 
 ⇅ [Show all commits][137]
 
@@ -48,7 +63,7 @@ This release version includes features introduced in [VS Code version 1.59][140]
 </details>
 
 <details>
-<summary><strong>Color tokens for status bar warning items</strong> — #225 ⇄ #231 (⊶ b3f2b83a) by <a href="https://github.com/roosephu">@roosephu</a></summary>
+<summary><strong>Color tokens for bracket pair colorization</strong> — #225 ⇄ #231 (⊶ b3f2b83a) by <a href="https://github.com/roosephu">@roosephu</a></summary>
 
 ↠ [VS Code 1.60][143] (August 2021) introduced [native, high performance bracket pair colorization][144] (opt-in via `editor.bracketPairColorization.enabled` setting) to address performance issues of popular extensions. The color tokens have been added and adjusted to match Nord's theme style:
 
@@ -65,7 +80,7 @@ Note that bracket pair colorization is a feature that does not go well with the 
 </details>
 
 <details>
-<summary><strong>Color tokens for status bar warning items</strong> — #224 ⇄ #232 (⊶ 2ea762e7) by <a href="https://github.com/wenmin92">@wenmin92</a></summary>
+<summary><strong>Color tokens for TypeScript and JavaScript inlay hints</strong> — #224 ⇄ #232 (⊶ 2ea762e7) by <a href="https://github.com/wenmin92">@wenmin92</a></summary>
 
 ↠ [VS Code 1.60][143] (August 2021) introduced [inlay hints for JavaScript and TypeScript][145] (opt-in via `editor.inlayHints.enabled`), including new color tokens to customize their appereance. They have been added and adjusted to match Nord's theme style:
 
@@ -93,7 +108,7 @@ Note that bracket pair colorization is a feature that does not go well with the 
 
 At the same time outdated dependencies have been upgraded to their latest, compatible version. This also changed the versions by using [the `^` caret range selector][139] to reduce the overhead of updating dependencies.
 
-- [`@arcticicestudio/eslint-config-base`][135] — the minimum versions will be bumped from `0.5.0` to [`0.11.0`][134].
+- [`@svengreb/eslint-config-base`][135] — the minimum versions will be bumped from `0.5.0` to [`0.11.0`][134].
 - [`babel-eslint`][146] → [`@babel/eslint-parser`][152] — the `babel-eslint` package is deprecated and is now available as `@babel/eslint-parser`.
 - [`eslint-plugin-json`][163] → [`eslint-plugin-jsonc`][166] — since Visual Studio Code uses [JSONC][170] the `eslint-plugin-jsonc` matches better to the scope of this repository. It also utilizes the ESLint engine by passing the AST to it.
 - [`del-cli`][171] — updated from version [`1.1.0`][172] to [`^4.0.1`][173].
@@ -102,14 +117,14 @@ At the same time outdated dependencies have been upgraded to their latest, compa
 - [`eslint-plugin-prettier`][154] — updated from version [`3.1.0`][155] to [`^4.0.0`][156].
 - [`prettier`][35] — updated from version [`1.17.1`][158] to [`^2.4.1`][159].
 - [`remark-cli`][160] — updated from version [`6.0.1`][161] to [`^9.0.0`][162].
-- [`remark-preset-lint-arcticicestudio`][32] → [`@arcticicestudio/remark-preset-lint`][164] — the `remark-preset-lint-arcticicestudio` package is deprecated and is now available as `@arcticicestudio/remark-preset-lint`. This also includes the linting and adjusting for matches that are found after running with the new rules.
+- [`remark-preset-lint-arcticicestudio`][32] → [`@svengreb/remark-preset-lint`][164] — the `remark-preset-lint-arcticicestudio` package is deprecated and is now available as `@svengreb/remark-preset-lint`. This also includes the linting and adjusting for matches that are found after running with the new rules.
 - [`vsce`][40] — updated from version [`6.0.1`][168] to [`^1.100.0`][169].
 
 </details>
 
 # 0.18.0
 
-![Release Date: 2021-07-14](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2021-04-14&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.18.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/29) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.18.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/25)
+![Release Date: 2021-07-14](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2021-04-14&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.18.0&colorA=4c566a&colorB=88c0d0)](https://github.com/orgs/nordtheme/projects/1/views/10) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.18.0&colorA=4c566a&colorB=88c0d0)](https://github.com/nordtheme/visual-studio-code/milestone/25)
 
 ⇅ [Show all commits][130]
 
@@ -141,7 +156,7 @@ This release version includes features introduced in [VS Code version 1.58][131]
 
 # 0.17.1
 
-![Release Date: 2021-06-23](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2021-06-23&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.17.1&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/28) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.17.1&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/24)
+![Release Date: 2021-06-23](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2021-06-23&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.17.1&colorA=4c566a&colorB=88c0d0)](https://github.com/orgs/nordtheme/projects/1/views/10) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.17.1&colorA=4c566a&colorB=88c0d0)](https://github.com/nordtheme/visual-studio-code/milestone/24)
 
 ⇅ [Show all commits][129]
 
@@ -168,7 +183,7 @@ This release version includes a small bug fix, introduced [version 0.17.0](#0170
 
 # 0.17.0
 
-![Release Date: 2021-06-22](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2021-06-22&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.17.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/27) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.17.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/23)
+![Release Date: 2021-06-22](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2021-06-22&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.17.0&colorA=4c566a&colorB=88c0d0)](https://github.com/orgs/nordtheme/projects/1/views/10) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.17.0&colorA=4c566a&colorB=88c0d0)](https://github.com/nordtheme/visual-studio-code/milestone/23)
 
 ⇅ [Show all commits][116]
 
@@ -349,7 +364,7 @@ They have been added to make them conform with Nord's theme style:
 
 # 0.16.0
 
-![Release Date: 2021-06-19](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2021-06-19&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.16.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/26) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.16.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/22)
+![Release Date: 2021-06-19](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2021-06-19&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.16.0&colorA=4c566a&colorB=88c0d0)](https://github.com/orgs/nordtheme/projects/1/views/10) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.16.0&colorA=4c566a&colorB=88c0d0)](https://github.com/nordtheme/visual-studio-code/milestone/22)
 
 ⇅ [Show all commits][113]
 
@@ -420,7 +435,7 @@ These changes broke the current style of Nord and made the theme har to use. The
 
 # 0.15.1
 
-![Release Date: 2021-02-01](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2021-02-01&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.15.1&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/25) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.15.1&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/21)
+![Release Date: 2021-02-01](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2021-02-01&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.15.1&colorA=4c566a&colorB=88c0d0)](https://github.com/orgs/nordtheme/projects/1/views/10) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.15.1&colorA=4c566a&colorB=88c0d0)](https://github.com/nordtheme/visual-studio-code/milestone/21)
 
 ⇅ [Show all commits][111]
 
@@ -432,13 +447,13 @@ This release version mainly migrates a NPM package dependency that has been depr
 <summary><strong>Switch to new ESLint configuration preset package</strong> — #190 (⊶ 13ef97ec) by <a href="https://github.com/kremalicious" target="_blank">@kremalicious</a></summary>
 
 ↠ Before the [`eslint-config-arcticicestudio-base` NPM package][31] was used which has been deprecated and also deleted from the registry.
-Because the goal of the deprecation was to move to the new [`@arcticicestudio/eslint-config-base` package][112] anyway it has now been switched.
+Because the goal of the deprecation was to move to the new [`@svengreb/eslint-config-base` package][112] anyway it has now been switched.
 
 </details>
 
 # 0.15.0
 
-![Release Date: 2020-06-23](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2020-06-23&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.15.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/24) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.15.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/20)
+![Release Date: 2020-06-23](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2020-06-23&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.15.0&colorA=4c566a&colorB=88c0d0)](https://github.com/orgs/nordtheme/projects/1/views/10) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.15.0&colorA=4c566a&colorB=88c0d0)](https://github.com/nordtheme/visual-studio-code/milestone/20)
 
 ## Features
 
@@ -482,7 +497,7 @@ Because the goal of the deprecation was to move to the new [`@arcticicestudio/es
 
 # 0.14.0
 
-![Release Date: 2020-06-16](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2020-06-16&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.14.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/23) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.14.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/19)
+![Release Date: 2020-06-16](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2020-06-16&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.14.0&colorA=4c566a&colorB=88c0d0)](https://github.com/orgs/nordtheme/projects/1/views/10) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.14.0&colorA=4c566a&colorB=88c0d0)](https://github.com/nordtheme/visual-studio-code/milestone/19)
 
 ## Features
 
@@ -495,7 +510,7 @@ See the [semantic highlighting guide for themes][100] and [Github wiki][98] for 
 
 # 0.13.0
 
-![Release Date: 2019-12-23](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2019-12-23&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.13.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/22) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.13.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/18)
+![Release Date: 2019-12-23](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2019-12-23&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.13.0&colorA=4c566a&colorB=88c0d0)](https://github.com/orgs/nordtheme/projects/1/views/10) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.13.0&colorA=4c566a&colorB=88c0d0)](https://github.com/nordtheme/visual-studio-code/milestone/18)
 
 ## Features
 
@@ -552,7 +567,7 @@ It now uses `nord4` with a opacity of 90% as color value (`#d8dee9e6`).
 
 # 0.12.0
 
-![Release Date: 2019-08-10](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2019-08-10&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.12.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/21) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.12.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/17)
+![Release Date: 2019-08-10](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2019-08-10&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.12.0&colorA=4c566a&colorB=88c0d0)](https://github.com/orgs/nordtheme/projects/1/views/10) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.12.0&colorA=4c566a&colorB=88c0d0)](https://github.com/nordtheme/visual-studio-code/milestone/17)
 
 ## Features
 
@@ -587,7 +602,7 @@ By renaming the theme file, Nord aligns to the [official bundled and default the
 
 # 0.11.0
 
-![Release Date: 2019-07-21](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2019-07-21&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.11.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/20) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.11.0&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/16)
+![Release Date: 2019-07-21](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2019-07-21&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.11.0&colorA=4c566a&colorB=88c0d0)](https://github.com/orgs/nordtheme/projects/1/views/10) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.11.0&colorA=4c566a&colorB=88c0d0)](https://github.com/nordtheme/visual-studio-code/milestone/16)
 
 ## Features
 
@@ -612,7 +627,7 @@ By renaming the theme file, Nord aligns to the [official bundled and default the
 
 # 0.10.0
 
-![Release Date: 2019-06-01](https://img.shields.io/badge/Release_Date-2019--06--01-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.10.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/19) [![Milestone](https://img.shields.io/badge/Milestone-0.10.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/15)
+![Release Date: 2019-06-01](https://img.shields.io/badge/Release_Date-2019--06--01-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.10.0-88C0D0.svg?style=flat-square)](https://github.com/orgs/nordtheme/projects/1/views/10) [![Milestone](https://img.shields.io/badge/Milestone-0.10.0-88C0D0.svg?style=flat-square)](https://github.com/nordtheme/visual-studio-code/milestone/15)
 
 ## Features
 
@@ -642,7 +657,7 @@ Please see the [corresponding issue in the Nord Docs repository][82] to get an o
 
 # 0.9.1
 
-![Release Date: 2019-05-26](https://img.shields.io/badge/Release_Date-2019--05--26-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.9.1-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/18) [![Milestone](https://img.shields.io/badge/Milestone-0.9.1-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/14)
+![Release Date: 2019-05-26](https://img.shields.io/badge/Release_Date-2019--05--26-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.9.1-88C0D0.svg?style=flat-square)](https://github.com/orgs/nordtheme/projects/1/views/10) [![Milestone](https://img.shields.io/badge/Milestone-0.9.1-88C0D0.svg?style=flat-square)](https://github.com/nordtheme/visual-studio-code/milestone/14)
 
 # Bug Fixes
 
@@ -651,7 +666,7 @@ Please see the [corresponding issue in the Nord Docs repository][82] to get an o
 
 # 0.9.0
 
-![Release Date: 2019-05-26](https://img.shields.io/badge/Release_Date-2019--05--26-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.9.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/16) [![Milestone](https://img.shields.io/badge/Milestone-0.9.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/13)
+![Release Date: 2019-05-26](https://img.shields.io/badge/Release_Date-2019--05--26-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.9.0-88C0D0.svg?style=flat-square)](https://github.com/orgs/nordtheme/projects/1/views/10) [![Milestone](https://img.shields.io/badge/Milestone-0.9.0-88C0D0.svg?style=flat-square)](https://github.com/nordtheme/visual-studio-code/milestone/13)
 
 # Features
 
@@ -766,7 +781,7 @@ New and refactored NPM script commands are
 
 # 0.8.0
 
-![Release Date: 2019-04-11](https://img.shields.io/badge/Release_Date-2019--04--11-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.8.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/15) [![Milestone](https://img.shields.io/badge/Milestone-0.8.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/12)
+![Release Date: 2019-04-11](https://img.shields.io/badge/Release_Date-2019--04--11-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.8.0-88C0D0.svg?style=flat-square)](https://github.com/orgs/nordtheme/projects/1/views/10) [![Milestone](https://img.shields.io/badge/Milestone-0.8.0-88C0D0.svg?style=flat-square)](https://github.com/nordtheme/visual-studio-code/milestone/12)
 
 ## Features
 
@@ -815,7 +830,7 @@ It has been set to `nord2` with a opacity of 80% to match the style of inactive 
 **Comment Color Brightness** — #117/#14/#72 ⇄ #118 (⊶ 7e3881b6)
 ↠ Implemented the frequently requested and long-time outstanding increase of the comment color (`nord3`) brightness by 10% from a lightness level of ~35% to ~45%.
 
-➜ **Please see [arcticicestudio/nord#94][67] for all details about this design change decision**!
+➜ **Please see [nordtheme/nord#94][67] for all details about this design change decision**!
 
 For users who would like to use the previously used coloring VS Code allows to [customize and override styles of a specific theme][43] through the user settings. To override the highlighting color of comments **only for Nord** the following snippet can be added to the settings (JSON) file:
 
@@ -850,9 +865,9 @@ Please see the official documentation about [user and workspace settings][45] fo
 ↠
 Previously the Git diff view used `nord14` with a opacity of 30% to highlight added/modified elements causing some syntax elements like comments to be bad readable. This has now been changed to use `nord9` with a opacity of 20% instead to ensure a better readability and general clearer visual appearance. Also the previously used theme keys `diffEditor.insertedTextBorder` and `diffEditor.removedTextBorder` have been removed for a more clutter-free style.
 
-<p align="center"><strong>Before</strong><br /><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-ui-diffeditor-inserted.png" /></p>
+<p align="center"><strong>Before</strong><br /><img src="https://raw.githubusercontent.com/nordtheme/visual-studio-code/develop/assets/scrot-feature-ui-diffeditor-inserted.png" /></p>
 
-<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-ui-diffeditor-removed.png" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/nordtheme/visual-studio-code/develop/assets/scrot-feature-ui-diffeditor-removed.png" /></p>
 
 <p align="center"><strong>After</strong><br /><img src="https://user-images.githubusercontent.com/7836623/54881878-f53ac680-4e54-11e9-8b84-e27e13b5dd34.png" /></p>
 
@@ -867,7 +882,7 @@ There is still a lot of potential to improve the highlighting for Git diff views
 
 # 0.7.1
 
-![Release Date: 2019-03-22](https://img.shields.io/badge/Release_Date-2019--03--22-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.7.1-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/14) [![Milestone](https://img.shields.io/badge/Milestone-0.7.1-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/11)
+![Release Date: 2019-03-22](https://img.shields.io/badge/Release_Date-2019--03--22-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.7.1-88C0D0.svg?style=flat-square)](https://github.com/orgs/nordtheme/projects/1/views/10) [![Milestone](https://img.shields.io/badge/Milestone-0.7.1-88C0D0.svg?style=flat-square)](https://github.com/nordtheme/visual-studio-code/milestone/11)
 
 ## Bug Fixes
 
@@ -878,7 +893,7 @@ There is still a lot of potential to improve the highlighting for Git diff views
 
 # 0.7.0
 
-![Release Date: 2019-03-22](https://img.shields.io/badge/Release_Date-2019--03--22-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.7.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/12) [![Milestone](https://img.shields.io/badge/Milestone-0.7.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/10)
+![Release Date: 2019-03-22](https://img.shields.io/badge/Release_Date-2019--03--22-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.7.0-88C0D0.svg?style=flat-square)](https://github.com/orgs/nordtheme/projects/1/views/10) [![Milestone](https://img.shields.io/badge/Milestone-0.7.0-88C0D0.svg?style=flat-square)](https://github.com/nordtheme/visual-studio-code/milestone/10)
 
 ## Features
 
@@ -1005,23 +1020,23 @@ All currently implemented Gulp tasks have therefore been migrated to npm scripts
 ### Documentation
 
 **Migration to MIT license** — #63 ⇄ #64 (⊶ b26446a5)
-↠ Adapted to the MIT license migration of [29][]. Details can be found in the main task ticket [arcticicestudio/nord#55][30].
+↠ Adapted to the MIT license migration of [29][]. Details can be found in the main task ticket [nordtheme/nord#55][30].
 
 # 0.6.0
 
-![Release Date: 2017-10-11](https://img.shields.io/badge/Release_Date-2017--10--11-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.6.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/11) [![Milestone](https://img.shields.io/badge/Milestone-0.6.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/9)
+![Release Date: 2017-10-11](https://img.shields.io/badge/Release_Date-2017--10--11-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.6.0-88C0D0.svg?style=flat-square)](https://github.com/orgs/nordtheme/projects/1/views/10) [![Milestone](https://img.shields.io/badge/Milestone-0.6.0-88C0D0.svg?style=flat-square)](https://github.com/nordtheme/visual-studio-code/milestone/9)
 
 ## Features
 
 ### UI
 
-❯ Added new [new theming color keys][51] for highlighting the [overview ruler][42] introduced in Visual Studio Code version 1.16. (#45 in PR #48, @arcticicestudio, 0459527b)
+❯ Added new [new theming color keys][51] for highlighting the [overview ruler][42] introduced in Visual Studio Code version 1.16. (#45 in PR #48, @svengreb, 0459527b)
 
 <p align="center"><strong>Status Highlighting</strong><br><img src="https://user-images.githubusercontent.com/7836623/30780022-9c9b7ea4-a101-11e7-92ca-f786106469f3.png"/><br><strong>Word Highlighting</strong><br><img src="https://user-images.githubusercontent.com/7836623/30780023-9edf84c6-a101-11e7-8be7-8415b111327f.png"/></p>
 
-❯ Added new [new theming color key for title bar border][50] for macOS introduced in Visual Studio Code version 1.15. (#46 in PR #49, @arcticicestudio, ad564a4d)
+❯ Added new [new theming color key for title bar border][50] for macOS introduced in Visual Studio Code version 1.15. (#46 in PR #49, @svengreb, ad564a4d)
 
-❯ Added new [new theming color keys][51] to determine the activity of tabs via a bottom-border introduced in Visual Studio Code version 1.16. (#47 in PR #50, @arcticicestudio, aaf7447f)
+❯ Added new [new theming color keys][51] to determine the activity of tabs via a bottom-border introduced in Visual Studio Code version 1.16. (#47 in PR #50, @svengreb, aaf7447f)
 
 ## Improvements
 
@@ -1061,17 +1076,17 @@ Nord Visual Studio Code adapted to the following contraints:
 - Images in `README.md` and `CHANGELOG.md` may not be SVGs unless they are from [approved badge providers][41].
 - Images in `README.md` and `CHANGELOG.md` may not use data URIs.
 
-Additionally, the [footer mountain banner](https://github.com/arcticicestudio/nord/blob/develop/src/assets/banner-footer-mountains.svg) has been changed to PNG format (arcticicestudio/nord#49) and removed the non-HTTPS Arctic Ice Studio logo favicon from the copyright footer line.
+Additionally, the [footer mountain banner](https://github.com/nordtheme/nord/blob/main/src/assets/banner-footer-mountains.svg) has been changed to PNG format (nordtheme/nord#49) and removed the non-HTTPS Arctic Ice Studio logo favicon from the copyright footer line.
 
 ![](https://user-images.githubusercontent.com/7836623/31324602-9f40d5be-acb4-11e7-88b3-f86cf6cdacf1.png)
 
-❯ A [`.vscodeignore`][48] file has been added to reduce the size of the distributed `vsix` extension package. (#57 in PR #58, @arcticicestudio @kevinah95, 4660525b)
+❯ A [`.vscodeignore`][48] file has been added to reduce the size of the distributed `vsix` extension package. (#57 in PR #58, @svengreb @kevinah95, 4660525b)
 
 This results in a reduced `vsix` extension package size of **almost 99%** from **~4.7 MB to ~41 kB**!
 
 # 0.5.0
 
-![Release Date: 2017-08-07](https://img.shields.io/badge/Release_Date-2017--08--07-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.5.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/8) [![Milestone](https://img.shields.io/badge/Milestone-0.5.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/6)
+![Release Date: 2017-08-07](https://img.shields.io/badge/Release_Date-2017--08--07-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.5.0-88C0D0.svg?style=flat-square)](https://github.com/orgs/nordtheme/projects/1/views/10) [![Milestone](https://img.shields.io/badge/Milestone-0.5.0-88C0D0.svg?style=flat-square)](https://github.com/nordtheme/visual-studio-code/milestone/6)
 
 ## Features
 
@@ -1095,7 +1110,7 @@ This results in a reduced `vsix` extension package size of **almost 99%** from *
 
 # 0.4.2
 
-![Release Date: 2017-07-02](https://img.shields.io/badge/Release_Date-2017--07--02-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.4.2-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/10) [![Milestone](https://img.shields.io/badge/Milestone-0.4.2-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/8)
+![Release Date: 2017-07-02](https://img.shields.io/badge/Release_Date-2017--07--02-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.4.2-88C0D0.svg?style=flat-square)](https://github.com/orgs/nordtheme/projects/1/views/10) [![Milestone](https://img.shields.io/badge/Milestone-0.4.2-88C0D0.svg?style=flat-square)](https://github.com/nordtheme/visual-studio-code/milestone/8)
 
 ## Bug Fixes
 
@@ -1107,7 +1122,7 @@ This results in a reduced `vsix` extension package size of **almost 99%** from *
 
 # 0.4.1
 
-![Release Date: 2017-07-01](https://img.shields.io/badge/Release_Date-2017--07--01-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.4.1-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/9) [![Milestone](https://img.shields.io/badge/Milestone-0.4.1-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/7)
+![Release Date: 2017-07-01](https://img.shields.io/badge/Release_Date-2017--07--01-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.4.1-88C0D0.svg?style=flat-square)](https://github.com/orgs/nordtheme/projects/1/views/10) [![Milestone](https://img.shields.io/badge/Milestone-0.4.1-88C0D0.svg?style=flat-square)](https://github.com/nordtheme/visual-studio-code/milestone/7)
 
 ## Bug Fixes
 
@@ -1117,9 +1132,9 @@ This results in a reduced `vsix` extension package size of **almost 99%** from *
 
 # 0.4.0
 
-![Release Date: 2017-07-01](https://img.shields.io/badge/Release_Date-2017--07--01-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.4.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/7) [![Milestone](https://img.shields.io/badge/Milestone-0.4.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/1)
+![Release Date: 2017-07-01](https://img.shields.io/badge/Release_Date-2017--07--01-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.4.0-88C0D0.svg?style=flat-square)](https://github.com/orgs/nordtheme/projects/1/views/10) [![Milestone](https://img.shields.io/badge/Milestone-0.4.0-88C0D0.svg?style=flat-square)](https://github.com/nordtheme/visual-studio-code/milestone/1)
 
-[VS Code 1.13](https://code.visualstudio.com/updates/v1_13) has been released including a bunch of [new workbench theme features](https://code.visualstudio.com/updates/v1_13#_new-theming-colors) documented in the official [Theme Color Reference](https://code.visualstudio.com/docs/getstarted/theme-color-reference#_editor-colors). (@arcticicestudio, #25, PR #27, 6aff96bb)
+[VS Code 1.13](https://code.visualstudio.com/updates/v1_13) has been released including a bunch of [new workbench theme features](https://code.visualstudio.com/updates/v1_13#_new-theming-colors) documented in the official [Theme Color Reference](https://code.visualstudio.com/docs/getstarted/theme-color-reference#_editor-colors). (@svengreb, #25, PR #27, 6aff96bb)
 (@ajitid, #24, PR #28, 6840124e)
 
 ## Features
@@ -1222,7 +1237,7 @@ Next to the changes above the following new workbench theme settings have been a
 
 # 0.3.0
 
-![Release Date: 2017-06-11](https://img.shields.io/badge/Release_Date-2017--06--11-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.3.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/6) [![Milestone](https://img.shields.io/badge/Milestone-0.3.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/5)
+![Release Date: 2017-06-11](https://img.shields.io/badge/Release_Date-2017--06--11-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.3.0-88C0D0.svg?style=flat-square)](https://github.com/orgs/nordtheme/projects/1/views/10) [![Milestone](https://img.shields.io/badge/Milestone-0.3.0-88C0D0.svg?style=flat-square)](https://github.com/nordtheme/visual-studio-code/milestone/5)
 
 ## Improvements
 
@@ -1242,7 +1257,7 @@ Next to the changes above the following new workbench theme settings have been a
 
 # 0.2.0
 
-![Release Date: 2017-05-07](https://img.shields.io/badge/Release_Date-2017--05--07-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.2.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/5) [![Milestone](https://img.shields.io/badge/Milestone-0.2.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/6)
+![Release Date: 2017-05-07](https://img.shields.io/badge/Release_Date-2017--05--07-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.2.0-88C0D0.svg?style=flat-square)](https://github.com/orgs/nordtheme/projects/1/views/10) [![Milestone](https://img.shields.io/badge/Milestone-0.2.0-88C0D0.svg?style=flat-square)](https://github.com/nordtheme/visual-studio-code/milestone/6)
 
 **Please note that the minimal version for this theme is now >=1.12.0 due to the new VS Code theme- and workbench API!**
 
@@ -1252,39 +1267,39 @@ Next to the changes above the following new workbench theme settings have been a
 
 ❯ Implemented full support for the new VS Code theme- and [workbench](https://code.visualstudio.com/docs/getstarted/theme-color-reference) API introduced in version [1.12.0](https://code.visualstudio.com/updates/v1_12#_workbench-theming). (@skbolton, #8 PR #11, e25f748b)
 
-<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-preview.png"/><br><blockquote>Icons provided by <a href="https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme">Material Icon Theme</a>.<br>Font: <a href="https://adobe-fonts.github.io/source-code-pro">Source Code Pro</a> 20px</blockquote></p>
+<p align="center"><img src="https://raw.githubusercontent.com/nordtheme/visual-studio-code/develop/assets/scrot-preview.png"/><br><blockquote>Icons provided by <a href="https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme">Material Icon Theme</a>.<br>Font: <a href="https://adobe-fonts.github.io/source-code-pro">Source Code Pro</a> 20px</blockquote></p>
 
-A complete list of all implemented workbench UI styles can be found in the [README](https://github.com/arcticicestudio/nord-visual-studio-code/blob/develop/README.md#features).
+A complete list of all implemented workbench UI styles can be found in the [README](https://github.com/nordtheme/visual-studio-code/blob/develop/readme.md#features).
 
 Thanks to @octref and @Tyriar for testing and providing improvement suggestions!
 
-<p align="center"><strong>Activity Bar Badges</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-ui-activity-bar-badge.png"/></p>
+<p align="center"><strong>Activity Bar Badges</strong><br><img src="https://raw.githubusercontent.com/nordtheme/visual-studio-code/develop/assets/scrot-feature-ui-activity-bar-badge.png"/></p>
 
-<p align="center"><strong>Tabs</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-ui-tab-bar.png"/></p>
+<p align="center"><strong>Tabs</strong><br><img src="https://raw.githubusercontent.com/nordtheme/visual-studio-code/develop/assets/scrot-feature-ui-tab-bar.png"/></p>
 
-<p align="center"><strong>Status Bar</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-ui-status-bar.png"/></p>
+<p align="center"><strong>Status Bar</strong><br><img src="https://raw.githubusercontent.com/nordtheme/visual-studio-code/develop/assets/scrot-feature-ui-status-bar.png"/></p>
 
-<p align="center"><strong>Panels and terminal colors</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-ui-panel-terminal-colors.png"/></p>
+<p align="center"><strong>Panels and terminal colors</strong><br><img src="https://raw.githubusercontent.com/nordtheme/visual-studio-code/develop/assets/scrot-feature-ui-panel-terminal-colors.png"/></p>
 
-<p align="center"><strong>Editor Widgets (Search)</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-ui-editor-widget-search.png"/></p>
+<p align="center"><strong>Editor Widgets (Search)</strong><br><img src="https://raw.githubusercontent.com/nordtheme/visual-studio-code/develop/assets/scrot-feature-ui-editor-widget-search.png"/></p>
 
-<p align="center"><strong>Notifications</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-ui-notification.png"/></p>
+<p align="center"><strong>Notifications</strong><br><img src="https://raw.githubusercontent.com/nordtheme/visual-studio-code/develop/assets/scrot-feature-ui-notification.png"/></p>
 
-<p align="center"><strong>Side Bar Views (Debug)</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-ui-side-bar-debug.png"/></p>
+<p align="center"><strong>Side Bar Views (Debug)</strong><br><img src="https://raw.githubusercontent.com/nordtheme/visual-studio-code/develop/assets/scrot-feature-ui-side-bar-debug.png"/></p>
 
-<p align="center"><strong>Peek View</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-ui-peek-view.png"/></p>
+<p align="center"><strong>Peek View</strong><br><img src="https://raw.githubusercontent.com/nordtheme/visual-studio-code/develop/assets/scrot-feature-ui-peek-view.png"/></p>
 
-<p align="center"><strong>Diff Editor</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-ui-diffeditor-inserted.png"/><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-ui-diffeditor-removed.png"</p>
+<p align="center"><strong>Diff Editor</strong><br><img src="https://raw.githubusercontent.com/nordtheme/visual-studio-code/develop/assets/scrot-feature-ui-diffeditor-inserted.png"/><br><img src="https://raw.githubusercontent.com/nordtheme/visual-studio-code/develop/assets/scrot-feature-ui-diffeditor-removed.png"</p>
 
-<p align="center"><strong>Peek View</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-ui-peek-view.png"/></p>
+<p align="center"><strong>Peek View</strong><br><img src="https://raw.githubusercontent.com/nordtheme/visual-studio-code/develop/assets/scrot-feature-ui-peek-view.png"/></p>
 
-<p align="center"><strong>Validations</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-ui-validation-info.png"/><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-ui-validation-warning.png"/><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-ui-validation-error.png"/></p>
+<p align="center"><strong>Validations</strong><br><img src="https://raw.githubusercontent.com/nordtheme/visual-studio-code/develop/assets/scrot-feature-ui-validation-info.png"/><br><img src="https://raw.githubusercontent.com/nordtheme/visual-studio-code/develop/assets/scrot-feature-ui-validation-warning.png"/><br><img src="https://raw.githubusercontent.com/nordtheme/visual-studio-code/develop/assets/scrot-feature-ui-validation-error.png"/></p>
 
-<p align="center"><strong>Validations</strong><br><strong>Active selection</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-ui-list-active-selection.png"/><br><strong>Inactive selection</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-ui-list-inactive-selection.png"/><br><strong>Active selection with keyboard navigation marker</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-ui-list-active-selection-keyboard.png"/><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrcast-feature-ui-list-active-selection-keyboard.gif"/><br><strong>Active- and inactive selection with hover marker</strong><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-ui-list-inactive-selection-hover.png"/><br><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrcast-feature-ui-list-hover.gif"/></p>
+<p align="center"><strong>Validations</strong><br><strong>Active selection</strong><br><img src="https://raw.githubusercontent.com/nordtheme/visual-studio-code/develop/assets/scrot-feature-ui-list-active-selection.png"/><br><strong>Inactive selection</strong><br><img src="https://raw.githubusercontent.com/nordtheme/visual-studio-code/develop/assets/scrot-feature-ui-list-inactive-selection.png"/><br><strong>Active selection with keyboard navigation marker</strong><br><img src="https://raw.githubusercontent.com/nordtheme/visual-studio-code/develop/assets/scrot-feature-ui-list-active-selection-keyboard.png"/><br><img src="https://raw.githubusercontent.com/nordtheme/visual-studio-code/develop/assets/scrcast-feature-ui-list-active-selection-keyboard.gif"/><br><strong>Active- and inactive selection with hover marker</strong><br><img src="https://raw.githubusercontent.com/nordtheme/visual-studio-code/develop/assets/scrot-feature-ui-list-inactive-selection-hover.png"/><br><img src="https://raw.githubusercontent.com/nordtheme/visual-studio-code/develop/assets/scrcast-feature-ui-list-hover.gif"/></p>
 
 ❯ Implemented support for terminal ANSI colors. (@threeve, PR #4, 4e5815be)
 
-<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-feature-ui-panel-terminal-colors.png"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/nordtheme/visual-studio-code/develop/assets/scrot-feature-ui-panel-terminal-colors.png"/></p>
 
 ## Improvement
 
@@ -1300,17 +1315,17 @@ Thanks to @octref and @Tyriar for testing and providing improvement suggestions!
 
 ❯ Updated the _Quick Open_ keymapping for OSX. (@uonick, PR #9, e93694da)
 
-❯ Changed the shields (badges) style to `flat-square`. (@arcticicestudio, caafb9d5)
+❯ Changed the shields (badges) style to `flat-square`. (@svengreb, caafb9d5)
 
 ## Bug Fixes
 
 ### Documentation
 
-❯ Fixed a typo in the project description. (@arcticicestudio, #6, 8744b392)
+❯ Fixed a typo in the project description. (@svengreb, #6, 8744b392)
 
 # 0.1.1
 
-![Release Date: 2017-02-25](https://img.shields.io/badge/Release_Date-2017--02--25-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.1.1-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/4) [![Milestone](https://img.shields.io/badge/Milestone-0.1.1-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/3)
+![Release Date: 2017-02-25](https://img.shields.io/badge/Release_Date-2017--02--25-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.1.1-88C0D0.svg?style=flat-square)](https://github.com/orgs/nordtheme/projects/1/views/10) [![Milestone](https://img.shields.io/badge/Milestone-0.1.1-88C0D0.svg?style=flat-square)](https://github.com/nordtheme/visual-studio-code/milestone/3)
 
 ## Bug Fixes
 
@@ -1320,7 +1335,7 @@ Thanks to @octref and @Tyriar for testing and providing improvement suggestions!
 
 # 0.1.0
 
-![Release Date: 2017-02-18](https://img.shields.io/badge/Release_Date-2017--02--18-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.1.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/projects/3) [![Milestone](https://img.shields.io/badge/Milestone-0.1.0-88C0D0.svg?style=flat-square)](https://github.com/arcticicestudio/nord-visual-studio-code/milestone/2)
+![Release Date: 2017-02-18](https://img.shields.io/badge/Release_Date-2017--02--18-88C0D0.svg?style=flat-square) [![Project Board](https://img.shields.io/badge/Project_Board-0.1.0-88C0D0.svg?style=flat-square)](https://github.com/orgs/nordtheme/projects/1/views/10) [![Milestone](https://img.shields.io/badge/Milestone-0.1.0-88C0D0.svg?style=flat-square)](https://github.com/nordtheme/visual-studio-code/milestone/2)
 
 **Initial VS Code Marketplace extension release version!**
 
@@ -1328,17 +1343,38 @@ Thanks to @octref and @Tyriar for testing and providing improvement suggestions!
 
 A complete list of all implemented features can be found in the [README][174] section.
 
-❯ Implemented the main color theme file [`Nord.tmTheme`][175]. (@arcticicestudio, #1, 63b16747)
+❯ Implemented the main color theme file [`Nord.tmTheme`][175]. (@svengreb, #1, 63b16747)
 
-<p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-visual-studio-code/develop/assets/scrot-top.png"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/nordtheme/visual-studio-code/develop/assets/scrot-top.png"/></p>
 
-Detailed information about features, supported languages and install instructions can be found in the [README][176] and in the [project wiki][177].
+Detailed information about features, supported languages and install instructions can be found in the [repository documentation][176].
 
 # 0.0.0
 
 ![Release Date: 2017-02-18][178]
 
 **Project Initialization**
+
+<p align="center">
+  <picture>
+    <source srcset="https://raw.githubusercontent.com/nordtheme/assets/main/static/images/elements/separators/iceberg/footer/dark/spaced.png" srcset="https://raw.githubusercontent.com/nordtheme/assets/main/static/images/elements/separators/iceberg/footer/dark/spaced-2x.png 2x" width="100%" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+    <source srcset="https://raw.githubusercontent.com/nordtheme/assets/main/static/images/elements/separators/iceberg/footer/light/spaced.png" srcset="https://raw.githubusercontent.com/nordtheme/assets/main/static/images/elements/separators/iceberg/footer/light/spaced-2x.png 2x" width="100%" media="(prefers-color-scheme: dark)" />
+    <img src="https://raw.githubusercontent.com/nordtheme/assets/main/static/images/elements/separators/iceberg/footer/dark/spaced.png" srcset="https://raw.githubusercontent.com/nordtheme/assets/main/static/images/elements/separators/iceberg/footer/dark/spaced-2x.png 2x" width="100%" />
+  </picture>
+</p>
+
+<p align="center">
+  Copyright &copy; 2016-present <a href="https://www.svengreb.de" target="_blank">Sven Greb</a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/nordtheme/vim/blob/develop/license" target="_blank">
+    <img src="https://img.shields.io/static/v1.svg?style=flat-square&label=License&message=MIT&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/>
+  </a>
+  <a href="https://www.svengreb.de">
+    <img src="https://img.shields.io/static/v1.svg?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAABMklEQVQ4jcWQvUoDQRRGz52s5IfVIiDWPkGKFFaCIVaGdIagjcFAwICFb7DvIK6QQlNpY2UQLMQVBbEQ0SewFkGbKCQmOzaTJay7/lR+zTAf9xwuF/47Mv45rdezqWEq72v/RWZnHgqOMwDwHMfSj085JSqb6Pu38we7r18E3nqzhmYbsE11rxKsAvhDfQiSM30XYbOw57YDwfnaRl6U3ABWaMNn806H+oGPzBX3d+4UgChZiYBHYBgGsBLoKoAyhR0x9G20Zmpc4P1ZoMQDcwMNclFrdhBKv6M5WWi7ZQGtjEUn35IV4OwnVjSX/WGmKqCDDUa5rmyle3bvGFiMg3WGUsF1u0EXHoqTRMGRgkAy2eugKZrqijRLYThWANBpNDL2h3UE0J0YLJdbrfe42f/NJ0wqY7/KcXKPAAAAAElFTkSuQmCC&label=lovely%20crafted%20in&message=Germany&colorA=4c566a&colorB=88c0d0"/>
+  </a>
+</p>
 
 <!--
 +------------------+
@@ -1366,7 +1402,7 @@ otherwise Markdown elements are not parsed and rendered!
 [2]: https://circleci.com
 [3]: https://travis-ci.org
 [4]: https://eslint.org
-[5]: https://github.com/arcticicestudio/nord-visual-studio-code/issues/118
+[5]: https://github.com/nordtheme/visual-studio-code/issues/118
 [6]: https://github.com/arcticicestudio/styleguide-git
 [7]: https://github.com/arcticicestudio/styleguide-javascript
 [8]: https://github.com/arcticicestudio/styleguide-markdown
@@ -1381,7 +1417,7 @@ otherwise Markdown elements are not parsed and rendered!
 [17]: https://github.com/typicode/husky
 [18]: https://github.com/okonet/lint-staged
 [19]: https://github.com/remarkjs/remark-lint
-[20]: https://github.com/arcticicestudio/nord-visual-studio-code#features
+[20]: https://github.com/nordtheme/visual-studio-code#features
 [21]: https://github.com/gulshan
 [22]: https://github.com/kingdaro
 [23]: https://github.com/lilyball
@@ -1391,7 +1427,7 @@ otherwise Markdown elements are not parsed and rendered!
 [27]: https://git-scm.com/docs/git-shortlog#_mapping_authors
 [28]: https://gulpjs.com
 [29]: https://www.nordtheme.com
-[30]: https://github.com/arcticicestudio/nord/issues/55
+[30]: https://github.com/nordtheme/nord/issues/55
 [31]: https://www.npmjs.com/package/eslint-config-arcticicestudio-base
 [32]: https://www.npmjs.com/package/remark-preset-lint-arcticicestudio
 [33]: https://opensource.guide/how-to-contribute
@@ -1416,15 +1452,14 @@ otherwise Markdown elements are not parsed and rendered!
 
 <!-- v0.1.0 -->
 
-[174]: https://github.com/arcticicestudio/nord-visual-studio-code/blob/develop/README.md#features
-[175]: https://github.com/arcticicestudio/nord-visual-studio-code/blob/develop/themes/Nord.tmTheme
-[176]: https://github.com/arcticicestudio/nord-visual-studio-code/blob/develop/README.md#installation
-[177]: https://github.com/arcticicestudio/nord-visual-studio-code/wiki
+[174]: https://github.com/nordtheme/visual-studio-code/blob/develop/readme.md#features
+[175]: https://github.com/nordtheme/visual-studio-code/blob/develop/themes/Nord.tmTheme
+[176]: https://github.com/nordtheme/visual-studio-code/blob/develop/readme.md#installation
 [178]: https://img.shields.io/badge/Release_Date-2017--02--18-88C0D0.svg?style=flat-square
 
 <!-- v0.7.0 -->
 
-[52]: https://github.com/arcticicestudio/nord-visual-studio-code/issues/100#issuecomment-426005938
+[52]: https://github.com/nordtheme/visual-studio-code/issues/100#issuecomment-426005938
 [53]: https://code.visualstudio.com/updates/v1_18#_git-status-in-file-explorer
 [54]: https://code.visualstudio.com/updates/v1_18
 [55]: https://code.visualstudio.com/updates/v1_20#_more-themable-colors-for-editor-tabs
@@ -1442,7 +1477,7 @@ otherwise Markdown elements are not parsed and rendered!
 <!-- v0.8.0 -->
 
 [66]: https://github.com/Microsoft/vscode/issues/71663
-[67]: https://github.com/arcticicestudio/nord/issues/94
+[67]: https://github.com/nordtheme/nord/issues/94
 [68]: https://github.com/al2Me6
 [69]: https://github.com/danfo
 [70]: https://github.com/marcusramberg
@@ -1454,7 +1489,7 @@ otherwise Markdown elements are not parsed and rendered!
 <!-- v0.9.0 -->
 
 [75]: https://circleci.com/docs/2.0/configuration-reference
-[76]: https://github.com/arcticicestudio/nord-visual-studio-code/issues/133
+[76]: https://github.com/nordtheme/visual-studio-code/issues/133
 [77]: https://github.com/blog/2392-introducing-code-owners
 [78]: https://github.com/blog/2380-new-community-tools
 [79]: https://github.com/blog/1184-contributing-guidelines
@@ -1510,18 +1545,18 @@ otherwise Markdown elements are not parsed and rendered!
 
 <!-- v0.15.1 -->
 
-[111]: https://github.com/arcticicestudio/nord-visual-studio-code/compare/v0.15.0...v0.15.1
-[112]: https://www.npmjs.com/package/@arcticicestudio/eslint-config-base
+[111]: https://github.com/nordtheme/visual-studio-code/compare/v0.15.0...v0.15.1
+[112]: https://www.npmjs.com/package/@svengreb/eslint-config-base
 
 <!-- v0.16.0 -->
 
-[113]: https://github.com/arcticicestudio/nord-visual-studio-code/compare/v0.15.1...v0.16.0
+[113]: https://github.com/nordtheme/visual-studio-code/compare/v0.15.1...v0.16.0
 [114]: https://code.visualstudio.com/updates/v1_46#_new-debug-console-theme-colors
 [115]: https://code.visualstudio.com/updates/v1_57#_updated-quick-pick-suggest-widget-color
 
 <!-- v0.17.0 -->
 
-[116]: https://github.com/arcticicestudio/nord-visual-studio-code/compare/v0.16.0...v0.17.0
+[116]: https://github.com/nordtheme/visual-studio-code/compare/v0.16.0...v0.17.0
 [117]: https://code.visualstudio.com/updates/v1_46#_new-input-theme-colors
 [118]: https://code.visualstudio.com/updates/v1_50
 [119]: https://code.visualstudio.com/updates/v1_50#_new-theme-colors
@@ -1537,11 +1572,11 @@ otherwise Markdown elements are not parsed and rendered!
 
 <!-- v0.17.1 -->
 
-[129]: https://github.com/arcticicestudio/nord-visual-studio-code/compare/v0.17.0...v0.17.1
+[129]: https://github.com/nordtheme/visual-studio-code/compare/v0.17.0...v0.17.1
 
 <!-- v0.18.0 -->
 
-[130]: https://github.com/arcticicestudio/nord-visual-studio-code/compare/v0.17.1...v0.18.0
+[130]: https://github.com/nordtheme/visual-studio-code/compare/v0.17.1...v0.18.0
 [131]: https://code.visualstudio.com/updates/v1_58
 [132]: https://code.visualstudio.com/updates/v1_58#_markdown-math-formula-syntax-highlighting
 
@@ -1551,7 +1586,7 @@ otherwise Markdown elements are not parsed and rendered!
 [134]: https://github.com/arcticicestudio/styleguide-javascript/releases/tag/v0.11.0
 [135]: https://github.com/arcticicestudio/styleguide-javascript/tree/main/packages/%40arcticicestudio/eslint-config-base
 [136]: https://github.blog/2020-10-13-presenting-v7-0-0-of-the-npm-cli
-[137]: https://github.com/arcticicestudio/nord-visual-studio-code/compare/v0.18.0...v0.19.0
+[137]: https://github.com/nordtheme/visual-studio-code/compare/v0.18.0...v0.19.0
 [138]: https://blog.npmjs.org/post/621733939456933888/npm-v7-series-why-keep-package-lockjson
 [139]: https://semver.npmjs.com
 [140]: https://code.visualstudio.com/updates/v1_59
