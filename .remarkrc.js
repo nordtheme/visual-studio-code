@@ -1,16 +1,12 @@
 /*
- * Copyright (C) 2017-present Arctic Ice Studio <development@arcticicestudio.com>
- * Copyright (C) 2017-present Sven Greb <development@svengreb.de>
- *
- * Project:    Nord Visual Studio Code
- * Repository: https://github.com/arcticicestudio/nord-visual-studio-code
- * License:    MIT
+ * Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+ * This source code is licensed under the MIT license found in the license file.
  */
 
 /**
  * Configurations for remark-lint.
- *
  * @see https://github.com/remarkjs/remark-lint
+ * @see https://remark.js.org
  */
 module.exports = {
   plugins: ["@arcticicestudio/remark-preset-lint"],

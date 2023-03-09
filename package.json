@@ -5,17 +5,17 @@
   "version": "0.19.0",
   "publisher": "arcticicestudio",
   "author": {
-    "name": "Arctic Ice Studio",
-    "email": "development@arcticicestudio.com",
-    "url": "https://www.arcticicestudio.com"
+    "name": "Sven Greb",
+    "email": "development@svengreb.de",
+    "url": "https://www.svengreb.de"
   },
-  "homepage": "https://github.com/arcticicestudio/nord-visual-studio-code",
+  "homepage": "https://github.com/nordtheme/visual-studio-code",
   "repository": {
     "type": "git",
-    "url": "https://github.com/arcticicestudio/nord-visual-studio-code"
+    "url": "https://github.com/nordtheme/visual-studio-code"
   },
   "bugs": {
-    "url": "https://github.com/arcticicestudio/nord-visual-studio-code/issues"
+    "url": "https://github.com/nordtheme/visual-studio-code/issues"
   },
   "license": "MIT",
   "engines": {
@@ -71,14 +71,18 @@
     "format": "run-s format:pretty format:fix",
     "format:fix": "eslint --fix --ext .js,.json .",
     "format:pretty": "prettier --write .",
-    "lint": "run-s lint:*",
+    "lint": "run-s lint:js lint:json lint:md",
+    "lint:ci": "run-s lint lint:ci:*",
     "lint:ci:pretty": "prettier --loglevel silent --check .",
     "lint:js": "eslint --ext .",
     "lint:json": "eslint --ext .json .",
     "lint:md": "remark --no-stdout . \".github/**/*.md\"",
     "package": "vsce package",
+    "prepare": "run-s prepare:*",
     "prepare:husky": "husky install",
-    "prepare": "run-s prepare:*"
+    "publish:ovsx": "ovsx publish --pat",
+    "publish:vsce": "vsce publish",
+    "publish": "run-s publish:vsce publish:ovsx"
   },
   "devDependencies": {
     "@arcticicestudio/eslint-config-base": ">=0.11.0 <1.0.0",
@@ -93,6 +97,7 @@
     "husky": "^7.0.2",
     "lint-staged": "^11.1.2",
     "npm-run-all": "^4.1.5",
+    "ovsx": "^0.3.0",
     "prettier": "^2.4.1",
     "remark-cli": "^9.0.0",
     "vsce": "^1.100.0"
