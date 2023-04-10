@@ -4,18 +4,17 @@
 # Path match pattern to ignore when searching for files.
 # See https://code.visualstudio.com/api/working-with-extensions/publishing-extension#using-.vscodeignore for more details.
 
+.github/
+.husky/
+assets/
 !assets/extension-marketplace-icon.png
 !assets/extension-marketplace-icon-2x.png
-.circleci/**
-.github/**
-.vscode/**
-assets/**
 node_modules
 .editorconfig
 .eslintignore
 .eslintrc.js
+.gitattributes
 .gitignore
-.huskyrc.js
 .mailmap
 .npmrc
 .prettierignore

@@ -32,9 +32,6 @@
 </p>
 
 <p align="center">
-  <a href="https://circleci.com/gh/arcticicestudio/nord-visual-studio-code" target="_blank">
-    <img src="https://img.shields.io/circleci/project/github/nordtheme/visual-studio-code/develop.svg?style=flat-square&label=Build&logo=circleci&logoColor=eceff4&colorA=4c566a"/>
-  </a>
   <a href="https://code.visualstudio.com/updates/v1_12" target="_blank">
     <img src="https://img.shields.io/static/v1.svg?style=flat-square&label=Compatibility&message=%3E%3D1.12.0&logo=visual-studio-code&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/>
   </a>

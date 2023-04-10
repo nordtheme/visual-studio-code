@@ -489,11 +489,7 @@
     },
     {
       "name": "Punctuation Definition Parameters",
-      "scope": [
-        "punctuation.definition.method-parameters",
-        "punctuation.definition.function-parameters",
-        "punctuation.definition.parameters"
-      ],
+      "scope": ["punctuation.definition.method-parameters", "punctuation.definition.function-parameters", "punctuation.definition.parameters"],
       "settings": {
         "foreground": "#ECEFF4"
       }
@@ -507,11 +503,7 @@
     },
     {
       "name": "Punctuation Definition Comment",
-      "scope": [
-        "punctuation.definition.comment",
-        "punctuation.end.definition.comment",
-        "punctuation.start.definition.comment"
-      ],
+      "scope": ["punctuation.definition.comment", "punctuation.end.definition.comment", "punctuation.start.definition.comment"],
       "settings": {
         "foreground": "#616E88"
       }
@@ -699,10 +691,7 @@
     },
     {
       "name": "[CSS] Media Queries",
-      "scope": [
-        "source.css keyword.control.at-rule.media",
-        "source.css keyword.control.at-rule.media punctuation.definition.keyword"
-      ],
+      "scope": ["source.css keyword.control.at-rule.media", "source.css keyword.control.at-rule.media punctuation.definition.keyword"],
       "settings": {
         "foreground": "#D08770"
       }
@@ -865,10 +854,7 @@
     },
     {
       "name": "[Java](JavaDoc) Punctuation Definition Tag",
-      "scope": [
-        "source.java punctuation.definition.tag.begin.javadoc",
-        "source.java punctuation.definition.tag.end.javadoc"
-      ],
+      "scope": ["source.java punctuation.definition.tag.begin.javadoc", "source.java punctuation.definition.tag.end.javadoc"],
       "settings": {
         "foreground": "#616E88"
       }
@@ -917,11 +903,7 @@
     },
     {
       "name": "[JavaScript] Decorator",
-      "scope": [
-        "source.js punctuation.decorator",
-        "source.js meta.decorator variable.other.readwrite",
-        "source.js meta.decorator entity.name.function"
-      ],
+      "scope": ["source.js punctuation.decorator", "source.js meta.decorator variable.other.readwrite", "source.js meta.decorator entity.name.function"],
       "settings": {
         "foreground": "#D08770"
       }
@@ -1047,10 +1029,7 @@
     },
     {
       "name": "[Markdown] Markup Fenced Code Block",
-      "scope": [
-        "text.html.markdown markup.fenced_code.block",
-        "text.html.markdown markup.fenced_code.block punctuation.definition"
-      ],
+      "scope": ["text.html.markdown markup.fenced_code.block", "text.html.markdown markup.fenced_code.block punctuation.definition"],
       "settings": {
         "foreground": "#8FBCBB"
       }
@@ -1064,10 +1043,7 @@
     },
     {
       "name": "[Markdown] Markup Inline",
-      "scope": [
-        "text.html.markdown markup.inline.raw",
-        "text.html.markdown markup.inline.raw punctuation.definition.raw"
-      ],
+      "scope": ["text.html.markdown markup.inline.raw", "text.html.markdown markup.inline.raw punctuation.definition.raw"],
       "settings": {
         "foreground": "#8FBCBB"
       }
@@ -1116,10 +1092,7 @@
     },
     {
       "name": "[Markdown] Markup Math Definition Marker",
-      "scope": [
-        "text.html.markdown punctuation.definition.math.begin",
-        "text.html.markdown punctuation.definition.math.end"
-      ],
+      "scope": ["text.html.markdown punctuation.definition.math.begin", "text.html.markdown punctuation.definition.math.end"],
       "settings": {
         "foreground": "#5E81AC"
       }
@@ -1147,10 +1120,7 @@
     },
     {
       "name": "[Markdown] Punctuation Definition Constant/String",
-      "scope": [
-        "text.html.markdown punctuation.definition.constant",
-        "text.html.markdown punctuation.definition.string"
-      ],
+      "scope": ["text.html.markdown punctuation.definition.constant", "text.html.markdown punctuation.definition.string"],
       "settings": {
         "foreground": "#81A1C1"
       }
@@ -1232,13 +1202,9 @@
     },
     {
       "name": "[Rust] Attributes",
-      "scope": [
-        "source.rust meta.attribute",
-        "source.rust meta.attribute punctuation",
-        "source.rust meta.attribute keyword.operator"
-      ],
+      "scope": ["source.rust meta.attribute", "source.rust meta.attribute punctuation", "source.rust meta.attribute keyword.operator"],
       "settings": {
-        "foreground": "#5E81AC",
+        "foreground": "#5E81AC"
       }
     },
     {
@@ -1252,7 +1218,7 @@
       "name": "[Rust] Interpolation Bracket Curly",
       "scope": "source.rust punctuation.definition.interpolation",
       "settings": {
-        "foreground": "#EBCB8B",
+        "foreground": "#EBCB8B"
       }
     },
     {
@@ -1296,10 +1262,7 @@
     },
     {
       "name": "[TypeScript] Object-literal functions",
-      "scope": [
-        "source.ts meta.object-literal.key entity.name.function",
-        "source.tsx meta.object-literal.key entity.name.function"
-      ],
+      "scope": ["source.ts meta.object-literal.key entity.name.function", "source.tsx meta.object-literal.key entity.name.function"],
       "settings": {
         "foreground": "#88C0D0"
       }

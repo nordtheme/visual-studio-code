@@ -5,11 +5,15 @@
 
 /**
  * Configurations for ESLint.
- * @see https://eslint.org/docs/user-guide/configuring
+ * @see https://eslint.org/docs/latest/use/configure
+ * @see https://eslint.org/docs/latest/use/configure/#using-configuration-files
+ * @see https://eslint.org/docs/latest/use/configure/#specifying-environments
+ * @see https://eslint.org/docs/latest/use/configure/#configuring-plugins
+ * @see https://eslint.org/docs/latest/rules
  */
 module.exports = {
+  root: true,
   extends: [
-    "plugin:jsonc/recommended-with-jsonc",
     "@arcticicestudio/eslint-config-base",
     /*
      * Enable support for projects using Prettier.
@@ -18,5 +22,12 @@ module.exports = {
      */
     "@arcticicestudio/eslint-config-base/prettier",
   ],
-  plugins: ["jsonc"],
+  overrides: [
+    {
+      files: ["*.js"],
+      rules: {
+        "capitalized-comments": "off",
+      },
+    },
+  ],
 };
