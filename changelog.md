@@ -1,8 +1,8 @@
 <p align="center">
   <a href="https://www.nordtheme.com/ports/visual-studio-code" target="_blank">
     <picture>
-      <source srcset="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/ports/visual-studio-code/repository-hero.png" srcset="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/ports/visual-studio-code/repository-hero-2x.png 2x" width="100%" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-      <img srcset="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/ports/visual-studio-code/repository-hero.png" srcset="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/ports/visual-studio-code/repository-hero-2x.png 2x" width="100%" />
+      <source srcset="https://raw.githubusercontent.com/nordtheme/web/main/assets/images/ports/visual-studio-code/repository-hero.png" srcset="https://raw.githubusercontent.com/nordtheme/web/main/assets/images/ports/visual-studio-code/repository-hero-2x.png 2x" width="100%" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+      <img srcset="https://raw.githubusercontent.com/nordtheme/web/main/assets/images/ports/visual-studio-code/repository-hero.png" srcset="https://raw.githubusercontent.com/nordtheme/web/main/assets/images/ports/visual-studio-code/repository-hero-2x.png 2x" width="100%" />
     </picture>
   </a>
 </p>
@@ -108,7 +108,7 @@ Note that bracket pair colorization is a feature that does not go well with the 
 
 At the same time outdated dependencies have been upgraded to their latest, compatible version. This also changed the versions by using [the `^` caret range selector][139] to reduce the overhead of updating dependencies.
 
-- [`@svengreb/eslint-config-base`][135] — the minimum versions will be bumped from `0.5.0` to [`0.11.0`][134].
+- [`@arcticicestudio/eslint-config-base`][135] — the minimum versions will be bumped from `0.5.0` to [`0.11.0`][134].
 - [`babel-eslint`][146] → [`@babel/eslint-parser`][152] — the `babel-eslint` package is deprecated and is now available as `@babel/eslint-parser`.
 - [`eslint-plugin-json`][163] → [`eslint-plugin-jsonc`][166] — since Visual Studio Code uses [JSONC][170] the `eslint-plugin-jsonc` matches better to the scope of this repository. It also utilizes the ESLint engine by passing the AST to it.
 - [`del-cli`][171] — updated from version [`1.1.0`][172] to [`^4.0.1`][173].
@@ -117,7 +117,7 @@ At the same time outdated dependencies have been upgraded to their latest, compa
 - [`eslint-plugin-prettier`][154] — updated from version [`3.1.0`][155] to [`^4.0.0`][156].
 - [`prettier`][35] — updated from version [`1.17.1`][158] to [`^2.4.1`][159].
 - [`remark-cli`][160] — updated from version [`6.0.1`][161] to [`^9.0.0`][162].
-- [`remark-preset-lint-arcticicestudio`][32] → [`@svengreb/remark-preset-lint`][164] — the `remark-preset-lint-arcticicestudio` package is deprecated and is now available as `@svengreb/remark-preset-lint`. This also includes the linting and adjusting for matches that are found after running with the new rules.
+- [`remark-preset-lint-arcticicestudio`][32] → [`@arcticicestudio/remark-preset-lint`][164] — the `remark-preset-lint-arcticicestudio` package is deprecated and is now available as `@arcticicestudio/remark-preset-lint`. This also includes the linting and adjusting for matches that are found after running with the new rules.
 - [`vsce`][40] — updated from version [`6.0.1`][168] to [`^1.100.0`][169].
 
 </details>
@@ -447,7 +447,7 @@ This release version mainly migrates a NPM package dependency that has been depr
 <summary><strong>Switch to new ESLint configuration preset package</strong> — #190 (⊶ 13ef97ec) by <a href="https://github.com/kremalicious" target="_blank">@kremalicious</a></summary>
 
 ↠ Before the [`eslint-config-arcticicestudio-base` NPM package][31] was used which has been deprecated and also deleted from the registry.
-Because the goal of the deprecation was to move to the new [`@svengreb/eslint-config-base` package][112] anyway it has now been switched.
+Because the goal of the deprecation was to move to the new [`@arcticicestudio/eslint-config-base` package][112] anyway it has now been switched.
 
 </details>
 
@@ -1013,7 +1013,7 @@ All currently implemented Gulp tasks have therefore been migrated to npm scripts
 ↠ Fixed a typo in the README: `cusror` 🠖 `cursor`
 
 **Fixed invalid install instructions** — ⇄ #70 (⊶ 967e1bab) by [@lilyball][23]
-↠ Added the missing `arcticicestudio.` author namespace of the VS Code marketplace extension ID separated with a dot in front of the extension name itself to fix the install instructions.
+↠ Added the missing `arcticicestudio` author namespace of the VS Code marketplace extension ID separated with a dot in front of the extension name itself to fix the install instructions.
 
 ## Tasks
 
@@ -1403,10 +1403,10 @@ otherwise Markdown elements are not parsed and rendered!
 [3]: https://travis-ci.org
 [4]: https://eslint.org
 [5]: https://github.com/nordtheme/visual-studio-code/issues/118
-[6]: https://github.com/arcticicestudio/styleguide-git
-[7]: https://github.com/arcticicestudio/styleguide-javascript
-[8]: https://github.com/arcticicestudio/styleguide-markdown
-[9]: https://github.com/arcticicestudio/nord-docs/community
+[6]: https://github.com/svengreb/styleguide-git
+[7]: https://github.com/svengreb/styleguide-javascript
+[8]: https://github.com/svengreb/styleguide-markdown
+[9]: https://github.com/nordtheme/web/community
 [10]: https://help.github.com/articles/adding-a-code-of-conduct-to-your-project
 [11]: https://help.github.com/articles/about-codeowners
 [12]: https://help.github.com/articles/setting-guidelines-for-repository-contributors
@@ -1498,7 +1498,7 @@ otherwise Markdown elements are not parsed and rendered!
 
 <!-- v0.10.0 -->
 
-[82]: https://github.com/arcticicestudio/nord-docs/issues/149
+[82]: https://github.com/nordtheme/web/issues/149
 
 <!-- v0.11.0 -->
 
@@ -1546,7 +1546,7 @@ otherwise Markdown elements are not parsed and rendered!
 <!-- v0.15.1 -->
 
 [111]: https://github.com/nordtheme/visual-studio-code/compare/v0.15.0...v0.15.1
-[112]: https://www.npmjs.com/package/@svengreb/eslint-config-base
+[112]: https://www.npmjs.com/package/@arcticicestudio/eslint-config-base
 
 <!-- v0.16.0 -->
 
@@ -1583,8 +1583,8 @@ otherwise Markdown elements are not parsed and rendered!
 <!-- v0.19.0 -->
 
 [133]: https://www.nordtheme.com/docs/ports/visual-studio-code/customization
-[134]: https://github.com/arcticicestudio/styleguide-javascript/releases/tag/v0.11.0
-[135]: https://github.com/arcticicestudio/styleguide-javascript/tree/main/packages/%40arcticicestudio/eslint-config-base
+[134]: https://github.com/svengreb/styleguide-javascript/releases/tag/v0.11.0
+[135]: https://github.com/svengreb/styleguide-javascript/tree/main/packages/%40svengreb/eslint-config-base
 [136]: https://github.blog/2020-10-13-presenting-v7-0-0-of-the-npm-cli
 [137]: https://github.com/nordtheme/visual-studio-code/compare/v0.18.0...v0.19.0
 [138]: https://blog.npmjs.org/post/621733939456933888/npm-v7-series-why-keep-package-lockjson
@@ -1611,7 +1611,7 @@ otherwise Markdown elements are not parsed and rendered!
 [161]: https://github.com/remarkjs/remark/releases/tag/remark-cli%406.0.1
 [162]: https://github.com/remarkjs/remark/releases/tag/remark-cli%409.0.0
 [163]: https://github.com/azeemba/eslint-plugin-json
-[164]: https://github.com/arcticicestudio/styleguide-markdown/tree/main/packages/%40arcticicestudio/remark-preset-lint
+[164]: https://github.com/svengreb/styleguide-markdown/tree/main/packages/%40svengreb/remark-preset-lint
 [166]: https://github.com/ota-meshi/eslint-plugin-jsonc
 [168]: https://github.com/microsoft/vscode-vsce/releases/tag/v1.62.0
 [169]: https://github.com/microsoft/vscode-vsce/releases/tag/v1.100.0

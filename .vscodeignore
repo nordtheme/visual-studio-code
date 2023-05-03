@@ -19,7 +19,7 @@ node_modules
 .npmrc
 .prettierignore
 .remarkignore
-.remarkrc.js
+.remarkrc.mjs
 lint-staged.config.js
 package-lock.json
 prettier.config.js
