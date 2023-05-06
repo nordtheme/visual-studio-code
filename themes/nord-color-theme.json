@@ -1351,6 +1351,20 @@
       "settings": {
         "foreground": "#8FBCBB"
       }
+    },
+    {
+      "name": "[GraphQL] Variable",
+      "scope": "source.graphql meta.arguments",
+      "settings": {
+        "foreground": "#D8DEE9"
+      }
+    },
+    {
+      "name": "[GraphQL] Selectionset",
+      "scope": "source.graphql meta.selectionset",
+      "settings": {
+        "foreground": "#8FBCBB"
+      }
     }
   ]
 }
