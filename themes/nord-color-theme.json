@@ -1351,6 +1351,17 @@
       "settings": {
         "foreground": "#8FBCBB"
       }
+    },
+    {
+      "name": "[Shell] Variables",
+      "scope": [
+        "source.shell variable.other",
+        "source.shell punctuation.definition.variable",
+        "source.makefile variable.other"
+      ],
+      "settings": {
+        "foreground": "#8FBCBB"
+      }
     }
   ]
 }
