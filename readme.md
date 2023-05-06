@@ -21,15 +21,9 @@
 
 <p align="center">
   <a href="https://marketplace.visualstudio.com/items/arcticicestudio.nord-visual-studio-code" target="_blank">
-    <img src="https://vsmarketplacebadge.apphb.com/version/arcticicestudio.nord-visual-studio-code.svg?style=flat-square&label=Extension%20Marketplace&logo=visual-studio-code&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/>
+    <img src="https://arcticicestudio.gallerycdn.vsassets.io/extensions/arcticicestudio/nord-visual-studio-code/0.19.0/1632602657822/Microsoft.VisualStudio.Services.Icons.Default"/>
   </a>
-  <a href="https://marketplace.visualstudio.com/items/arcticicestudio.nord-visual-studio-code" target="_blank">
-    <img src="https://vsmarketplacebadge.apphb.com/installs/arcticicestudio.nord-visual-studio-code.svg?style=flat-square&label=Installations&logo=visual-studio-code&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/>
-  </a>
-  <a href="https://marketplace.visualstudio.com/items/arcticicestudio.nord-visual-studio-code" target="_blank">
-    <img src="https://vsmarketplacebadge.apphb.com/rating-short/arcticicestudio.nord-visual-studio-code.svg?style=flat-square&label=Rating&logo=visual-studio-code&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/>
-  </a>
-</p>
+ 
 
 <p align="center">
   <a href="https://code.visualstudio.com/updates/v1_12" target="_blank">
