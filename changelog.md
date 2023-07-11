@@ -2,7 +2,7 @@
   <a href="https://www.nordtheme.com/ports/visual-studio-code" target="_blank">
     <picture>
       <source srcset="https://raw.githubusercontent.com/nordtheme/web/main/assets/images/ports/visual-studio-code/repository-hero.png" srcset="https://raw.githubusercontent.com/nordtheme/web/main/assets/images/ports/visual-studio-code/repository-hero-2x.png 2x" width="100%" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-      <img srcset="https://raw.githubusercontent.com/nordtheme/web/main/assets/images/ports/visual-studio-code/repository-hero.png" srcset="https://raw.githubusercontent.com/nordtheme/web/main/assets/images/ports/visual-studio-code/repository-hero-2x.png 2x" width="100%" />
+      <img src="https://raw.githubusercontent.com/nordtheme/web/main/assets/images/ports/visual-studio-code/repository-hero.png" srcset="https://raw.githubusercontent.com/nordtheme/web/main/assets/images/ports/visual-studio-code/repository-hero-2x.png 2x" width="100%" />
     </picture>
   </a>
 </p>
