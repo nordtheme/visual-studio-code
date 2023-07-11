@@ -41,17 +41,17 @@
   ],
   "badges": [
     {
-      "url": "https://vsmarketplacebadge.apphb.com/version/arcticicestudio.nord-visual-studio-code.svg",
+      "url": "https://img.shields.io/visual-studio-marketplace/v/arcticicestudio.nord-visual-studio-code",
       "href": "https://marketplace.visualstudio.com/items/arcticicestudio.nord-visual-studio-code",
       "description": "Extension version"
     },
     {
-      "url": "https://vsmarketplacebadge.apphb.com/installs/arcticicestudio.nord-visual-studio-code.svg",
+      "url": "https://img.shields.io/visual-studio-marketplace/i/arcticicestudio.nord-visual-studio-code",
       "href": "https://marketplace.visualstudio.com/items/arcticicestudio.nord-visual-studio-code",
       "description": "Extension installs"
     },
     {
-      "url": "https://vsmarketplacebadge.apphb.com/rating/arcticicestudio.nord-visual-studio-code.svg",
+      "url": "https://img.shields.io/visual-studio-marketplace/r/arcticicestudio.nord-visual-studio-code",
       "href": "https://marketplace.visualstudio.com/items/arcticicestudio.nord-visual-studio-code",
       "description": "Extension Rating"
     }

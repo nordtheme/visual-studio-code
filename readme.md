@@ -2,7 +2,7 @@
   <a href="https://www.nordtheme.com/ports/visual-studio-code" target="_blank">
     <picture>
       <source srcset="https://raw.githubusercontent.com/nordtheme/web/main/assets/images/ports/visual-studio-code/repository-hero.png" srcset="https://raw.githubusercontent.com/nordtheme/web/main/assets/images/ports/visual-studio-code/repository-hero-2x.png 2x" width="100%" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-      <img srcset="https://raw.githubusercontent.com/nordtheme/web/main/assets/images/ports/visual-studio-code/repository-hero.png" srcset="https://raw.githubusercontent.com/nordtheme/web/main/assets/images/ports/visual-studio-code/repository-hero-2x.png 2x" width="100%" />
+      <img src="https://raw.githubusercontent.com/nordtheme/web/main/assets/images/ports/visual-studio-code/repository-hero.png" srcset="https://raw.githubusercontent.com/nordtheme/web/main/assets/images/ports/visual-studio-code/repository-hero-2x.png 2x" width="100%" />
     </picture>
   </a>
 </p>
@@ -21,13 +21,13 @@
 
 <p align="center">
   <a href="https://marketplace.visualstudio.com/items/arcticicestudio.nord-visual-studio-code" target="_blank">
-    <img src="https://vsmarketplacebadge.apphb.com/version/arcticicestudio.nord-visual-studio-code.svg?style=flat-square&label=Extension%20Marketplace&logo=visual-studio-code&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/>
+    <img src="https://img.shields.io/visual-studio-marketplace/v/arcticicestudio.nord-visual-studio-code?style=flat-square&label=Installations&logo=visual-studio-code&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/>
   </a>
   <a href="https://marketplace.visualstudio.com/items/arcticicestudio.nord-visual-studio-code" target="_blank">
-    <img src="https://vsmarketplacebadge.apphb.com/installs/arcticicestudio.nord-visual-studio-code.svg?style=flat-square&label=Installations&logo=visual-studio-code&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/>
+    <img src="https://img.shields.io/visual-studio-marketplace/i/arcticicestudio.nord-visual-studio-code?style=flat-square&label=Installations&logo=visual-studio-code&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/>
   </a>
   <a href="https://marketplace.visualstudio.com/items/arcticicestudio.nord-visual-studio-code" target="_blank">
-    <img src="https://vsmarketplacebadge.apphb.com/rating-short/arcticicestudio.nord-visual-studio-code.svg?style=flat-square&label=Rating&logo=visual-studio-code&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/>
+    <img src="https://img.shields.io/visual-studio-marketplace/r/arcticicestudio.nord-visual-studio-code?style=flat-square&label=Rating&logo=visual-studio-code&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/>
   </a>
 </p>
 
