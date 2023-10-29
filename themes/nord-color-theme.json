@@ -185,6 +185,10 @@
     "minimapSlider.activeBackground": "#434c5eaa",
     "minimapSlider.background": "#434c5e99",
     "minimapSlider.hoverBackground": "#434c5eaa",
+    "notebook.outputContainerBackgroundColor": "#4c566a",
+    "notebook.editorBackground": "#3b4252",
+    "notebook.focusedCellBorder": "#88c0d0",
+    "notebook.focusedEditorBorder": "#a3be8c",
 
     /* `notification.*` keys are legacy support for VS Code versions >1.21.0 */
     "notification.background": "#3b4252",
