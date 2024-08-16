@@ -88,7 +88,7 @@
     "editorBracketHighlight.unexpectedBracket.foreground": "#bf616a",
     "editorCodeLens.foreground": "#4c566a",
     "editorGroup.background": "#2e3440",
-    "editorGroup.border": "#3b425201",
+    "editorGroup.border": "#3b4252",
     "editorGroup.dropBackground": "#3b425299",
     "editorGroupHeader.border": "#3b425200",
     "editorGroupHeader.noTabsBackground": "#2e3440",
